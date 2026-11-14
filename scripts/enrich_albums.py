@@ -1,464 +1,184 @@
+"""Conservative album metadata research for Old Head Records.
 
+Test mode: research the first 25 records and write album_metadata.json.
+Does not change the website or the Discogs collection.
+"""
 import json
 import re
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 
-COLLECTION_FILE = Path("collection.json")
-OUTPUT_FILE = Path("album_metadata.json")
+COLLECTION_FILE = Path('collection.json')
+OUTPUT_FILE = Path('album_metadata.json')
 TEST_LIMIT = 25
-
-HEADERS = {
-    "User-Agent": "OldHeadRecords/1.0 (personal vinyl catalog)",
-    "Accept": "application/json",
-}
-
-
-def get_json(url):
-    max_attempts = 5
-
-    for attempt in range(max_attempts):
-        try:
-            request = urllib.request.Request(
-                url,
-                headers=HEADERS
-            )
-
-            with urllib.request.urlopen(
-                request,
-                timeout=30
-            ) as response:
-                return json.load(response)
-
-        except urllib.error.HTTPError as error:
-            if error.code not in (429, 500, 502, 503, 504):
-                raise
-
-            if attempt == max_attempts - 1:
-                raise
-
-            wait = min(10 * (2 ** attempt), 120)
-
-            retry_after = error.headers.get("Retry-After")
-            if retry_after and retry_after.isdigit():
-                wait = max(wait, int(retry_after))
-
-            print(
-                f"HTTP {error.code}: "
-                f"Retrying in {wait} seconds..."
-            )
-            time.sleep(wait)
-
-        except (urllib.error.URLError, TimeoutError) as error:
-            if attempt == max_attempts - 1:
-                raise
-
-            wait = min(10 * (2 ** attempt), 120)
-
-            print(
-                f"Connection error: {error}. "
-                f"Retrying in {wait} seconds..."
-            )
-            time.sleep(wait)
+HEADERS = {'User-Agent': 'OldHeadRecords/1.1 (personal music catalog; GitHub oldheadpodcast-lab/old-head-records)', 'Accept': 'application/json'}
+LAST_MB_REQUEST = 0.0
 
 
 def normalize(value):
-    value = value.casefold()
-    value = re.sub(r"[^\w]+", " ", value)
-    return " ".join(value.split())
+    return ' '.join(re.sub(r'[^\w]+', ' ', str(value).casefold()).split())
+
 
 def clean_artist(value):
-    return re.sub(r"\s+\(\d+\)$", "", value).strip()
+    return re.sub(r'\s+\(\d+\)$', '', str(value)).strip()
 
-def musicbrainz_request(path, params=None):
-    url = "https://musicbrainz.org/ws/2/" + path
-    if params:
-        url += "?" + urllib.parse.urlencode(params)
 
-    # MusicBrainz requests must be rate-limited.
-    time.sleep(1.2)
+def get_json(url):
+    for attempt in range(4):
+        try:
+            request = urllib.request.Request(url, headers=HEADERS)
+            with urllib.request.urlopen(request, timeout=30) as response:
+                return json.load(response)
+        except urllib.error.HTTPError as exc:
+            if exc.code not in (429, 500, 502, 503, 504) or attempt == 3:
+                raise
+            delay = min(5 * 2 ** attempt, 60)
+            retry_after = exc.headers.get('Retry-After')
+            if retry_after:
+                if retry_after.isdigit():
+                    delay = max(delay, min(int(retry_after), 120))
+                else:
+                    try:
+                        delay = max(delay, min(max(0, (parsedate_to_datetime(retry_after) - datetime.now(timezone.utc)).total_seconds()), 120))
+                    except (ValueError, TypeError, OverflowError):
+                        pass
+            print(f'HTTP {exc.code}; retrying in {delay:.0f}s', flush=True)
+            time.sleep(delay)
+        except (urllib.error.URLError, TimeoutError) as exc:
+            if attempt == 3:
+                raise
+            delay = 5 * 2 ** attempt
+            print(f'Connection issue: {exc}; retrying in {delay}s', flush=True)
+            time.sleep(delay)
+
+
+def musicbrainz_request(path, params):
+    global LAST_MB_REQUEST
+    wait = 1.2 - (time.monotonic() - LAST_MB_REQUEST)
+    if wait > 0:
+        time.sleep(wait)
+    LAST_MB_REQUEST = time.monotonic()
+    url = 'https://musicbrainz.org/ws/2/' + path + '?' + urllib.parse.urlencode(params)
     return get_json(url)
 
 
 def search_musicbrainz(artist, title):
     query = f'artist:"{artist}" AND releasegroup:"{title}"'
-
-    data = musicbrainz_request(
-        "release-group/",
-        {
-            "query": query,
-            "fmt": "json",
-            "limit": 100,
-        },
-    )
-
+    data = musicbrainz_request('release-group/', {'query': query, 'fmt': 'json', 'limit': 100})
     matches = []
-
-    for group in data.get("release-groups", []):
-        if normalize(group.get("title", "")) != normalize(title):
+    for group in data.get('release-groups', []):
+        if normalize(group.get('title', '')) != normalize(title):
             continue
-
-        credits = group.get("artist-credit", [])
-
-        credited_artists = [
-            item.get("artist", {}).get("name", "")
-            for item in credits
-            if isinstance(item, dict)
-        ]
-
-        if normalize(artist) not in [
-            normalize(name) for name in credited_artists
-        ]:
+        credits = [part.get('artist', {}).get('name', '') for part in group.get('artist-credit', []) if isinstance(part, dict)]
+        if normalize(artist) not in [normalize(name) for name in credits]:
             continue
-
         matches.append(group)
-
     if not matches:
         return None
-
-    # Prefer full-length albums, then EPs,
-    # followed by other release types.
-    type_priority = {
-        "Album": 0,
-        "EP": 1,
-        "Broadcast": 2,
-        "Other": 3,
-        "Single": 4,
-    }
-
-    matches.sort(
-        key=lambda group: (
-            type_priority.get(
-                group.get("primary-type", ""),
-                5,
-            ),
-            group.get("first-release-date") or "9999",
-        )
-    )
-
+    # This is a provisional preference, not a verified Discogs release-type match.
+    priority = {'Album': 0, 'EP': 1, 'Broadcast': 2, 'Other': 3, 'Single': 4}
+    matches.sort(key=lambda item: (priority.get(item.get('primary-type'), 5), item.get('first-release-date') or '9999'))
     best = matches[0]
+    return {'id': best.get('id', ''), 'original_year': best.get('first-release-date', '')[:4], 'release_type': best.get('primary-type', '')}
 
-    return {
-        "id": best.get("id", ""),
-        "original_year": best.get(
-            "first-release-date", ""
-        )[:4],
-        "release_type": best.get("primary-type", ""),
-    }
 
-    query = f'artist:"{artist}" AND releasegroup:"{title}"'
-
-    data = musicbrainz_request(
-        "release-group/",
-        {
-            "query": query,
-            "fmt": "json",
-            "limit": 25,
-        },
-    )
-
-    for group in data.get("release-groups", []):
-        if normalize(group.get("title", "")) != normalize(title):
-            continue
-
-        credits = group.get("artist-credit", [])
-        credited_artists = [
-            item.get("artist", {}).get("name", "")
-            for item in credits
-            if isinstance(item, dict)
-        ]
-
-        if normalize(artist) not in [
-            normalize(name) for name in credited_artists
-        ]:
-            continue
-
-        return {
-            "id": group.get("id", ""),
-            "original_year": group.get(
-                "first-release-date", ""
-            )[:4],
-            "release_type": group.get("primary-type", ""),
-        }
-
-    return None
+def valid_wikipedia_summary(summary, artist, title):
+    """Reject non-release pages; deliberately favor precision over coverage."""
+    if summary.get('type') == 'disambiguation':
+        return False
+    article_title = normalize(summary.get('title', ''))
+    album_title = normalize(title)
+    description = normalize(summary.get('extract', ''))
+    page_type = normalize(summary.get('description', ''))
+    if not album_title or not description or not page_type:
+        return False
+    # Avoid substring matches like 'Danzig' -> 'Free City of Danzig'.
+    if article_title != album_title and not article_title.startswith(album_title + ' album') and not article_title.startswith(album_title + ' ep') and not article_title.startswith(album_title + ' soundtrack'):
+        return False
+    release_terms = ('album', 'ep', 'extended play', 'single', 'soundtrack', 'compilation')
+    if not any(re.search(r'\b' + re.escape(term) + r'\b', page_type) for term in release_terms):
+        return False
+    if any(re.search(r'\b' + re.escape(term) + r'\b', page_type) for term in ('tour', 'city', 'film', 'television series', 'video game')):
+        return False
+    # A clear artist mention in the article is required.
+    return normalize(artist) in description
 
 
 def get_wikipedia_description(mbid, artist, title):
-    data = musicbrainz_request(
-        f"release-group/{mbid}",
-        {"inc": "url-rels", "fmt": "json"},
-    )
-
     def fetch_summary(page_title):
-        url = (
-            "https://en.wikipedia.org/api/rest_v1/page/summary/"
-            + urllib.parse.quote(
-                urllib.parse.unquote(page_title).replace(" ", "_"),
-                safe="()_",
-            )
-        )
-        return get_json(url)
+        endpoint = 'https://en.wikipedia.org/api/rest_v1/page/summary/'
+        return get_json(endpoint + urllib.parse.quote(urllib.parse.unquote(page_title).replace(' ', '_'), safe='()_'))
 
-    # First use Wikipedia links attached to MusicBrainz.
-    for relation in data.get("relations", []):
-        if relation.get("type") != "wikipedia":
-            continue
-
-        page_url = relation.get("url", {}).get("resource", "")
-
-        if "en.wikipedia.org/wiki/" not in page_url:
-            continue
-
-        page_title = page_url.split("/wiki/", 1)[1]
-
-        try:
-            summary = fetch_summary(page_title)
-            description = summary.get("extract", "").strip()
-
-            if description and summary.get("type") != "disambiguation":
-                return {
-                    "description": description,
-                    "source": page_url,
-                }
-        except Exception as error:
-            print(f"Wikipedia linked-page error: {error}")
-
-    # Search Wikipedia when MusicBrainz has no usable link.
-    search_url = (
-        "https://en.wikipedia.org/w/api.php?"
-        + urllib.parse.urlencode({
-            "action": "query",
-            "list": "search",
-            "srsearch": f'intitle:"{title}" "{artist}"',
-            "srlimit": 10,
-            "format": "json",
-        })
-    )
-
+    data = musicbrainz_request(f'release-group/{mbid}', {'inc': 'url-rels', 'fmt': 'json'})
+    candidates = []
+    for relation in data.get('relations', []):
+        url = relation.get('url', {}).get('resource', '')
+        if relation.get('type') == 'wikipedia' and url.startswith('https://en.wikipedia.org/wiki/'):
+            candidates.append(url.split('/wiki/', 1)[1])
     try:
+        search_url = 'https://en.wikipedia.org/w/api.php?' + urllib.parse.urlencode({'action': 'query', 'list': 'search', 'srsearch': f'intitle:"{title}" "{artist}"', 'srlimit': 10, 'format': 'json'})
         results = get_json(search_url)
-    except Exception as error:
-        print(f"Wikipedia search error: {error}")
-        return None
-
-    for result in results.get("query", {}).get("search", []):
-        page_title = result.get("title", "")
-
-        if normalize(title) not in normalize(page_title):
-            continue
-
+        candidates.extend(item['title'] for item in results.get('query', {}).get('search', []) if item.get('title'))
+    except Exception as exc:
+        print(f'Wikipedia search unavailable for {artist} - {title}: {exc}', flush=True)
+    for candidate in dict.fromkeys(candidates):
         try:
-            summary = fetch_summary(page_title)
-        except Exception:
+            summary = fetch_summary(candidate)
+        except Exception as exc:
+            print(f'Wikipedia page unavailable: {exc}', flush=True)
             continue
-
-        description = summary.get("extract", "").strip()
-
-        if not description or summary.get("type") == "disambiguation":
-            continue
-
-        
-# Verify the article is about the correct musical release.
-article_title = normalize(summary.get("title", ""))
-album_title = normalize(title)
-article_description = normalize(description)
-page_type = normalize(summary.get("description", ""))
-
-# Require the album title to match the article title.
-if album_title not in article_title:
-    continue
-
-# Reject clearly unrelated subjects.
-excluded_subjects = (
-    "tour",
-    "concert tour",
-    "city",
-    "city state",
-    "municipality",
-    "historical state",
-    "film",
-    "television series",
-    "video game",
-)
-
-if any(subject in page_type for subject in excluded_subjects):
-    continue
-
-# Require evidence that this is a musical release.
-music_terms = (
-    "album",
-    "ep",
-    "extended play",
-    "single",
-    "soundtrack",
-    "compilation",
-)
-
-if not any(term in page_type for term in music_terms):
-    continue
-
-# Confirm that the article mentions the artist.
-if normalize(artist) not in article_description:
-    continue
-
-        source = summary.get("content_urls", {}).get(
-            "desktop", {}
-        ).get("page", "")
-
-        if source:
-            return {
-                "description": description,
-                "source": source,
-            }
-
+        if valid_wikipedia_summary(summary, artist, title):
+            source = summary.get('content_urls', {}).get('desktop', {}).get('page', '')
+            if source:
+                return {'description': summary['extract'].strip(), 'source': source}
     return None
 
-    # Retrieve the Wikipedia page linked to the
-    # exact MusicBrainz release group.
-    data = musicbrainz_request(
-        f"release-group/{mbid}",
-        {
-            "inc": "url-rels",
-            "fmt": "json",
-        },
-    )
-
-    wikipedia_urls = []
-
-    for relation in data.get("relations", []):
-        if relation.get("type") != "wikipedia":
-            continue
-
-        url = relation.get("url", {}).get("resource", "")
-
-        if url.startswith("https://en.wikipedia.org/wiki/"):
-            wikipedia_urls.append(url)
-
-    for page_url in wikipedia_urls:
-        page_title = page_url.split("/wiki/", 1)[1]
-
-        summary_url = (
-            "https://en.wikipedia.org/api/rest_v1/page/summary/"
-            + page_title
-        )
-
-        try:
-            summary = get_json(summary_url)
-        except (urllib.error.URLError, ValueError):
-            continue
-
-        description = summary.get("extract", "").strip()
-
-        if description and summary.get("type") != "disambiguation":
-            return {
-                "description": description,
-                "source": page_url,
-            }
-
-    return None
 
 def research_album(artist, title):
-    entry = {
-        "artist": artist,
-        "title": title,
-        "original_year": "",
-        "release_type": "",
-        "description": "",
-        "source": "",
-        "musicbrainz_id": "",
-        "status": "not_found",
-    }
-
+    entry = {'artist': artist, 'title': title, 'original_year': '', 'release_type': '', 'description': '', 'source': '', 'musicbrainz_id': '', 'status': 'not_found'}
     match = search_musicbrainz(artist, title)
-
     if not match:
         return entry
-
-    entry["musicbrainz_id"] = match["id"]
-    entry["original_year"] = match["original_year"]
-    entry["release_type"] = match["release_type"]
-    entry["status"] = "matched"
-
-    wiki = get_wikipedia_description(match["id"], artist, title)
-
+    entry.update({'musicbrainz_id': match['id'], 'original_year': match['original_year'], 'release_type': match['release_type'], 'status': 'matched'})
+    wiki = get_wikipedia_description(match['id'], artist, title)
     if wiki:
-        entry["description"] = wiki["description"]
-        entry["source"] = wiki["source"]
-        entry["status"] = "described"
-
+        entry.update(wiki)
+        entry['status'] = 'described'
     return entry
 
+
 def main():
-    collection = json.loads(
-        COLLECTION_FILE.read_text(encoding="utf-8")
-    )
-
-    records = collection.get("records", [])[:TEST_LIMIT]
-
-    if OUTPUT_FILE.exists():
-        metadata = json.loads(
-            OUTPUT_FILE.read_text(encoding="utf-8")
-        )
-    else:
-        metadata = {}
-
-    seen = set()
-
+    collection = json.loads(COLLECTION_FILE.read_text(encoding='utf-8'))
+    records = collection.get('records', [])[:TEST_LIMIT]
+    # Rebuild the test artifact to avoid retaining previously incorrect cached pages.
+    metadata = {}
     for record in records:
-        artist = clean_artist(record.get("artist", ""))
-        title = record.get("title", "").strip()
-
+        artist = clean_artist(record.get('artist', ''))
+        title = str(record.get('title', '')).strip()
         if not artist or not title:
             continue
-
-        key = f"{artist.casefold()}|{title.casefold()}"
-
-        if key in seen:
+        key = f'{artist.casefold()}|{title.casefold()}'
+        if key in metadata:
             continue
-
-        seen.add(key)
-
-        existing = metadata.get(key, {})
-
-        # Keep completed results.
-        if (
-            existing.get("status") == "described"
-            and existing.get("description")
-        ):
-            continue
-
-        print(f"Researching: {artist} - {title}")
-
+        print(f'Researching: {artist} - {title}', flush=True)
         try:
-            result = research_album(artist, title)
-        except Exception as error:
-            print(f"Research error: {error}")
-            # Preserve any previous successful data.
-            continue
+            metadata[key] = research_album(artist, title)
+        except Exception as exc:
+            print(f'Research failed for {artist} - {title}: {exc}', flush=True)
+            metadata[key] = {'artist': artist, 'title': title, 'original_year': '', 'release_type': '', 'description': '', 'source': '', 'musicbrainz_id': '', 'status': 'error'}
+        OUTPUT_FILE.write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    print(f'Processed {len(metadata)} unique test titles; descriptions: {sum(bool(v["description"]) for v in metadata.values())}', flush=True)
 
-        if (
-            existing.get("description")
-            and not result.get("description")
-        ):
-            continue
 
-        metadata[key] = result
-
-        OUTPUT_FILE.write_text(
-            json.dumps(
-                metadata,
-                ensure_ascii=False,
-                indent=2,
-            ),
-            encoding="utf-8",
-        )
-
-    print(f"Processed {len(seen)} unique test albums.")
-    print(f"Stored {len(metadata)} metadata entries.")
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
+
+
+        
+
+

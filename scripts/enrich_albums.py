@@ -98,7 +98,7 @@ def main():
         COLLECTION_FILE.read_text(encoding="utf-8")
     )
 
-    records = collection.get("records", [])
+    records = collection.get("records", [])[:5]
 
     if OUTPUT_FILE.exists():
         metadata = json.loads(

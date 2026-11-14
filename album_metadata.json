@@ -248,5 +248,245 @@
     "source": "",
     "musicbrainz_id": "178c49ef-e378-4eb9-a299-407f48a8fde2",
     "status": "matched"
+  },
+  "guns n' roses|live era '87-'93": {
+    "artist": "Guns N' Roses",
+    "title": "Live Era '87-'93",
+    "original_year": "1999",
+    "release_type": "Album",
+    "description": "Live Era '87–'93 is a double live album by the American hard rock band Guns N' Roses. It was released on November 30, 1999. The record was the first official Guns N' Roses release since \"The Spaghetti Incident?\" released 6 years prior in 1993.",
+    "source": "https://en.wikipedia.org/wiki/Live_Era_'87%E2%80%93'93",
+    "musicbrainz_id": "3bea51d8-2dae-385e-ab0c-08824e62a885",
+    "status": "described"
+  },
+  "galactic cowboys|what planet are you from?": {
+    "artist": "Galactic Cowboys",
+    "title": "What Planet Are You From?",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "error"
+  },
+  "oasis|the masterplan": {
+    "artist": "Oasis",
+    "title": "The Masterplan",
+    "original_year": "1998",
+    "release_type": "Album",
+    "description": "The Masterplan is a compilation album by the English rock band Oasis. It was released on 2 November 1998 by Creation Records and was the band's final release through the label. The album comprises B-sides that the band had not previously included on an album. Initially intended for release only in regions such as the United States and Japan where the tracks were previously available only on expensive European-import singles, The Masterplan reached number 2 in the UK, where it initially went platinum, and number 51 in the United States. However, it reached the Top 20 in various charts worldwide, selling 3 million copies. It has since been certified triple platinum in the UK. Four songs from the album appear on the 2006 compilation album Stop the Clocks.",
+    "source": "https://en.wikipedia.org/wiki/The_Masterplan_(album)",
+    "musicbrainz_id": "3d79dc76-7b02-3510-b12b-5061f459f8ac",
+    "status": "described"
+  },
+  "sugar|your favorite thing": {
+    "artist": "Sugar",
+    "title": "Your Favorite Thing",
+    "original_year": "1994",
+    "release_type": "Single",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "cca5813a-f147-33a2-9fde-3b10afeb8bd2",
+    "status": "matched"
+  },
+  "ned's atomic dustbin|happy": {
+    "artist": "Ned's Atomic Dustbin",
+    "title": "Happy",
+    "original_year": "1991",
+    "release_type": "Single",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "cc2162cc-e89a-3efe-8a83-ef1fe6727f84",
+    "status": "matched"
+  },
+  "sugar|a good idea": {
+    "artist": "Sugar",
+    "title": "A Good Idea",
+    "original_year": "1992",
+    "release_type": "Single",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "90028840-9619-389d-97af-ab46a909c0e4",
+    "status": "matched"
+  },
+  "the flaming lips|the flaming lips and heady fwends": {
+    "artist": "The Flaming Lips",
+    "title": "The Flaming Lips And Heady Fwends",
+    "original_year": "2012",
+    "release_type": "Album",
+    "description": "The Flaming Lips and Heady Fwends is the first album in the \"Fwends\" series by the American rock band the Flaming Lips in collaboration with a variety of guests.",
+    "source": "https://en.wikipedia.org/wiki/The_Flaming_Lips_and_Heady_Fwends",
+    "musicbrainz_id": "3a895ee6-b695-47aa-85d4-3eb893b63d9d",
+    "status": "described"
+  },
+  "weird nightmare|hoopla": {
+    "artist": "Weird Nightmare",
+    "title": "Hoopla",
+    "original_year": "2026",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "190da51b-13f3-4c5e-ab6a-23eeadcbf187",
+    "status": "matched"
+  },
+  "dissimulator|artifice dissolves": {
+    "artist": "Dissimulator",
+    "title": "Artifice Dissolves",
+    "original_year": "2026",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "19a3a636-9515-46ab-a038-4d5d78709b98",
+    "status": "matched"
+  },
+  "anthrax|cursum perficio": {
+    "artist": "Anthrax",
+    "title": "Cursum Perficio",
+    "original_year": "2026",
+    "release_type": "Album",
+    "description": "Cursum Perficio is the twelfth studio album by American thrash metal band Anthrax, released on September 18, 2026. It is the band's first studio album since For All Kings (2016), making it the longest gap between two albums in their career. This album is the band's first since The Greater of Two Evils (2004) not to feature a lineup change from the previous album.",
+    "source": "https://en.wikipedia.org/wiki/Cursum_Perficio",
+    "musicbrainz_id": "8ec7ac16-5003-42d3-9f5e-1475f9a9d428",
+    "status": "described"
+  },
+  "acid reign|daze of the week": {
+    "artist": "Acid Reign",
+    "title": "Daze Of The Week",
+    "original_year": "2026",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "e4606a0c-d2b9-4895-85fd-1acc3fe6e111",
+    "status": "matched"
+  },
+  "r.e.m.|can’t get there from here (extended mix)": {
+    "artist": "R.E.M.",
+    "title": "Can’t Get There From Here (Extended Mix)",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "ned's atomic dustbin|some furtive years: a ned's anthology": {
+    "artist": "Ned's Atomic Dustbin",
+    "title": "Some Furtive Years: A Ned's Anthology",
+    "original_year": "2007",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "c2399cfe-7567-47a4-830a-3209b17597e0",
+    "status": "matched"
+  },
+  "ned's atomic dustbin|greatest hits live": {
+    "artist": "Ned's Atomic Dustbin",
+    "title": "Greatest Hits Live",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "ned's atomic dustbin|session": {
+    "artist": "Ned's Atomic Dustbin",
+    "title": "Session",
+    "original_year": "2004",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "7f5c9369-29a1-36e3-8e2c-90668e08e132",
+    "status": "matched"
+  },
+  "cinderella|heartbreak station": {
+    "artist": "Cinderella",
+    "title": "Heartbreak Station",
+    "original_year": "1990",
+    "release_type": "Album",
+    "description": "Heartbreak Station is the third studio album by American rock band Cinderella, released in 1990 through Mercury Records. It reached No.19 in the Billboard 200 US chart on December 21, 1990, and went platinum for shipping a million albums on February 26, 1991.",
+    "source": "https://en.wikipedia.org/wiki/Heartbreak_Station",
+    "musicbrainz_id": "32da9709-3d2e-3980-84dd-282b45027c4b",
+    "status": "described"
+  },
+  "the flaming lips, stardeath and white dwarfs, henry rollins, peaches|dark side of the moon": {
+    "artist": "The Flaming Lips, Stardeath And White Dwarfs, Henry Rollins, Peaches",
+    "title": "Dark Side Of The Moon",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "r.e.m.|accelerate": {
+    "artist": "R.E.M.",
+    "title": "Accelerate",
+    "original_year": "2008",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "20829bc2-ea4e-37c5-a72d-1df9fb6d27ca",
+    "status": "matched"
+  },
+  "u2|achtung baby": {
+    "artist": "U2",
+    "title": "Achtung Baby",
+    "original_year": "1991",
+    "release_type": "Album",
+    "description": "Achtung Baby is the seventh studio album by the Irish rock band U2. It was produced by Daniel Lanois and Brian Eno, and was released on 18 November 1991 by Island Records. After criticism of their 1988 documentary film and album Rattle and Hum and a sense of creative stagnation, U2 shifted their direction to incorporate influences from alternative, industrial, and electronic dance music into their sound. Thematically, Achtung Baby is darker, more introspective, and at times more flippant than their previous work. For his lyrics, lead vocalist Bono was partly inspired by the failed marriages of two friends, including U2's guitarist the Edge.",
+    "source": "https://en.wikipedia.org/wiki/Achtung_Baby",
+    "musicbrainz_id": "744c7a1b-ac79-35c4-bd92-7e2c6a24c8d8",
+    "status": "described"
+  },
+  "the flaming lips|at war with the mystics": {
+    "artist": "The Flaming Lips",
+    "title": "At War With The Mystics",
+    "original_year": "2006",
+    "release_type": "Album",
+    "description": "At War with the Mystics is the eleventh studio album by American rock band the Flaming Lips, released on April 3, 2006, by Warner Bros. Records. The album is more guitar-driven and features more politically themed lyrics than the band's previous two albums The Soft Bulletin (1999) and Yoshimi Battles the Pink Robots (2002). It is the group's first album featuring contributions from drummer Kliph Scurlock despite not being credited alongside the rest of the band until the following album, Embryonic.",
+    "source": "https://en.wikipedia.org/wiki/At_War_with_the_Mystics",
+    "musicbrainz_id": "40413103-e161-3130-8a4d-a06ead0d417b",
+    "status": "described"
+  },
+  "evildead|annihilation of civilization": {
+    "artist": "Evildead",
+    "title": "Annihilation Of Civilization",
+    "original_year": "1989",
+    "release_type": "Album",
+    "description": "Annihilation of Civilization is the debut album by American thrash metal band Evildead. It was released in September 1989 on Steamhammer Records, and was preceded by the EP Rise Above, released some months earlier. The album and the single \"Annihilation of Civilization\" earned Evildead widespread recognition in large part due to airplay of the single's video on MTV's Headbangers Ball.",
+    "source": "https://en.wikipedia.org/wiki/Annihilation_of_Civilization",
+    "musicbrainz_id": "c2f183fd-afe7-4a8a-be25-e7d300b3ee3c",
+    "status": "described"
+  },
+  "all|allroy's revenge": {
+    "artist": "All",
+    "title": "Allroy's Revenge",
+    "original_year": "1989",
+    "release_type": "Album",
+    "description": "Allroy's Revenge is the second studio album by the American punk rock band All, released in 1989 through Cruz Records. It was the band's first release with singer Scott Reynolds, replacing Dave Smalley who had left in late 1988. The album includes two songs written by Tony Lombardo, the original bassist for All's precursor band the Descendents. It also includes a cover version of \"Hot Rod Lincoln\", a 1955 song by Charlie Ryan that was a hit for Commander Cody and His Lost Planet Airmen in 1971. \"She's My Ex\" was released as the album's single.",
+    "source": "https://en.wikipedia.org/wiki/Allroy's_Revenge",
+    "musicbrainz_id": "88d14c96-a272-342f-ad9c-009e68c595aa",
+    "status": "described"
+  },
+  "brutal truth|sounds of the animal kingdom": {
+    "artist": "Brutal Truth",
+    "title": "Sounds Of The Animal Kingdom",
+    "original_year": "1997",
+    "release_type": "Album",
+    "description": "Sounds of the Animal Kingdom is the fourth studio album by American grindcore band Brutal Truth, released on September 23, 1997 by Relapse Records. It was the band's first release on Relapse Records, and last with guitarist Brent McCarthy. Recorded with Billy Anderson, it showcased a more experimental and varied style than the band's previous albums, incorporating elements of blues, psychedelic rock, noise, southern rock and free jazz. In 2006, the album was remastered and reissued with its preceding mini album Kill Trend Suicide (1996).",
+    "source": "https://en.wikipedia.org/wiki/Sounds_of_the_Animal_Kingdom",
+    "musicbrainz_id": "452406e4-c44e-35ec-9dbb-5a8c970222d9",
+    "status": "described"
+  },
+  "testament|practice what you preach": {
+    "artist": "Testament",
+    "title": "Practice What You Preach",
+    "original_year": "1989",
+    "release_type": "Album",
+    "description": "Practice What You Preach is the third studio album by American thrash metal band Testament, released on August 8, 1989 via Atlantic/Megaforce. Propelled by the singles \"Greenhouse Effect\", \"The Ballad\" and the title track \"Practice What You Preach\", it was a major breakthrough for Testament, achieving near-gold status and becoming the band's first album to enter the Top 100 on the Billboard 200 chart.",
+    "source": "https://en.wikipedia.org/wiki/Practice_What_You_Preach",
+    "musicbrainz_id": "043035dd-8e0d-342e-940f-54b037414857",
+    "status": "described"
   }
 }

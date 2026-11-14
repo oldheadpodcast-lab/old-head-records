@@ -718,5 +718,255 @@
     "source": "",
     "musicbrainz_id": "",
     "status": "not_found"
+  },
+  "david bowie|reality": {
+    "artist": "David Bowie",
+    "title": "Reality",
+    "original_year": "2003",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "0f9d1be4-e975-39e9-a5ee-867c87824f42",
+    "status": "matched"
+  },
+  "the flaming lips|fight test": {
+    "artist": "The Flaming Lips",
+    "title": "Fight Test",
+    "original_year": "2003",
+    "release_type": "EP",
+    "description": "Fight Test is an extended play (EP) released by the Flaming Lips released on Warner Bros. Records in 2003. The single version of \"Fight Test\" was released on June 23, 2003, peaking at number 28 on the UK Singles Chart. It is the third single to be picked from the album Yoshimi Battles the Pink Robots.",
+    "source": "https://en.wikipedia.org/wiki/Fight_Test",
+    "musicbrainz_id": "cc444966-9c0a-3edd-9230-92bfb005fb90",
+    "status": "described"
+  },
+  "the flaming lips|hypnotist": {
+    "artist": "The Flaming Lips",
+    "title": "Hypnotist",
+    "original_year": "2023",
+    "release_type": "EP",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "d4ffd072-69b7-4d3c-b84e-7bbe4b0cae7b",
+    "status": "matched"
+  },
+  "the flaming lips|ego tripping at the gates of hell": {
+    "artist": "The Flaming Lips",
+    "title": "Ego Tripping At The Gates Of Hell",
+    "original_year": "2003",
+    "release_type": "EP",
+    "description": "Ego Tripping at the Gates of Hell is an EP by The Flaming Lips, released on Warner Bros. Records in late 2003.",
+    "source": "https://en.wikipedia.org/wiki/Ego_Tripping_at_the_Gates_of_Hell",
+    "musicbrainz_id": "598250de-776a-3258-9212-2b31f90ba54c",
+    "status": "described"
+  },
+  "the flaming lips|the soft bulletin": {
+    "artist": "The Flaming Lips",
+    "title": "The Soft Bulletin",
+    "original_year": "1999",
+    "release_type": "Album",
+    "description": "The Soft Bulletin is the ninth studio album by American rock band the Flaming Lips, released by Warner Bros. Records on May 17, 1999, in the United Kingdom, and on June 22, 1999, in the United States. The album was released to widespread acclaim, and was hailed by critics as a departure from their previous guitar-heavy alternative rock sound into a more layered, intricately arranged work.",
+    "source": "https://en.wikipedia.org/wiki/The_Soft_Bulletin",
+    "musicbrainz_id": "1a021034-95d1-3a2d-bdca-73b25e455e49",
+    "status": "described"
+  },
+  "the flaming lips|telepathic surgery": {
+    "artist": "The Flaming Lips",
+    "title": "Telepathic Surgery",
+    "original_year": "1989",
+    "release_type": "Album",
+    "description": "Telepathic Surgery is the third studio album by American rock band the Flaming Lips, released in February 1989. It is the final album with drummer Richard English.",
+    "source": "https://en.wikipedia.org/wiki/Telepathic_Surgery",
+    "musicbrainz_id": "59c44bcb-2496-338a-8691-d53e77017eac",
+    "status": "described"
+  },
+  "the flaming lips|hear it is": {
+    "artist": "The Flaming Lips",
+    "title": "Hear It Is",
+    "original_year": "1986",
+    "release_type": "Album",
+    "description": "Hear It Is is the debut studio album by American rock band The Flaming Lips, released on July 1986, by Restless Records. It marked the official debut of Wayne Coyne on vocals after the departure of his brother Mark Coyne.",
+    "source": "https://en.wikipedia.org/wiki/Hear_It_Is",
+    "musicbrainz_id": "b22f66d5-9455-393f-9f8a-d2e1528789fa",
+    "status": "described"
+  },
+  "the flaming lips|oh my gawd!!!... the flaming lips": {
+    "artist": "The Flaming Lips",
+    "title": "Oh My Gawd!!!... The Flaming Lips",
+    "original_year": "1987",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "ab6c045d-e3ca-38cf-b531-0f9c6fa27d52",
+    "status": "matched"
+  },
+  "the flaming lips|american head": {
+    "artist": "The Flaming Lips",
+    "title": "American Head",
+    "original_year": "2020",
+    "release_type": "Album",
+    "description": "American Head is the sixteenth studio album by American rock band the Flaming Lips, released on September 11, 2020, on Warner Records in the US and Bella Union in the UK. Produced by Dave Fridmann and Scott Booker, alongside the band itself, the album represents a return to the band's American roots. It is the final studio album to feature founding bass guitarist Michael Ivins as well as longtime multi-instrumentalist member Steven Drozd, who left the group in 2021 and 2025 respectively. It also includes keyboardist Jake Ingalls and drummer Nicholas Ley's last credited performances with the group before departing.",
+    "source": "https://en.wikipedia.org/wiki/American_Head",
+    "musicbrainz_id": "d2dc5bf8-080c-4438-9bc2-d9407243b9da",
+    "status": "described"
+  },
+  "forced entry|as above, so below": {
+    "artist": "Forced Entry",
+    "title": "As Above, So Below",
+    "original_year": "1991",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "db3eef60-3fa7-37e7-b46a-eab885b09e98",
+    "status": "matched"
+  },
+  "primus|a handful of nuggs": {
+    "artist": "Primus",
+    "title": "A Handful of Nuggs",
+    "original_year": "2026",
+    "release_type": "EP",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "c473c8eb-ca00-4926-8852-5dfecd0b116b",
+    "status": "matched"
+  },
+  "jack white|frozen charlotte": {
+    "artist": "Jack White",
+    "title": "Frozen Charlotte",
+    "original_year": "2026",
+    "release_type": "Album",
+    "description": "Frozen Charlotte, also titled Frozen Charlatan, is the seventh studio album by the American rock musician Jack White, released on July 10, 2026 on Third Man Records. Self-produced by White and recorded at Third Man Studio in Nashville, Tennessee, the album was preceded by the singles, \"G.O.D. and the Broken Ribs\", \"Derecho Demonico\", and \"Dollar Bill\".",
+    "source": "https://en.wikipedia.org/wiki/Frozen_Charlotte_(album)",
+    "musicbrainz_id": "0375c2ba-edd4-40e4-b856-72e951150c76",
+    "status": "described"
+  },
+  "ned's atomic dustbin|not sleeping around": {
+    "artist": "Ned's Atomic Dustbin",
+    "title": "Not Sleeping Around",
+    "original_year": "1992",
+    "release_type": "Single",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "25cab2b4-437a-3829-b071-bcc9c4bbb3a7",
+    "status": "matched"
+  },
+  "ned's atomic dustbin|until you find out": {
+    "artist": "Ned's Atomic Dustbin",
+    "title": "Until You Find Out",
+    "original_year": "1990",
+    "release_type": "Single",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "69064deb-c140-4edb-9c78-0e25942077eb",
+    "status": "matched"
+  },
+  "ned's atomic dustbin|intact": {
+    "artist": "Ned's Atomic Dustbin",
+    "title": "Intact",
+    "original_year": "1992",
+    "release_type": "Single",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "c1307f96-6c1c-377e-a65a-59ae9072f8ee",
+    "status": "matched"
+  },
+  "ned's atomic dustbin|all i ask of myself is that i hold together": {
+    "artist": "Ned's Atomic Dustbin",
+    "title": "All I Ask Of Myself Is That I Hold Together",
+    "original_year": "1995",
+    "release_type": "Single",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "ad3fd258-f720-3807-a79f-ef0d3f7c98ba",
+    "status": "matched"
+  },
+  "ned's atomic dustbin|stuck": {
+    "artist": "Ned's Atomic Dustbin",
+    "title": "Stuck",
+    "original_year": "1995",
+    "release_type": "Single",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "294ebc24-fde8-384a-8ff7-717a93f4a8a4",
+    "status": "matched"
+  },
+  "ned's atomic dustbin|trust": {
+    "artist": "Ned's Atomic Dustbin",
+    "title": "Trust",
+    "original_year": "1991",
+    "release_type": "Single",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "2638d65f-053a-31a7-9450-c092b70c0c00",
+    "status": "matched"
+  },
+  "ned's atomic dustbin|kill your television": {
+    "artist": "Ned's Atomic Dustbin",
+    "title": "Kill Your Television",
+    "original_year": "1990",
+    "release_type": "Single",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "2a65fdd6-2459-3830-aacd-867268963356",
+    "status": "matched"
+  },
+  "big cheese|punishment park": {
+    "artist": "Big Cheese",
+    "title": "Punishment Park",
+    "original_year": "2019",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "fb1d2e3f-659d-4095-96f5-839e0735b6ff",
+    "status": "matched"
+  },
+  "crypta|echoes of the soul": {
+    "artist": "Crypta",
+    "title": "Echoes Of The Soul",
+    "original_year": "2021",
+    "release_type": "Album",
+    "description": "Echoes of the Soul is the debut studio album by Brazilian death metal band Crypta. It was recorded throughout January 2021 at the Family Mob Studio in São Paulo, Brazil, mastered at Fascination Street Studios in Örebro, Sweden, and released on 11 June 2021 through Napalm Records. To date, it is the only Crypta album to feature Dutch guitarist Sonia \"Anubis\" Nusselder. The songs \"From the Ashes\", \"Starvation\" and \"Dark Night of the Soul\" were released as singles.",
+    "source": "https://en.wikipedia.org/wiki/Echoes_of_the_Soul",
+    "musicbrainz_id": "7a08dc39-60c6-4805-8dfc-2b4af19996f1",
+    "status": "described"
+  },
+  "ned's atomic dustbin|the ingredients ep": {
+    "artist": "Ned's Atomic Dustbin",
+    "title": "The Ingredients EP",
+    "original_year": "1990",
+    "release_type": "EP",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "39cc01bd-22f4-3ab5-a6bd-7c5e27ada83e",
+    "status": "matched"
+  },
+  "mannequin pussy|i got heaven": {
+    "artist": "Mannequin Pussy",
+    "title": "I Got Heaven",
+    "original_year": "2024",
+    "release_type": "Album",
+    "description": "I Got Heaven is the fourth studio album by American rock band Mannequin Pussy, released on March 1, 2024, through Epitaph Records. The album eschews the band's previous focus on love songs and political themes to explore issues related to personal relationships, religious themes, and emotions related to aging, inspired by art films, a break-up, and pigs. It was helmed by record producer John Congleton who approached the band to collaborate. The album was promoted with further live performances and single and music video releases. It has received widespread acclaim from critics.",
+    "source": "https://en.wikipedia.org/wiki/I_Got_Heaven",
+    "musicbrainz_id": "ed0dba28-0154-4a2f-8d4c-830dfe340ed4",
+    "status": "described"
+  },
+  "radiohead|amnesiac": {
+    "artist": "Radiohead",
+    "title": "Amnesiac",
+    "original_year": "2001",
+    "release_type": "Album",
+    "description": "Amnesiac is the fifth studio album by the English rock band Radiohead, released on 30 May 2001 by EMI. It was recorded with the producer Nigel Godrich in the same sessions as Radiohead's previous album, Kid A (2000). Radiohead split the work in two as they felt it was too dense for a double album. As with Kid A, Amnesiac incorporates influences from electronic music, 20th-century classical music, jazz and krautrock. The final track, \"Life in a Glasshouse\", is a collaboration with the jazz trumpeter Humphrey Lyttelton and his band.",
+    "source": "https://en.wikipedia.org/wiki/Amnesiac_(album)",
+    "musicbrainz_id": "bca9280e-28b4-327f-8fe0-fd918579e486",
+    "status": "described"
+  },
+  "death grips|no love deep web": {
+    "artist": "Death Grips",
+    "title": "No Love Deep Web",
+    "original_year": "2012",
+    "release_type": "Album",
+    "description": "No Love Deep Web is the second studio album by American experimental hip hop group Death Grips, originally released via their website on October 1, 2012. Recorded from May to August 2012, it exhibited what the group described as a darker, more minimal style, and was leaked by Death Grips themselves due to complications over its release date with their label Epic Records, who subsequently dropped them in November 2012; the album was later made available for purchase via the band's own Third Worlds imprint and Harvest Records.",
+    "source": "https://en.wikipedia.org/wiki/No_Love_Deep_Web",
+    "musicbrainz_id": "dcdee807-7a10-44c6-8e33-36625d8579ba",
+    "status": "described"
   }
 }

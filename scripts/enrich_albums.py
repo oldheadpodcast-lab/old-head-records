@@ -261,14 +261,49 @@ def get_wikipedia_description(mbid, artist, title):
         if not description or summary.get("type") == "disambiguation":
             continue
 
-        # Confirm the article mentions the artist and album.
-        if normalize(artist) not in normalize(description):
-            continue
+        
+# Verify the article is about the correct musical release.
+article_title = normalize(summary.get("title", ""))
+album_title = normalize(title)
+article_description = normalize(description)
+page_type = normalize(summary.get("description", ""))
 
-        if normalize(title) not in normalize(
-            summary.get("title", "")
-        ):
-            continue
+# Require the album title to match the article title.
+if album_title not in article_title:
+    continue
+
+# Reject clearly unrelated subjects.
+excluded_subjects = (
+    "tour",
+    "concert tour",
+    "city",
+    "city state",
+    "municipality",
+    "historical state",
+    "film",
+    "television series",
+    "video game",
+)
+
+if any(subject in page_type for subject in excluded_subjects):
+    continue
+
+# Require evidence that this is a musical release.
+music_terms = (
+    "album",
+    "ep",
+    "extended play",
+    "single",
+    "soundtrack",
+    "compilation",
+)
+
+if not any(term in page_type for term in music_terms):
+    continue
+
+# Confirm that the article mentions the artist.
+if normalize(artist) not in article_description:
+    continue
 
         source = summary.get("content_urls", {}).get(
             "desktop", {}

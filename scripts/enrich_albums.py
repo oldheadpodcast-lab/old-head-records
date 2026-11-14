@@ -82,7 +82,73 @@ def musicbrainz_request(path, params=None):
     time.sleep(1.2)
     return get_json(url)
 
+
 def search_musicbrainz(artist, title):
+    query = f'artist:"{artist}" AND releasegroup:"{title}"'
+
+    data = musicbrainz_request(
+        "release-group/",
+        {
+            "query": query,
+            "fmt": "json",
+            "limit": 100,
+        },
+    )
+
+    matches = []
+
+    for group in data.get("release-groups", []):
+        if normalize(group.get("title", "")) != normalize(title):
+            continue
+
+        credits = group.get("artist-credit", [])
+
+        credited_artists = [
+            item.get("artist", {}).get("name", "")
+            for item in credits
+            if isinstance(item, dict)
+        ]
+
+        if normalize(artist) not in [
+            normalize(name) for name in credited_artists
+        ]:
+            continue
+
+        matches.append(group)
+
+    if not matches:
+        return None
+
+    # Prefer full-length albums, then EPs,
+    # followed by other release types.
+    type_priority = {
+        "Album": 0,
+        "EP": 1,
+        "Broadcast": 2,
+        "Other": 3,
+        "Single": 4,
+    }
+
+    matches.sort(
+        key=lambda group: (
+            type_priority.get(
+                group.get("primary-type", ""),
+                5,
+            ),
+            group.get("first-release-date") or "9999",
+        )
+    )
+
+    best = matches[0]
+
+    return {
+        "id": best.get("id", ""),
+        "original_year": best.get(
+            "first-release-date", ""
+        )[:4],
+        "release_type": best.get("primary-type", ""),
+    }
+
     query = f'artist:"{artist}" AND releasegroup:"{title}"'
 
     data = musicbrainz_request(

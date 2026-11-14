@@ -348,7 +348,7 @@ def research_album(artist, title):
     entry["release_type"] = match["release_type"]
     entry["status"] = "matched"
 
-    wiki = get_wikipedia_description(match["id"])
+    wiki = get_wikipedia_description(match["id"], artist, title)
 
     if wiki:
         entry["description"] = wiki["description"]

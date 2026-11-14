@@ -1,17 +1,18 @@
 
 import json
-import os
 import re
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
 
 COLLECTION_FILE = Path("collection.json")
 OUTPUT_FILE = Path("album_metadata.json")
+TEST_LIMIT = 5
 
 HEADERS = {
-    "User-Agent": "OldHeadRecords/1.0 (personal music library)",
+    "User-Agent": "OldHeadRecords/1.0 (personal vinyl catalog)",
     "Accept": "application/json",
 }
 
@@ -20,85 +21,143 @@ def get_json(url):
     with urllib.request.urlopen(request, timeout=30) as response:
         return json.load(response)
 
-def clean_artist(name):
-    return re.sub(r"\s+\(\d+\)$", "", name).strip()
+def normalize(value):
+    value = value.casefold()
+    value = re.sub(r"[^\w]+", " ", value)
+    return " ".join(value.split())
+
+def clean_artist(value):
+    return re.sub(r"\s+\(\d+\)$", "", value).strip()
+
+def musicbrainz_request(path, params=None):
+    url = "https://musicbrainz.org/ws/2/" + path
+    if params:
+        url += "?" + urllib.parse.urlencode(params)
+
+    # MusicBrainz requests must be rate-limited.
+    time.sleep(1.2)
+    return get_json(url)
 
 def search_musicbrainz(artist, title):
     query = f'artist:"{artist}" AND releasegroup:"{title}"'
-    url = (
-        "https://musicbrainz.org/ws/2/release-group/?"
-        + urllib.parse.urlencode({
+
+    data = musicbrainz_request(
+        "release-group/",
+        {
             "query": query,
             "fmt": "json",
-            "limit": 5,
-        })
+            "limit": 25,
+        },
     )
 
-    data = get_json(url)
+    for group in data.get("release-groups", []):
+        if normalize(group.get("title", "")) != normalize(title):
+            continue
 
-    for result in data.get("release-groups", []):
-        result_title = result.get("title", "").casefold()
+        credits = group.get("artist-credit", [])
+        credited_artists = [
+            item.get("artist", {}).get("name", "")
+            for item in credits
+            if isinstance(item, dict)
+        ]
 
-        if result_title == title.casefold():
-            return {
-                "musicbrainz_id": result.get("id"),
-                "original_year": (
-                    result.get("first-release-date", "")[:4]
-                ),
-                "release_type": result.get("primary-type", ""),
-            }
+        if normalize(artist) not in [
+            normalize(name) for name in credited_artists
+        ]:
+            continue
+
+        return {
+            "id": group.get("id", ""),
+            "original_year": group.get(
+                "first-release-date", ""
+            )[:4],
+            "release_type": group.get("primary-type", ""),
+        }
 
     return None
 
-def wikipedia_summary(artist, title):
-    search = f"{title} {artist} album"
-
-    url = (
-        "https://en.wikipedia.org/w/api.php?"
-        + urllib.parse.urlencode({
-            "action": "query",
-            "list": "search",
-            "srsearch": search,
-            "srlimit": 3,
-            "format": "json",
-        })
+def get_wikipedia_description(mbid):
+    # Retrieve the Wikipedia page linked to the
+    # exact MusicBrainz release group.
+    data = musicbrainz_request(
+        f"release-group/{mbid}",
+        {
+            "inc": "url-rels",
+            "fmt": "json",
+        },
     )
 
-    data = get_json(url)
+    wikipedia_urls = []
 
-    for result in data.get("query", {}).get("search", []):
-        page_title = result.get("title", "")
-
-        if title.casefold() not in page_title.casefold():
+    for relation in data.get("relations", []):
+        if relation.get("type") != "wikipedia":
             continue
+
+        url = relation.get("url", {}).get("resource", "")
+
+        if url.startswith("https://en.wikipedia.org/wiki/"):
+            wikipedia_urls.append(url)
+
+    for page_url in wikipedia_urls:
+        page_title = page_url.split("/wiki/", 1)[1]
 
         summary_url = (
             "https://en.wikipedia.org/api/rest_v1/page/summary/"
-            + urllib.parse.quote(page_title.replace(" ", "_"))
+            + page_title
         )
 
         try:
             summary = get_json(summary_url)
-        except Exception:
+        except (urllib.error.URLError, ValueError):
             continue
 
-        description = summary.get("extract", "")
+        description = summary.get("extract", "").strip()
 
-        if description:
+        if description and summary.get("type") != "disambiguation":
             return {
                 "description": description,
-                "source": summary.get("content_urls", {})
-                    .get("desktop", {}).get("page", ""),
+                "source": page_url,
             }
 
     return None
+
+def research_album(artist, title):
+    entry = {
+        "artist": artist,
+        "title": title,
+        "original_year": "",
+        "release_type": "",
+        "description": "",
+        "source": "",
+        "musicbrainz_id": "",
+        "status": "not_found",
+    }
+
+    match = search_musicbrainz(artist, title)
+
+    if not match:
+        return entry
+
+    entry["musicbrainz_id"] = match["id"]
+    entry["original_year"] = match["original_year"]
+    entry["release_type"] = match["release_type"]
+    entry["status"] = "matched"
+
+    wiki = get_wikipedia_description(match["id"])
+
+    if wiki:
+        entry["description"] = wiki["description"]
+        entry["source"] = wiki["source"]
+        entry["status"] = "described"
+
+    return entry
 
 def main():
     collection = json.loads(
         COLLECTION_FILE.read_text(encoding="utf-8")
     )
 
-    records = collection.get("records", [])[:5]
+    records = collection.get("records", [])[:TEST_LIMIT]
 
     if OUTPUT_FILE.exists():
         metadata = json.loads(
@@ -112,53 +171,54 @@ def main():
     for record in records:
         artist = clean_artist(record.get("artist", ""))
         title = record.get("title", "").strip()
+
+        if not artist or not title:
+            continue
+
         key = f"{artist.casefold()}|{title.casefold()}"
 
-        if not artist or not title or key in seen:
+        if key in seen:
             continue
 
         seen.add(key)
 
-        if key in metadata:
+        existing = metadata.get(key, {})
+
+        # Keep completed results.
+        if (
+            existing.get("status") == "described"
+            and existing.get("description")
+        ):
             continue
 
         print(f"Researching: {artist} - {title}")
 
-        entry = {
-            "artist": artist,
-            "title": title,
-            "original_year": "",
-            "description": "",
-            "source": "",
-            "musicbrainz_id": "",
-        }
-
         try:
-            mb = search_musicbrainz(artist, title)
-
-            if mb:
-                entry["original_year"] = mb["original_year"]
-                entry["musicbrainz_id"] = mb["musicbrainz_id"]
-
-                wiki = wikipedia_summary(artist, title)
-
-                if wiki:
-                    entry["description"] = wiki["description"]
-                    entry["source"] = wiki["source"]
-
+            result = research_album(artist, title)
         except Exception as error:
-            print(f"Research unavailable: {error}")
+            print(f"Research error: {error}")
+            # Preserve any previous successful data.
+            continue
 
-        metadata[key] = entry
+        if (
+            existing.get("description")
+            and not result.get("description")
+        ):
+            continue
+
+        metadata[key] = result
 
         OUTPUT_FILE.write_text(
-            json.dumps(metadata, ensure_ascii=False, indent=2),
+            json.dumps(
+                metadata,
+                ensure_ascii=False,
+                indent=2,
+            ),
             encoding="utf-8",
         )
 
-        time.sleep(1.2)
-
-    print(f"Saved metadata for {len(metadata)} unique titles.")
+    print(f"Processed {len(seen)} unique test albums.")
+    print(f"Stored {len(metadata)} metadata entries.")
 
 if __name__ == "__main__":
     main()

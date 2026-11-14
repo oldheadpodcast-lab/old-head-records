@@ -20,6 +20,7 @@ async function initializeCollection(){
   if(!Array.isArray(data.records)||!data.records.length)throw new Error('Collection data is empty');
   records=data.records.map(r=>({...r,id:String(r.id??''),artist:String(r.artist??'Unknown Artist'),title:String(r.title??'Untitled'),year:String(r.year??''),format:String(r.format??''),label:String(r.label??'')}));
   for(const r of records){if(r.cover_image||r.thumb)cache.set(r.id,{image:r.cover_image||r.thumb,description:null,original:null,source:null})}
+  await loadAlbumMetadata();
   populateFormats();filter();showFeature();$('spinBtn').disabled=false;
   const footer=document.querySelector('.footer .wrap');
   if(footer){const date=data.last_synced?new Date(data.last_synced):null;const dateText=date&&!isNaN(date.getTime())?date.toLocaleString(): 'Unknown';footer.textContent='Old Head Records · '+records.length.toLocaleString()+' records · Discogs sync: '+dateText}

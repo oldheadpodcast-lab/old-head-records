@@ -1,31 +1,48 @@
-
 name: Test Album Research
 
 on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: album-research-progress
+  cancel-in-progress: false
 
 jobs:
   research:
     runs-on: ubuntu-latest
-
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: '3.12'
 
-      - name: Research five albums
+      - name: Research next 25 pending albums
         run: python scripts/enrich_albums.py
 
+      - name: Save research progress to repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add album_metadata.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Save album research progress"
+            git push origin HEAD:main
+          else
+            echo "No new research progress to save."
+          fi
+
       - name: Upload research results
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: album-research-test
           path: album_metadata.json
-          if-no-files-found: error
+          if-no-files-found: warn

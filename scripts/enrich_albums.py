@@ -186,7 +186,102 @@ def search_musicbrainz(artist, title):
 
     return None
 
-def get_wikipedia_description(mbid):
+
+def get_wikipedia_description(mbid, artist, title):
+    data = musicbrainz_request(
+        f"release-group/{mbid}",
+        {"inc": "url-rels", "fmt": "json"},
+    )
+
+    def fetch_summary(page_title):
+        url = (
+            "https://en.wikipedia.org/api/rest_v1/page/summary/"
+            + urllib.parse.quote(
+                urllib.parse.unquote(page_title).replace(" ", "_"),
+                safe="()_",
+            )
+        )
+        return get_json(url)
+
+    # First use Wikipedia links attached to MusicBrainz.
+    for relation in data.get("relations", []):
+        if relation.get("type") != "wikipedia":
+            continue
+
+        page_url = relation.get("url", {}).get("resource", "")
+
+        if "en.wikipedia.org/wiki/" not in page_url:
+            continue
+
+        page_title = page_url.split("/wiki/", 1)[1]
+
+        try:
+            summary = fetch_summary(page_title)
+            description = summary.get("extract", "").strip()
+
+            if description and summary.get("type") != "disambiguation":
+                return {
+                    "description": description,
+                    "source": page_url,
+                }
+        except Exception as error:
+            print(f"Wikipedia linked-page error: {error}")
+
+    # Search Wikipedia when MusicBrainz has no usable link.
+    search_url = (
+        "https://en.wikipedia.org/w/api.php?"
+        + urllib.parse.urlencode({
+            "action": "query",
+            "list": "search",
+            "srsearch": f'intitle:"{title}" "{artist}"',
+            "srlimit": 10,
+            "format": "json",
+        })
+    )
+
+    try:
+        results = get_json(search_url)
+    except Exception as error:
+        print(f"Wikipedia search error: {error}")
+        return None
+
+    for result in results.get("query", {}).get("search", []):
+        page_title = result.get("title", "")
+
+        if normalize(title) not in normalize(page_title):
+            continue
+
+        try:
+            summary = fetch_summary(page_title)
+        except Exception:
+            continue
+
+        description = summary.get("extract", "").strip()
+
+        if not description or summary.get("type") == "disambiguation":
+            continue
+
+        # Confirm the article mentions the artist and album.
+        if normalize(artist) not in normalize(description):
+            continue
+
+        if normalize(title) not in normalize(
+            summary.get("title", "")
+        ):
+            continue
+
+        source = summary.get("content_urls", {}).get(
+            "desktop", {}
+        ).get("page", "")
+
+        if source:
+            return {
+                "description": description,
+                "source": source,
+            }
+
+    return None
+
     # Retrieve the Wikipedia page linked to the
     # exact MusicBrainz release group.
     data = musicbrainz_request(

@@ -1,6 +1,6 @@
 """Conservative album metadata research for Old Head Records.
 
-Test mode: research the first 25 records and write album_metadata.json.
+Batch mode: research up to 25 pending records per run and save progress.
 Does not change the website or the Discogs collection.
 """
 import json
@@ -154,17 +154,31 @@ def research_album(artist, title):
 
 def main():
     collection = json.loads(COLLECTION_FILE.read_text(encoding='utf-8'))
-    records = collection.get('records', [])[:TEST_LIMIT]
-    # Rebuild the test artifact to avoid retaining previously incorrect cached pages.
-    metadata = {}
+    records = collection.get('records', [])
+    if OUTPUT_FILE.exists():
+        metadata = json.loads(OUTPUT_FILE.read_text(encoding='utf-8'))
+        if not isinstance(metadata, dict):
+            raise ValueError('album_metadata.json must contain a JSON object')
+    else:
+        metadata = {}
+
+    attempted = 0
+    seen = set()
     for record in records:
         artist = clean_artist(record.get('artist', ''))
         title = str(record.get('title', '')).strip()
         if not artist or not title:
             continue
         key = f'{artist.casefold()}|{title.casefold()}'
-        if key in metadata:
+        if key in seen:
             continue
+        seen.add(key)
+        # Previously researched albums are retained; transient errors are retried.
+        if metadata.get(key, {}).get('status') in ('described', 'matched', 'not_found'):
+            continue
+        if attempted >= TEST_LIMIT:
+            break
+        attempted += 1
         print(f'Researching: {artist} - {title}', flush=True)
         try:
             metadata[key] = research_album(artist, title)
@@ -172,13 +186,13 @@ def main():
             print(f'Research failed for {artist} - {title}: {exc}', flush=True)
             metadata[key] = {'artist': artist, 'title': title, 'original_year': '', 'release_type': '', 'description': '', 'source': '', 'musicbrainz_id': '', 'status': 'error'}
         OUTPUT_FILE.write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    print(f'Processed {len(metadata)} unique test titles; descriptions: {sum(bool(v["description"]) for v in metadata.values())}', flush=True)
+    print(
+        f'Attempted {attempted} albums this run; saved {len(metadata)} total; '
+        f'descriptions: {sum(bool(v.get("description")) for v in metadata.values())}; '
+        f'errors awaiting retry: {sum(v.get("status") == "error" for v in metadata.values())}',
+        flush=True,
+    )
 
 
 if __name__ == '__main__':
     main()
-
-
-        
-
-

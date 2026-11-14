@@ -9,7 +9,7 @@ from pathlib import Path
 
 COLLECTION_FILE = Path("collection.json")
 OUTPUT_FILE = Path("album_metadata.json")
-TEST_LIMIT = 5
+TEST_LIMIT = 25
 
 HEADERS = {
     "User-Agent": "OldHeadRecords/1.0 (personal vinyl catalog)",

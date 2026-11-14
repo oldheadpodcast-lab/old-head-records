@@ -16,10 +16,54 @@ HEADERS = {
     "Accept": "application/json",
 }
 
+
 def get_json(url):
-    request = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(request, timeout=30) as response:
-        return json.load(response)
+    max_attempts = 5
+
+    for attempt in range(max_attempts):
+        try:
+            request = urllib.request.Request(
+                url,
+                headers=HEADERS
+            )
+
+            with urllib.request.urlopen(
+                request,
+                timeout=30
+            ) as response:
+                return json.load(response)
+
+        except urllib.error.HTTPError as error:
+            if error.code not in (429, 500, 502, 503, 504):
+                raise
+
+            if attempt == max_attempts - 1:
+                raise
+
+            wait = min(10 * (2 ** attempt), 120)
+
+            retry_after = error.headers.get("Retry-After")
+            if retry_after and retry_after.isdigit():
+                wait = max(wait, int(retry_after))
+
+            print(
+                f"HTTP {error.code}: "
+                f"Retrying in {wait} seconds..."
+            )
+            time.sleep(wait)
+
+        except (urllib.error.URLError, TimeoutError) as error:
+            if attempt == max_attempts - 1:
+                raise
+
+            wait = min(10 * (2 ** attempt), 120)
+
+            print(
+                f"Connection error: {error}. "
+                f"Retrying in {wait} seconds..."
+            )
+            time.sleep(wait)
+
 
 def normalize(value):
     value = value.casefold()

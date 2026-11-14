@@ -1,4 +1,3 @@
-
 name: Deploy Old Head Records
 
 on:
@@ -6,6 +5,7 @@ on:
   workflow_run:
     workflows:
       - "Sync Discogs Collection"
+      - "Test Album Research"
     types:
       - completed
 

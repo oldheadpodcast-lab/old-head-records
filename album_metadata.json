@@ -182,12 +182,12 @@
   "girls against boys|tropic of scorpio": {
     "artist": "Girls Against Boys",
     "title": "Tropic Of Scorpio",
-    "original_year": "",
-    "release_type": "",
-    "description": "",
-    "source": "",
-    "musicbrainz_id": "",
-    "status": "error"
+    "original_year": "1992",
+    "release_type": "Album",
+    "description": "Tropic of Scorpio is the debut studio album by American band Girls Against Boys, released in 1992 by record label Adult Swim.",
+    "source": "https://en.wikipedia.org/wiki/Tropic_of_Scorpio",
+    "musicbrainz_id": "5ea47d8d-fb35-3a5d-9787-f79ecdd17b0d",
+    "status": "described"
   },
   "jason bieler and the baron von bielski orchestra|dancing floor": {
     "artist": "Jason Bieler And The Baron Von Bielski Orchestra",
@@ -262,12 +262,12 @@
   "galactic cowboys|what planet are you from?": {
     "artist": "Galactic Cowboys",
     "title": "What Planet Are You From?",
-    "original_year": "",
-    "release_type": "",
+    "original_year": "2026",
+    "release_type": "Album",
     "description": "",
     "source": "",
-    "musicbrainz_id": "",
-    "status": "error"
+    "musicbrainz_id": "6c6bedf5-3dd5-4b82-a386-0abbf67f2453",
+    "status": "matched"
   },
   "oasis|the masterplan": {
     "artist": "Oasis",
@@ -488,5 +488,235 @@
     "source": "https://en.wikipedia.org/wiki/Practice_What_You_Preach",
     "musicbrainz_id": "043035dd-8e0d-342e-940f-54b037414857",
     "status": "described"
+  },
+  "chat pile|who loves the sun": {
+    "artist": "Chat Pile",
+    "title": "Who Loves The Sun",
+    "original_year": "2026",
+    "release_type": "Album",
+    "description": "Who Loves the Sun is the third studio album by American rock band Chat Pile. It was released on September 4, 2026, through The Flenser. The album follows the band's second studio album, Cool World (2024) and their collaborative album with Hayden Pedigo, In the Earth Again (2025).",
+    "source": "https://en.wikipedia.org/wiki/Who_Loves_the_Sun_(album)",
+    "musicbrainz_id": "c2e68749-0aef-4fdc-adae-c42050c64f6b",
+    "status": "described"
+  },
+  "mastodon|marrow deep": {
+    "artist": "Mastodon",
+    "title": "Marrow Deep",
+    "original_year": "2026",
+    "release_type": "Album",
+    "description": "Marrow Deep is the ninth studio album by the American heavy metal band Mastodon. It was released on August 28, 2026, by Loma Vista Recordings, the band's first release on the label. Produced by Patrik Berger and Kurt Ballou, it is Mastodon's first album with guitarist Nick Johnston, following the departure and subsequent death of founding lead guitarist Brent Hinds in 2025, and the first with keyboardist João Nogueira as an official member. It is also Mastodon's first album as a five-piece band.",
+    "source": "https://en.wikipedia.org/wiki/Marrow_Deep",
+    "musicbrainz_id": "2c35c7fd-6447-4225-938c-051b4fbb728d",
+    "status": "described"
+  },
+  "zazen boys|らんど": {
+    "artist": "Zazen Boys",
+    "title": "らんど",
+    "original_year": "2024",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "513452fd-ff13-4410-9611-fa9e02ac849d",
+    "status": "matched"
+  },
+  "the flaming lips|oczy mlody": {
+    "artist": "The Flaming Lips",
+    "title": "Oczy Mlody",
+    "original_year": "2017",
+    "release_type": "Album",
+    "description": "Oczy Mlody is the fourteenth studio album by American rock band The Flaming Lips, released on January 13, 2017, on Warner Bros in the US and Bella Union in the UK. It is the first album to feature band members Jake Ingalls, Nicholas Ley and Matt Duckworth.",
+    "source": "https://en.wikipedia.org/wiki/Oczy_Mlody",
+    "musicbrainz_id": "2650cc67-41d7-44c0-afaf-a63ecc254976",
+    "status": "described"
+  },
+  "refused|freedom": {
+    "artist": "Refused",
+    "title": "Freedom",
+    "original_year": "2015",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "1282d6ff-0576-4d30-87ab-0f500b8c5da9",
+    "status": "matched"
+  },
+  "refused|songs to fan the flames of discontent": {
+    "artist": "Refused",
+    "title": "Songs To Fan The Flames Of Discontent",
+    "original_year": "1996",
+    "release_type": "Album",
+    "description": "Songs to Fan the Flames of Discontent is the second full-length album by Swedish hardcore punk band Refused. It was released in 1996 through Victory Records, Startrec and We Bite on CD, tape and 12\" vinyl; and reissued by Burning Heart Records and Victory in 1997. A remastered version of the album was released in 2004.",
+    "source": "https://en.wikipedia.org/wiki/Songs_to_Fan_the_Flames_of_Discontent",
+    "musicbrainz_id": "857ba0e6-3a30-31b0-938f-41e9b88adde1",
+    "status": "described"
+  },
+  "the flaming lips|clouds taste metallic": {
+    "artist": "The Flaming Lips",
+    "title": "Clouds Taste Metallic",
+    "original_year": "1995",
+    "release_type": "Album",
+    "description": "Clouds Taste Metallic is the seventh studio album by American rock band the Flaming Lips, released on September 19, 1995, by Warner Bros. Records. It was the last album to feature guitarist Ronald Jones. The album's recording is heavily featured in the Fearless Freaks documentary.",
+    "source": "https://en.wikipedia.org/wiki/Clouds_Taste_Metallic",
+    "musicbrainz_id": "66eada26-4acb-3d1a-b14f-01ff69eb566a",
+    "status": "described"
+  },
+  "john barry|howard the duck (music from the motion picture soundtrack)": {
+    "artist": "John Barry",
+    "title": "Howard The Duck (Music From The Motion Picture Soundtrack)",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "ultra vivid scene|ultra vivid scene": {
+    "artist": "Ultra Vivid Scene",
+    "title": "Ultra Vivid Scene",
+    "original_year": "1988",
+    "release_type": "Album",
+    "description": "Ultra Vivid Scene is the debut album by Ultra Vivid Scene, released in 1988. Kurt Ralske was the writer, producer, and sole performer.",
+    "source": "https://en.wikipedia.org/wiki/Ultra_Vivid_Scene_(album)",
+    "musicbrainz_id": "d5fe4a26-d729-3ec4-a3c3-7542cc736c69",
+    "status": "described"
+  },
+  "avenged sevenfold|life is but a dream...": {
+    "artist": "Avenged Sevenfold",
+    "title": "Life Is But A Dream...",
+    "original_year": "2023",
+    "release_type": "Album",
+    "description": "Life Is But a Dream... is the eighth studio album by American heavy metal band Avenged Sevenfold, released on June 2, 2023, through Warner Records. Its release follows nearly seven years after its predecessor, The Stage (2016), marking the band's longest gap between studio albums to date. It is also the first album to feature contributions from their late drummer Jimmy \"The Rev\" Sullivan since Nightmare (2010). Similar to The Stage, Life Is But a Dream... was produced by the band with Joe Barresi. It marked the band's return to Warner following a legal dispute between the band and Warner Music in the mid-2010s.",
+    "source": "https://en.wikipedia.org/wiki/Life_Is_But_a_Dream...",
+    "musicbrainz_id": "b0fabeaa-856c-464a-b926-ae6e18e1ff95",
+    "status": "described"
+  },
+  "slayer|world painted blood": {
+    "artist": "Slayer",
+    "title": "World Painted Blood",
+    "original_year": "2009",
+    "release_type": "Album",
+    "description": "World Painted Blood is the eleventh studio album by American thrash metal band Slayer. It was released through American Recordings and Sony Music on November 3, 2009 and was produced by Greg Fidelman and executively produced by Rick Rubin. It is the band's only album produced by Greg Fidelman and the last album to feature the band’s original lineup including guitarist Jeff Hanneman and drummer Dave Lombardo. With much anticipation for the album after 2006's Christ Illusion, members of Slayer began revealing information about the album beginning in early 2009.",
+    "source": "https://en.wikipedia.org/wiki/World_Painted_Blood",
+    "musicbrainz_id": "1722d206-eba4-426e-8977-599057ccdbc8",
+    "status": "described"
+  },
+  "the cure|boys don't cry": {
+    "artist": "The Cure",
+    "title": "Boys Don't Cry",
+    "original_year": "1980",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "280ccdbb-ba25-3fd6-8e74-9e30d9b96794",
+    "status": "matched"
+  },
+  "the flaming lips, mick jones|king's mouth (music and songs)": {
+    "artist": "The Flaming Lips, Mick Jones",
+    "title": "King's Mouth (Music And Songs)",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "fuming mouth|the ringing bell": {
+    "artist": "Fuming Mouth",
+    "title": "The Ringing Bell",
+    "original_year": "2026",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "651b34b8-53e3-44ea-a75c-806a202c66a7",
+    "status": "matched"
+  },
+  "entombed|left hand path": {
+    "artist": "Entombed",
+    "title": "Left Hand Path",
+    "original_year": "1990",
+    "release_type": "Album",
+    "description": "Left Hand Path is the debut studio album by Swedish death metal band Entombed. It was released in the UK by Earache Records on 4 June 1990 and in the United States by Combat Records on 7 December 1990.",
+    "source": "https://en.wikipedia.org/wiki/Left_Hand_Path_(album)",
+    "musicbrainz_id": "3f5ce50c-78a7-30f8-8a03-34b3d7aea9b9",
+    "status": "described"
+  },
+  "sepultura|arise rough mixes": {
+    "artist": "Sepultura",
+    "title": "Arise Rough Mixes",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "the flaming lips|embryonic": {
+    "artist": "The Flaming Lips",
+    "title": "Embryonic",
+    "original_year": "2009",
+    "release_type": "Album",
+    "description": "Embryonic is the twelfth studio album by American rock band the Flaming Lips released on October 13, 2009, on Warner Bros. The band's first double album, it was released to generally positive reviews and became their most successful album in the US, peaking at number 8 on the Billboard 200. This is the first album where drummer Kliph Scurlock is credited alongside the rest of the band despite touring with the group since 2002 and contributing drum parts to the previous album At War with the Mystics (2006).",
+    "source": "https://en.wikipedia.org/wiki/Embryonic_(album)",
+    "musicbrainz_id": "6654ee18-9421-4204-ae48-f0fdc3d6ab9e",
+    "status": "described"
+  },
+  "the flaming lips|in a priest driven ambulance": {
+    "artist": "The Flaming Lips",
+    "title": "In A Priest Driven Ambulance",
+    "original_year": "1990",
+    "release_type": "Album",
+    "description": "In a Priest Driven Ambulance (With Silver Sunshine Stares) is the fourth studio album by American rock band the Flaming Lips, released in 1990. It is the first Flaming Lips album to feature Jonathan Donahue (also of Mercury Rev) and drummer Nathan Roberts. This line-up would subsequently be signed by Warner Bros. Records and go on to record the follow-up album Hit to Death in the Future Head. It is a concept album primarily focused on frontman Wayne Coyne's fascination with religion.",
+    "source": "https://en.wikipedia.org/wiki/In_a_Priest_Driven_Ambulance",
+    "musicbrainz_id": "d1d5f78c-3301-3c93-aec1-16d341a3ca59",
+    "status": "described"
+  },
+  "the cure|faith": {
+    "artist": "The Cure",
+    "title": "Faith",
+    "original_year": "1981",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "ce2dda01-88b9-3134-8c35-065897e9cbb2",
+    "status": "matched"
+  },
+  "the flaming lips|brainville": {
+    "artist": "The Flaming Lips",
+    "title": "Brainville",
+    "original_year": "1996",
+    "release_type": "Single",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "84e212f9-d819-3022-afeb-59b613d7bb24",
+    "status": "matched"
+  },
+  "the flaming lips|bad days": {
+    "artist": "The Flaming Lips",
+    "title": "Bad Days",
+    "original_year": "1995",
+    "release_type": "Single",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "5680c1aa-9b3a-316f-b1ff-faa4c2cda2f0",
+    "status": "matched"
+  },
+  "the flaming lips|this here giraffe": {
+    "artist": "The Flaming Lips",
+    "title": "This Here Giraffe",
+    "original_year": "1996",
+    "release_type": "Single",
+    "description": "\"This Here Giraffe\" is a song by American psychedelic rock group The Flaming Lips. The song was released as a single from their 1995 album Clouds Taste Metallic.",
+    "source": "https://en.wikipedia.org/wiki/This_Here_Giraffe",
+    "musicbrainz_id": "c9b9aebb-33be-3023-8df5-082835b6823b",
+    "status": "described"
+  },
+  "the flaming lips|zaireeka": {
+    "artist": "The Flaming Lips",
+    "title": "Zaireeka",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
   }
 }

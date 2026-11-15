@@ -1,8 +1,36 @@
 {
   "username": "Vinyl.Date.Night",
-  "last_synced": "2026-11-14T20:01:58.603404+00:00",
-  "count": 2572,
+  "last_synced": "2026-11-15T16:24:22.133986+00:00",
+  "count": 2574,
   "records": [
+    {
+      "id": "27259737",
+      "instance_id": "2204717292",
+      "artist": "Protomartyr (2)",
+      "title": "Formal Growth In The Desert",
+      "year": "2023",
+      "format": "Vinyl",
+      "label": "Domino, Domino",
+      "notes": "",
+      "folder": "1",
+      "cover_image": "https://i.discogs.com/6h5j3iXt8QPwUE-jDEQVCIeDfpL1KsxqmBxUUNAC740/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MjU5/NzM3LTE2ODU2NjAz/NTMtNDg5NC5qcGVn.jpeg",
+      "thumb": "https://i.discogs.com/GGgxh0LFvBebBBG5X9ohA9sDhDd4agdE26bxmTzNoQg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MjU5/NzM3LTE2ODU2NjAz/NTMtNDg5NC5qcGVn.jpeg",
+      "master_id": 3118365
+    },
+    {
+      "id": "29509372",
+      "instance_id": "2204717290",
+      "artist": "Slift",
+      "title": "Ilion",
+      "year": "2024",
+      "format": "Vinyl",
+      "label": "Sub Pop",
+      "notes": "",
+      "folder": "1",
+      "cover_image": "https://i.discogs.com/EELkHFTa_RTbwIOEDn5ZkPQE6ZAgimU1DwgSmI8A964/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5NTA5/MzcyLTE3MDU0ODIw/NjMtMzg3NC5qcGVn.jpeg",
+      "thumb": "https://i.discogs.com/6Eq3a7lH20pKUahnn4cvMS0u355-KpFpYzpck_Uf-n8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5NTA5/MzcyLTE3MDU0ODIw/NjMtMzg3NC5qcGVn.jpeg",
+      "master_id": 3364459
+    },
     {
       "id": "39027296",
       "instance_id": "2204420754",
@@ -22127,7 +22155,7 @@
       "id": "553220",
       "instance_id": "691601122",
       "artist": "Living Colour",
-      "title": "Ausländer (Mixes By Adrian Sherwood / Skip McDonald & Sascha (KMFDM))",
+      "title": "Ausländer",
       "year": "1993",
       "format": "Vinyl",
       "label": "Epic",

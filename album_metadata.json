@@ -1182,12 +1182,12 @@
   "r.e.m.|around the sun": {
     "artist": "R.E.M.",
     "title": "Around The Sun",
-    "original_year": "",
-    "release_type": "",
-    "description": "",
-    "source": "",
-    "musicbrainz_id": "",
-    "status": "error"
+    "original_year": "2004",
+    "release_type": "Album",
+    "description": "Around the Sun is the thirteenth studio album by American alternative rock band R.E.M., released on October 5, 2004 on Warner Bros. Records. The album was supported by several singles and a world tour. It was commercially successful except in the US but received mixed to negative reviews and is often considered the weakest in the band's catalogue.",
+    "source": "https://en.wikipedia.org/wiki/Around_the_Sun",
+    "musicbrainz_id": "13cf95c5-cc88-395c-9f49-37c4e3fc73bd",
+    "status": "described"
   },
   "jejune|wait a lifetime": {
     "artist": "Jejune",
@@ -1218,5 +1218,245 @@
     "source": "",
     "musicbrainz_id": "494bf606-d2f7-36d0-8340-eadad8601d2b",
     "status": "matched"
+  },
+  "various|singles - original motion picture soundtrack": {
+    "artist": "Various",
+    "title": "Singles - Original Motion Picture Soundtrack",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "piebald|tales for the rages": {
+    "artist": "Piebald",
+    "title": "Tales For The Rages",
+    "original_year": "2026",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "127ce3b1-8cd3-4bc8-ae76-b6954fece465",
+    "status": "matched"
+  },
+  "nuclear tomb|epoch inhumane": {
+    "artist": "Nuclear Tomb",
+    "title": "Epoch Inhumane",
+    "original_year": "2026",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "261da56b-4e25-4283-911c-d0b29ac41bd3",
+    "status": "matched"
+  },
+  "the cure|songs of a lost world": {
+    "artist": "The Cure",
+    "title": "Songs Of A Lost World",
+    "original_year": "2024",
+    "release_type": "Album",
+    "description": "Songs of a Lost World is the fourteenth studio album by the English rock band the Cure, released on 1 November 2024 via Fiction, Lost Music, Universal, Polydor, and Capitol Records. It is the band's first release of new material in 16 years since the release of 4:13 Dream in 2008. All the songs on the album were composed solely by singer/guitarist Robert Smith, for the first time since the 1985 album The Head on the Door. It is also their first studio album to feature guitarist Reeves Gabrels. The record was released a day after Halloween at Smith's request.",
+    "source": "https://en.wikipedia.org/wiki/Songs_of_a_Lost_World",
+    "musicbrainz_id": "97650540-f489-40e1-957c-6fd67baa739d",
+    "status": "described"
+  },
+  "primus|primus & the chocolate factory with the fungi ensemble": {
+    "artist": "Primus",
+    "title": "Primus & The Chocolate Factory With The Fungi Ensemble",
+    "original_year": "2014",
+    "release_type": "Album",
+    "description": "Primus & the Chocolate Factory with the Fungi Ensemble is the eighth studio album by American rock group Primus. The album is a re-imagining of the soundtrack of the 1971 film Willy Wonka & the Chocolate Factory. The album was released on October 21, 2014. It is the first full-length album with Tim \"Herb\" Alexander since 1995's Tales from the Punchbowl.",
+    "source": "https://en.wikipedia.org/wiki/Primus_%26_the_Chocolate_Factory_with_the_Fungi_Ensemble",
+    "musicbrainz_id": "e967d9cd-fa80-4a86-86c6-817bca7904c6",
+    "status": "described"
+  },
+  "the cure|mixed up": {
+    "artist": "The Cure",
+    "title": "Mixed Up",
+    "original_year": "1990",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "f9f0d9e9-0e23-3634-bf9b-6faf3526f641",
+    "status": "matched"
+  },
+  "jets to brazil|orange rhyming dictionary": {
+    "artist": "Jets To Brazil",
+    "title": "Orange Rhyming Dictionary",
+    "original_year": "1998",
+    "release_type": "Album",
+    "description": "Orange Rhyming Dictionary is the debut studio album by American rock band Jets to Brazil, released October 27, 1998 on Jade Tree. Following the break up of Jawbreaker, frontman Blake Schwarzenbach moved to New York City, and formed Jets to Brazil with bassist Jeremy Chatelain and drummer Chris Daly. J. Robbins was drafted in to produce the band's debut album at Easley Studios in Memphis, Tennessee. With Orange Rhyming Dictionary, Schwarzenbach moved away from the punk rock sound of Jawbreaker into indie rock and post-hardcore.",
+    "source": "https://en.wikipedia.org/wiki/Orange_Rhyming_Dictionary",
+    "musicbrainz_id": "eef065eb-9e8d-352e-995e-840079ba05a1",
+    "status": "described"
+  },
+  "various|the crow (original motion picture soundtrack)": {
+    "artist": "Various",
+    "title": "The Crow (Original Motion Picture Soundtrack)",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "metallica|metal up your ass": {
+    "artist": "Metallica",
+    "title": "Metal Up Your Ass",
+    "original_year": "",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "b0285215-7a56-3907-875f-a8baa4aad3b3",
+    "status": "matched"
+  },
+  "vanity|wild animal": {
+    "artist": "Vanity",
+    "title": "Wild Animal",
+    "original_year": "1984",
+    "release_type": "Album",
+    "description": "Wild Animal is the 1984 debut studio album by Canadian singer Vanity. Released by Motown Records in November 1984, the album yielded two hit singles on the US R&B Songs chart: \"Pretty Mess\" and \"Mechanical Emotion\". The album's third single, \"Samuelle\", scored minor radio play yet failed to chart on either Hot 100 or R&B singles.",
+    "source": "https://en.wikipedia.org/wiki/Wild_Animal",
+    "musicbrainz_id": "0bb8dba9-4cb2-3fc8-a1f4-a9feeae32b12",
+    "status": "described"
+  },
+  "revocation|chaos of forms": {
+    "artist": "Revocation",
+    "title": "Chaos Of Forms",
+    "original_year": "2011",
+    "release_type": "Album",
+    "description": "Chaos of Forms is the third studio album by the American technical death metal band Revocation, released on August 16, 2011 by Relapse Records. The song \"Cradle Robber\" was released and streamed on their Facebook page on May 10, 2011. This album is the last album to feature the original bassist Anthony Buda, and the first album to feature guitarist Dan Gargiulo.",
+    "source": "https://en.wikipedia.org/wiki/Chaos_of_Forms",
+    "musicbrainz_id": "412a8afb-67ca-4977-85ce-e6abcb792eb3",
+    "status": "described"
+  },
+  "megadeth|youthanasia": {
+    "artist": "Megadeth",
+    "title": "Youthanasia",
+    "original_year": "1994",
+    "release_type": "Album",
+    "description": "Youthanasia is the sixth studio album by American heavy metal band Megadeth, released on November 1, 1994, through Capitol Records. It is stylistically similar to their previous album, Countdown to Extinction (1992). The title is a play on words, implying that society is euthanizing its youth. The cover art features an elderly woman hanging babies by their feet on a seemingly endless clothes line, a direct reference to a line in the title track.",
+    "source": "https://en.wikipedia.org/wiki/Youthanasia",
+    "musicbrainz_id": "cd20894a-10eb-3f69-8550-a9b93446c2a8",
+    "status": "described"
+  },
+  "hyts|hyts": {
+    "artist": "Hyts",
+    "title": "Hyts",
+    "original_year": "1983",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "66582b51-e639-4893-9a96-b5b6ae98063e",
+    "status": "matched"
+  },
+  "burning airlines|identikit": {
+    "artist": "Burning Airlines",
+    "title": "Identikit",
+    "original_year": "2001",
+    "release_type": "Album",
+    "description": "Identikit is the second and final album by American rock band Burning Airlines, released in 2001. In 2012, the German label Arctic Rodeo Recordings reissued the album as a marbled colour vinyl LP with enclosed CD in an edition of 700 copies, with an added cover version of Sweet's \"Action.\"",
+    "source": "https://en.wikipedia.org/wiki/Identikit_(album)",
+    "musicbrainz_id": "6cb92985-5580-3ee5-a579-53a52d5564d6",
+    "status": "described"
+  },
+  "burning airlines|mission control": {
+    "artist": "Burning Airlines",
+    "title": "Mission Control",
+    "original_year": "1999",
+    "release_type": "Album",
+    "description": "Mission: Control! is the debut album by American rock band Burning Airlines. It was released in 1999. The German label Arctic Rodeo Recordings reissued the album as a colored vinyl LP with enclosed CD in an edition of 700 copies in 2012 with an extra song: \"Back of Love\".",
+    "source": "https://en.wikipedia.org/wiki/Mission%3A_Control!",
+    "musicbrainz_id": "d272c66a-9ecf-3b43-b878-0cb79f48dcdd",
+    "status": "described"
+  },
+  "filth is eternal|impossible world": {
+    "artist": "Filth Is Eternal",
+    "title": "Impossible World",
+    "original_year": "2026",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "e311ae93-e165-41f8-9d84-5c27ce57f3eb",
+    "status": "matched"
+  },
+  "four stroke baron|king radio redux": {
+    "artist": "Four Stroke Baron",
+    "title": "King Radio Redux",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "exodus|force of habit": {
+    "artist": "Exodus",
+    "title": "Force Of Habit",
+    "original_year": "1992",
+    "release_type": "Album",
+    "description": "Force of Habit is the fifth studio album by American thrash metal band Exodus, released on August 25, 1992, by Capitol Records. The sound of this album was a departure from the band's previous albums, focusing on a rather slower and experimental sound, which presented a groove metal style. Many of the song titles are common figures of speech.",
+    "source": "https://en.wikipedia.org/wiki/Force_of_Habit",
+    "musicbrainz_id": "c901a954-8589-3796-9803-dde1e4021aa2",
+    "status": "described"
+  },
+  "sepultura|the cloud of unknowing": {
+    "artist": "Sepultura",
+    "title": "The Cloud Of Unknowing",
+    "original_year": "2026",
+    "release_type": "EP",
+    "description": "The Cloud of Unknowing is an EP by Brazilian heavy metal band Sepultura, released on April 24, 2026, through Nuclear Blast. As their final studio output, it is the band's only studio recording with drummer Greyson Nekrutman, who replaced Eloy Casagrande in 2024, and its release coincided with the final year of Sepultura's final world tour. The EP marked the only time since A-Lex (2009) that they worked with producer Stanley Soares.",
+    "source": "https://en.wikipedia.org/wiki/The_Cloud_of_Unknowing_(EP)",
+    "musicbrainz_id": "9bc275b9-d1d5-48c1-9d24-3eca079a34c5",
+    "status": "described"
+  },
+  "various|action jackson (original motion picture soundtrack)": {
+    "artist": "Various",
+    "title": "Action Jackson (Original Motion Picture Soundtrack)",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "frozen soul|no place of warmth": {
+    "artist": "Frozen Soul",
+    "title": "No Place Of Warmth",
+    "original_year": "2026",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "0262b4af-4f29-4617-9de0-4a6d9e376409",
+    "status": "matched"
+  },
+  "various|dangerously close - original motion picture soundtrack": {
+    "artist": "Various",
+    "title": "Dangerously Close - Original Motion Picture Soundtrack",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "the smithereens|especially for you": {
+    "artist": "The Smithereens",
+    "title": "Especially For You",
+    "original_year": "1986",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "754f384a-b034-345f-bedf-a50782c78146",
+    "status": "matched"
+  },
+  "pop will eat itself|box frenzy": {
+    "artist": "Pop Will Eat Itself",
+    "title": "Box Frenzy",
+    "original_year": "1987",
+    "release_type": "Album",
+    "description": "Box Frenzy is the debut studio album by the English rock band Pop Will Eat Itself. It was released on 26 October 1987 in the United Kingdom by Chapter 22 Records and in the United States by Rough Trade Records.",
+    "source": "https://en.wikipedia.org/wiki/Box_Frenzy",
+    "musicbrainz_id": "1791967f-feff-3796-9d0a-cd0d86179510",
+    "status": "described"
   }
 }

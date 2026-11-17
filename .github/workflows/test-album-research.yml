@@ -1,9 +1,16 @@
 name: Test Album Research
 
+
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '23 9 * * *'
+  workflow_run:
+    workflows:
+      - "Sync Discogs Collection"
+    types:
+      - completed
+    branches:
+      - main
+
 
 permissions:
   contents: write

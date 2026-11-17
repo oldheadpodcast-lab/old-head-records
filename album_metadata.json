@@ -968,5 +968,255 @@
     "source": "https://en.wikipedia.org/wiki/No_Love_Deep_Web",
     "musicbrainz_id": "dcdee807-7a10-44c6-8e33-36625d8579ba",
     "status": "described"
+  },
+  "protomartyr|formal growth in the desert": {
+    "artist": "Protomartyr",
+    "title": "Formal Growth In The Desert",
+    "original_year": "2023",
+    "release_type": "Album",
+    "description": "Formal Growth in the Desert is the sixth studio album by American post-punk band Protomartyr, released on June 2, 2023 on Domino Records. Produced by guitarist Greg Ahee and Jake Aron, the album was recorded over two weeks in August 2022 at Sonic Ranch in Tornillo, Texas.",
+    "source": "https://en.wikipedia.org/wiki/Formal_Growth_in_the_Desert",
+    "musicbrainz_id": "42b10a39-6d99-494e-8d65-60e3683dd725",
+    "status": "described"
+  },
+  "slift|ilion": {
+    "artist": "Slift",
+    "title": "Ilion",
+    "original_year": "2024",
+    "release_type": "Album",
+    "description": "Ilion is the third studio album by French progressive rock band Slift, released on 19 January 2024 through Sub Pop. It received acclaim from critics.",
+    "source": "https://en.wikipedia.org/wiki/Ilion_(album)",
+    "musicbrainz_id": "4a67d3c7-92c1-43ef-bc28-12177a74472d",
+    "status": "described"
+  },
+  "burnt by the sun|heart of darkness": {
+    "artist": "Burnt By The Sun",
+    "title": "Heart Of Darkness",
+    "original_year": "2009",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "4c730744-ecfd-4a4e-85e6-cae4d659784c",
+    "status": "matched"
+  },
+  "jimmy eat world|clarity": {
+    "artist": "Jimmy Eat World",
+    "title": "Clarity",
+    "original_year": "1999",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "4a12c3a5-5a5e-3e6f-aee9-1cfb2137da4c",
+    "status": "matched"
+  },
+  "the strokes|is this it": {
+    "artist": "The Strokes",
+    "title": "Is This It",
+    "original_year": "2001",
+    "release_type": "Album",
+    "description": "Is This It is the debut studio album by American rock band the Strokes. It was first released on July 30, 2001, in Australia, with RCA Records handling the release internationally and Rough Trade Records handling the United Kingdom release. It was recorded at Transporterraum in New York City with producer Gordon Raphael during March and April 2001. For their debut, the band strived to capture a simple sound that was not significantly enhanced in the studio. Building on their 2001 EP The Modern Age, the band members molded compositions largely through live takes during recording sessions, while lead singer and songwriter Julian Casablancas continued to detail the lives and relationships of urban youth in his lyrics.",
+    "source": "https://en.wikipedia.org/wiki/Is_This_It",
+    "musicbrainz_id": "efea26d1-a016-30f6-b8e2-bc8c02336b0a",
+    "status": "described"
+  },
+  "the flaming lips|yoshimi battles the pink robots": {
+    "artist": "The Flaming Lips",
+    "title": "Yoshimi Battles The Pink Robots",
+    "original_year": "2002",
+    "release_type": "Album",
+    "description": "Yoshimi Battles the Pink Robots is the tenth studio album by American rock band the Flaming Lips, released on July 16, 2002, by Warner Bros. Records. The album saw the band pursue a more electronic direction than previous efforts, incorporating acoustic guitars and rhythms influenced by hip hop and Top 40 music. The album was well-received critically and commercially, helping the band break into popularity, and was adapted into a musical in 2012. To commemorate the album's 20th anniversary, the band embarked on a world tour where they played it live from start to finish each night starting in 2023 and ending in 2025, and a box set was also released in 2023.",
+    "source": "https://en.wikipedia.org/wiki/Yoshimi_Battles_the_Pink_Robots",
+    "musicbrainz_id": "54b1ad4e-7e86-308d-b053-a0843f6abbdb",
+    "status": "described"
+  },
+  "the flaming lips|transmissions from the satellite heart": {
+    "artist": "The Flaming Lips",
+    "title": "Transmissions From The Satellite Heart",
+    "original_year": "1993",
+    "release_type": "Album",
+    "description": "Transmissions from the Satellite Heart is the sixth studio album by American rock band the Flaming Lips, released in 1993 by Warner Bros. Records. The album marked the departure of Jonathan Donahue and Nathan Roberts, and the addition of guitarist Ronald Jones and drummer Steven Drozd.",
+    "source": "https://en.wikipedia.org/wiki/Transmissions_from_the_Satellite_Heart",
+    "musicbrainz_id": "9110fa7a-360b-3a7e-a693-50526d05a2d3",
+    "status": "described"
+  },
+  "the cure|the head on the door": {
+    "artist": "The Cure",
+    "title": "The Head On The Door",
+    "original_year": "1985",
+    "release_type": "Album",
+    "description": "The Head on the Door is the sixth studio album by the English rock band the Cure. It was released on 30 August 1985 by Fiction Records. Preceded by the single \"In Between Days\" which had reached No. 15 on the UK Singles Chart, The Head on the Door was described by Melody Maker as \"a collection of pop songs\". With its variety of styles, it allowed the group to reach a wider audience in both Europe and North America. In the United Kingdom it became their most successful album to date, entering the albums chart at No. 7 on 7 September.",
+    "source": "https://en.wikipedia.org/wiki/The_Head_on_the_Door",
+    "musicbrainz_id": "cf5d6187-e43b-3848-ba51-8ec1df3d97e3",
+    "status": "described"
+  },
+  "the cure|pornography": {
+    "artist": "The Cure",
+    "title": "Pornography",
+    "original_year": "1982",
+    "release_type": "Album",
+    "description": "Pornography is the fourth studio album by the English rock band the Cure, released on 3 May 1982 by Fiction Records. Preceded by the non-album single \"Charlotte Sometimes\", it was the band's first album with new producer Phil Thornalley, and was recorded at RAK Studios from January to April 1982. The sessions saw the band on the brink of collapse, with heavy drug use, band in-fighting, and frontman Robert Smith's depression fueling the album's musical and lyrical content. Pornography represents the conclusion of the Cure's early dark, gloomy musical phase, which began with their second album Seventeen Seconds (1980).",
+    "source": "https://en.wikipedia.org/wiki/Pornography_(album)",
+    "musicbrainz_id": "5d4f8f19-23cf-34cf-b225-8cd0339c37de",
+    "status": "described"
+  },
+  "garden variety|garden variety": {
+    "artist": "Garden Variety",
+    "title": "Garden Variety",
+    "original_year": "1992",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "8945813a-48fb-4218-87c2-f62da599030f",
+    "status": "matched"
+  },
+  "various|out of bounds original motion picture soundtrack": {
+    "artist": "Various",
+    "title": "Out Of Bounds Original Motion Picture Soundtrack",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "ned's atomic dustbin|brainbloodvolume": {
+    "artist": "Ned's Atomic Dustbin",
+    "title": "Brainbloodvolume",
+    "original_year": "1995",
+    "release_type": "Album",
+    "description": "Brainbloodvolume is the third and final album from English rock band Ned's Atomic Dustbin with their original line-up. It was released in the United States on 21 March 1995 but did not appear in the United Kingdom until July of that year.",
+    "source": "https://en.wikipedia.org/wiki/Brainbloodvolume",
+    "musicbrainz_id": "e459924c-3630-3bcf-a3bf-d7efd90901fd",
+    "status": "described"
+  },
+  "the cure|wish": {
+    "artist": "The Cure",
+    "title": "Wish",
+    "original_year": "1992",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "88154914-4f14-355c-8066-b3cecd38c42c",
+    "status": "matched"
+  },
+  "revocation|revocation": {
+    "artist": "Revocation",
+    "title": "Revocation",
+    "original_year": "2013",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "8a761584-7d67-48eb-a2d3-cbcf32e82d79",
+    "status": "matched"
+  },
+  "mannequin pussy|patience": {
+    "artist": "Mannequin Pussy",
+    "title": "Patience",
+    "original_year": "2019",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "17e3ab6e-4404-4073-9d1a-4ff2d2df5017",
+    "status": "matched"
+  },
+  "obituary|slowly we rot": {
+    "artist": "Obituary",
+    "title": "Slowly We Rot",
+    "original_year": "1989",
+    "release_type": "Album",
+    "description": "Slowly We Rot is the debut studio album by American death metal band Obituary, released on in 1989 through R/C Records.",
+    "source": "https://en.wikipedia.org/wiki/Slowly_We_Rot",
+    "musicbrainz_id": "615595ba-3435-36c6-8a4b-545c6403cfb6",
+    "status": "described"
+  },
+  "acid bath|when the kite string pops": {
+    "artist": "Acid Bath",
+    "title": "When The Kite String Pops",
+    "original_year": "1994",
+    "release_type": "Album",
+    "description": "When the Kite String Pops is the debut studio album of American sludge metal band Acid Bath. Released on August 8, 1994, it is considered an underground classic and an early example of sludge metal. The album's artwork is a self-portrait made by notorious serial killer John Wayne Gacy while in prison awaiting execution.",
+    "source": "https://en.wikipedia.org/wiki/When_the_Kite_String_Pops",
+    "musicbrainz_id": "8df242f8-232c-3235-91ec-d682786aba50",
+    "status": "described"
+  },
+  "revocation|netherheaven": {
+    "artist": "Revocation",
+    "title": "Netherheaven",
+    "original_year": "2022",
+    "release_type": "Album",
+    "description": "Netherheaven is the eighth studio album by the American technical death metal band Revocation, released on September 09, 2022, via Metal Blade. It is the band's first album not to feature rhythm guitarist Dan Gargiulo after his departure in June 2020 and final album to feature bassist Brett Bamberger. This is also their third album since Existence Is Futile, marks their return as a trio.",
+    "source": "https://en.wikipedia.org/wiki/Netherheaven",
+    "musicbrainz_id": "68ec7c33-b8ad-43a1-9f10-b4c83abd054d",
+    "status": "described"
+  },
+  "the cure|the top": {
+    "artist": "The Cure",
+    "title": "The Top",
+    "original_year": "1984",
+    "release_type": "Album",
+    "description": "The Top is the fifth studio album by the English rock band the Cure, released on 4 May 1984 by Fiction Records. The album entered the UK Albums Chart at number ten on 12 May. Shortly after its release, the Cure embarked on a major tour of the United Kingdom, culminating in a three-night residency at the Hammersmith Odeon in London.",
+    "source": "https://en.wikipedia.org/wiki/The_Top_(album)",
+    "musicbrainz_id": "06615667-694a-39dd-b2d4-641421b63ba8",
+    "status": "described"
+  },
+  "the cure|kiss me kiss me kiss me": {
+    "artist": "The Cure",
+    "title": "Kiss Me Kiss Me Kiss Me",
+    "original_year": "1987",
+    "release_type": "Album",
+    "description": "Kiss Me, Kiss Me, Kiss Me is the seventh studio album by the English rock band the Cure, released on 26 May 1987 by Fiction Records. This double album was recorded at Studio Miraval in Correns, France. Robert Smith described the album as \"like an end to what we've been doing for the last 10 years. It seemed to be like the singles album—literally a retrospective album. This one is taking bits from everything we've done, all the bits that I've liked. But there's a single album's worth of that and a single album's worth of stuff we've never really attempted before.\"",
+    "source": "https://en.wikipedia.org/wiki/Kiss_Me%2C_Kiss_Me%2C_Kiss_Me",
+    "musicbrainz_id": "ab132c83-097a-33f0-b557-edd6b6ce1c7d",
+    "status": "described"
+  },
+  "deicide|deicide": {
+    "artist": "Deicide",
+    "title": "Deicide",
+    "original_year": "1990",
+    "release_type": "Album",
+    "description": "Deicide is the debut studio album by American death metal band Deicide, released on June 26, 1990 by R/C Records. The album contains all of their demo tracks, plus the songs \"Deicide\" and \"Mephistopheles\".",
+    "source": "https://en.wikipedia.org/wiki/Deicide_(album)",
+    "musicbrainz_id": "a003a8b2-9926-311e-9356-3757e086b2fb",
+    "status": "described"
+  },
+  "r.e.m.|around the sun": {
+    "artist": "R.E.M.",
+    "title": "Around The Sun",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "error"
+  },
+  "jejune|wait a lifetime": {
+    "artist": "Jejune",
+    "title": "Wait A Lifetime",
+    "original_year": "2026",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "ab466a58-8c92-40ec-a858-f7b0f908c6a2",
+    "status": "matched"
+  },
+  "soundgarden|king animal": {
+    "artist": "Soundgarden",
+    "title": "King Animal",
+    "original_year": "2012",
+    "release_type": "Album",
+    "description": "King Animal is the sixth studio album by American rock band Soundgarden, released on November 13, 2012, through Universal Republic and Loma Vista Recordings in North America and Vertigo Records elsewhere. Produced by the band alongside Adam Kasper, King Animal was Soundgarden's first studio album in 16 years, following Down on the Upside (1996), and their final studio album to be released prior to the death of frontman Chris Cornell in 2017 and the dissolution of the band the following year.",
+    "source": "https://en.wikipedia.org/wiki/King_Animal",
+    "musicbrainz_id": "e825adf8-14e0-4778-837f-afbc6ad60540",
+    "status": "described"
+  },
+  "the cure|disintegration": {
+    "artist": "The Cure",
+    "title": "Disintegration",
+    "original_year": "1989",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "494bf606-d2f7-36d0-8340-eadad8601d2b",
+    "status": "matched"
   }
 }

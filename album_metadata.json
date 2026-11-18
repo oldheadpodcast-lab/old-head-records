@@ -1458,5 +1458,255 @@
     "source": "https://en.wikipedia.org/wiki/Box_Frenzy",
     "musicbrainz_id": "1791967f-feff-3796-9d0a-cd0d86179510",
     "status": "described"
+  },
+  "failure|location lost": {
+    "artist": "Failure",
+    "title": "Location Lost",
+    "original_year": "2026",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "72ecbcfe-d540-4c64-9d35-fe2da697718d",
+    "status": "matched"
+  },
+  "various|jesus christ superstar (the original motion picture sound track album)": {
+    "artist": "Various",
+    "title": "Jesus Christ Superstar (The Original Motion Picture Sound Track Album)",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "r.e.m.|radio song": {
+    "artist": "R.E.M.",
+    "title": "Radio Song",
+    "original_year": "1991",
+    "release_type": "Single",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "c549476c-9e21-3389-8b1c-72576df889f9",
+    "status": "matched"
+  },
+  "they might be giants|apollo 18": {
+    "artist": "They Might Be Giants",
+    "title": "Apollo 18",
+    "original_year": "1992",
+    "release_type": "Album",
+    "description": "Apollo 18 is the fourth studio album by American alternative rock duo They Might Be Giants, released in 1992. It was released through Elektra Records and was named after the canceled Apollo 18 mission. The album was also associated with International Space Year, for which They Might Be Giants were declared the official \"musical ambassadors\" by NASA.",
+    "source": "https://en.wikipedia.org/wiki/Apollo_18_(album)",
+    "musicbrainz_id": "7f0b1873-cab0-38c3-8ae2-9d9b03bd1d31",
+    "status": "described"
+  },
+  "veruca salt|eight arms to hold you": {
+    "artist": "Veruca Salt",
+    "title": "Eight Arms To Hold You",
+    "original_year": "1997",
+    "release_type": "Album",
+    "description": "Eight Arms to Hold You is the second studio album by alternative rock band Veruca Salt. It was released on February 11, 1997, through Outpost/Geffen Records.",
+    "source": "https://en.wikipedia.org/wiki/Eight_Arms_to_Hold_You",
+    "musicbrainz_id": "dfe06cd6-a36f-35df-b10c-79cd1ae1e893",
+    "status": "described"
+  },
+  "melvins, napalm death|savage imperial death march": {
+    "artist": "Melvins, Napalm Death",
+    "title": "Savage Imperial Death March",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "nervosa|slave machine": {
+    "artist": "Nervosa",
+    "title": "Slave Machine",
+    "original_year": "2026",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "cb3f8de5-56fc-46b8-af00-bc323ddc80ad",
+    "status": "matched"
+  },
+  "beck|mellow gold": {
+    "artist": "Beck",
+    "title": "Mellow Gold",
+    "original_year": "1994",
+    "release_type": "Album",
+    "description": "Mellow Gold is the third studio album by American musician Beck, released on March 1, 1994, by DGC Records as Beck's major label debut album. Critics noted the album's hybrid of various styles including rock, hip-hop, folk, blues, psychedelia, and country, as well as ironic and witty lyrics. Mellow Gold's anti-commercial attitude led to the album becoming an unexpected commercial success, peaking at number thirteen in the United States, and eventually being certified platinum. As of July 2008, Mellow Gold has sold over 1.2 million copies in the United States.",
+    "source": "https://en.wikipedia.org/wiki/Mellow_Gold",
+    "musicbrainz_id": "4f8bb33f-9e2d-34dc-8852-5d591cc104d8",
+    "status": "described"
+  },
+  "jesus jones|doubt": {
+    "artist": "Jesus Jones",
+    "title": "Doubt",
+    "original_year": "1991",
+    "release_type": "Album",
+    "description": "Doubt is the second album by British rock band Jesus Jones, released on 21 January 1991 through Food Records. The label witnessed the success of their debut album Liquidizer (1989) and wanted more hit-sounding music from the band. Frontman Mike Edwards wrote new material on their tour bus and in hotel rooms; they recorded some of it in early 1990, before touring resumed. After the conclusion of a tour of the United Kingdom, the band spent a week in May 1990 recording the bulk of their next album at Matrix Studios in London. Edwards produced the majority of the tracks, with Food Records co-founder Andy Ross and Martyn Phillips producing one song each.",
+    "source": "https://en.wikipedia.org/wiki/Doubt_(album)",
+    "musicbrainz_id": "d87a6405-ab32-3f1c-8683-dff34a23e56a",
+    "status": "described"
+  },
+  "r.e.m.|the one i love": {
+    "artist": "R.E.M.",
+    "title": "The One I Love",
+    "original_year": "1987",
+    "release_type": "Single",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "ffe08a9a-e7e1-3c58-a6af-93616138a95a",
+    "status": "matched"
+  },
+  "r.e.m.|finest worksong": {
+    "artist": "R.E.M.",
+    "title": "Finest Worksong",
+    "original_year": "1988",
+    "release_type": "Single",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "e967ba57-f23c-3048-bbfb-fb7cb097506c",
+    "status": "matched"
+  },
+  "ultra vivid scene|special one": {
+    "artist": "Ultra Vivid Scene",
+    "title": "Special One",
+    "original_year": "1990",
+    "release_type": "EP",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "98b2ecd4-2170-306b-ad6d-bed0ecf18c8a",
+    "status": "matched"
+  },
+  "ultra vivid scene|staring at the sun": {
+    "artist": "Ultra Vivid Scene",
+    "title": "Staring At The Sun",
+    "original_year": "1990",
+    "release_type": "EP",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "a0f906fb-6637-3ab4-9026-d1249e5c2c31",
+    "status": "matched"
+  },
+  "jesus jones|liquidizer": {
+    "artist": "Jesus Jones",
+    "title": "Liquidizer",
+    "original_year": "1989",
+    "release_type": "Album",
+    "description": "Liquidizer is the debut album by British rock band Jesus Jones, released in October 1989 through Food Records. After various line-up changes, the members of the band moved to London, where frontman Mike Edwards would diversify his musical tastes. Guitarist Jerry de Borg joined soon after; in May 1988, Edwards acquired a sampler which would further his songwriting. With the addition of keyboardist Iain Baker, the band signed to Food Records by the end of the year. Initially enthusiastic about working with producer David Motion, recording sessions with him were fruitless. Craig Leon then produced Liquidizer in mid-1989, helping to give the album its signature tone, though the members would later be disappointed by the mixing.",
+    "source": "https://en.wikipedia.org/wiki/Liquidizer_(album)",
+    "musicbrainz_id": "52c71dd6-605f-3139-9381-ad7ba1892364",
+    "status": "described"
+  },
+  "cannibal corpse|kill": {
+    "artist": "Cannibal Corpse",
+    "title": "Kill",
+    "original_year": "2006",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "0ec40692-3e74-375a-abd4-e4ad8d6eb3f9",
+    "status": "matched"
+  },
+  "cannibal corpse|the wretched spawn": {
+    "artist": "Cannibal Corpse",
+    "title": "The Wretched Spawn",
+    "original_year": "2004",
+    "release_type": "Album",
+    "description": "The Wretched Spawn is the ninth studio album by American death metal band Cannibal Corpse. It was released on February 24, 2004 by Metal Blade Records. The cover art is by Vincent Locke. This is the last studio album to feature guitarist Jack Owen, one of the band's founding members, and up to the 2012 album Torture, the last with an album cover depicting violence and gore. The album was distributed with a making-of DVD produced by Nick Sahakian. The Wretched Spawn is Cannibal Corpse's fourth album to be named after one of the tracks on the album, after Butchered at Birth, The Bleeding and Gallery of Suicide.",
+    "source": "https://en.wikipedia.org/wiki/The_Wretched_Spawn",
+    "musicbrainz_id": "1ff09aa6-3257-3c75-aca6-1217eb9cd730",
+    "status": "described"
+  },
+  "ned's atomic dustbin|are you normal?": {
+    "artist": "Ned's Atomic Dustbin",
+    "title": "Are You Normal?",
+    "original_year": "1992",
+    "release_type": "Album",
+    "description": "Are You Normal? is the second studio album by English rock band Ned's Atomic Dustbin, released on 3 November 1992 by Columbia Records. It features the band's biggest American hit \"Not Sleeping Around\", which hit the top of Billboard's Modern Rock Tracks chart.",
+    "source": "https://en.wikipedia.org/wiki/Are_You_Normal%3F",
+    "musicbrainz_id": "73d2fb32-127a-3a46-8143-55f5bedb4d48",
+    "status": "described"
+  },
+  "ultra vivid scene|joy 1967-1990": {
+    "artist": "Ultra Vivid Scene",
+    "title": "Joy 1967-1990",
+    "original_year": "1990",
+    "release_type": "Album",
+    "description": "Joy 1967–1990 is the second album by Ultra Vivid Scene, released in 1990.",
+    "source": "https://en.wikipedia.org/wiki/Joy_1967%E2%80%931990",
+    "musicbrainz_id": "270f498c-5581-3ffa-bb87-1e41066a061a",
+    "status": "described"
+  },
+  "ursula|i don't like anything": {
+    "artist": "Ursula",
+    "title": "I Don't Like Anything",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "bleeth|marionette": {
+    "artist": "Bleeth",
+    "title": "Marionette",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "af2dc973-8027-42a3-98f0-a9f1ccf7acb4",
+    "status": "matched"
+  },
+  "piebald|if it weren't for venetian blinds, it would be curtains for us all": {
+    "artist": "Piebald",
+    "title": "If It Weren't For Venetian Blinds, It Would Be Curtains For Us All",
+    "original_year": "1999",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "8eb9db60-2d08-3d67-b222-f17d8b0a14bb",
+    "status": "matched"
+  },
+  "ned's atomic dustbin|god fodder": {
+    "artist": "Ned's Atomic Dustbin",
+    "title": "God Fodder",
+    "original_year": "1991",
+    "release_type": "Album",
+    "description": "God Fodder is the debut studio album by English rock band Ned's Atomic Dustbin, released on 1 April 1991 by Columbia Records. After creating their own imprint following the success of several prior independent singles, the band recorded the album from December 1990 to January 1991 in London. Musically, God Fodder takes large influence from grebo, shoegaze, noise pop, and dance music, characterized by noisy guitars, complex drum beats, and its usage of two bass players, with Matt Cheslin playing regular bass lines and Alex Griffin playing harmonic bass lines. Lyrically, the album features communal efforts written by all the band.",
+    "source": "https://en.wikipedia.org/wiki/God_Fodder",
+    "musicbrainz_id": "3466db0b-7654-3006-9ec9-23a038816aa7",
+    "status": "described"
+  },
+  "gene loves jezebel|the house of dolls": {
+    "artist": "Gene Loves Jezebel",
+    "title": "The House Of Dolls",
+    "original_year": "1987",
+    "release_type": "Album",
+    "description": "The House of Dolls is the fourth album by the British band Gene Loves Jezebel, released in 1987. It was the last Gene Loves Jezebel album the Aston brothers recorded together. The first single was \"Motion of Love\". The band supported the album with a North American tour that included shows with Flesh for Lulu. It peaked at No. 108 on the Billboard 200 and No. 81 on the UK Albums Chart. \"Twenty Killer Hurts\" appeared in an episode of Miami Vice.",
+    "source": "https://en.wikipedia.org/wiki/The_House_of_Dolls_(album)",
+    "musicbrainz_id": "b9516182-fb8a-38b6-ac4f-a9cc2ae006c9",
+    "status": "described"
+  },
+  "hot mulligan|i won't reach out to you": {
+    "artist": "Hot Mulligan",
+    "title": "I Won't Reach Out To You",
+    "original_year": "2021",
+    "release_type": "EP",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "7c3f2bb1-b02b-4e22-9b9d-49046c527364",
+    "status": "matched"
+  },
+  "cryptic shift|overspace & supertime": {
+    "artist": "Cryptic Shift",
+    "title": "Overspace & Supertime",
+    "original_year": "2026",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "ee12df2d-d2bc-4798-bb47-a58057a30d18",
+    "status": "matched"
   }
 }

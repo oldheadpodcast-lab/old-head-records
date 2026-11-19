@@ -1708,5 +1708,255 @@
     "source": "",
     "musicbrainz_id": "ee12df2d-d2bc-4798-bb47-a58057a30d18",
     "status": "matched"
+  },
+  "xentrix|scourge": {
+    "artist": "Xentrix",
+    "title": "Scourge",
+    "original_year": "1996",
+    "release_type": "Album",
+    "description": "Scourge is the fourth studio album by British thrash metal band Xentrix. It was released in 1996 through Heavy Metal Records. It is the only album to feature vocalist Simon Gordon and guitarist Andy Rudd, and their final one with bassist Paul \"Macka\" MacKenzie. The album goes into a more groove metal style that was very popular at the time. It was Xentrix's final studio album for more than two decades, until the release of Bury the Pain in 2019.",
+    "source": "https://en.wikipedia.org/wiki/Scourge_(album)",
+    "musicbrainz_id": "edae9f4a-6757-3537-9761-0332aeebf4db",
+    "status": "described"
+  },
+  "weird nightmare|weird nightmare": {
+    "artist": "Weird Nightmare",
+    "title": "Weird Nightmare",
+    "original_year": "2022",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "156e3e55-1970-40d9-a639-91bd15e4ba65",
+    "status": "matched"
+  },
+  "girls against boys|venus luxure no.1 baby": {
+    "artist": "Girls Against Boys",
+    "title": "Venus Luxure No.1 Baby",
+    "original_year": "1993",
+    "release_type": "Album",
+    "description": "Venus Luxure No. 1 Baby is the second studio album by the indie rock band Girls Against Boys. It was released in 1993 on Touch and Go Records.",
+    "source": "https://en.wikipedia.org/wiki/Venus_Luxure_No._1_Baby",
+    "musicbrainz_id": "2354a012-7614-349e-9fa5-0ea5f2918cbc",
+    "status": "described"
+  },
+  "r.e.m.|s. central rain (i'm sorry)": {
+    "artist": "R.E.M.",
+    "title": "S. Central Rain (I'm Sorry)",
+    "original_year": "1984",
+    "release_type": "Single",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "787a2f5e-04e9-3468-912e-4fb3061577d6",
+    "status": "matched"
+  },
+  "r.e.m.|everybody hurts": {
+    "artist": "R.E.M.",
+    "title": "Everybody Hurts",
+    "original_year": "1993",
+    "release_type": "Single",
+    "description": "\"Everybody Hurts\" is a song by American rock band R.E.M. from their eighth studio album, Automatic for the People (1992), and released as a single in April 1993 by Warner Bros. Records. It was written by the band and produced by them with Scott Litt. The song peaked at number 29 on the US Billboard Hot 100 and number 18 on the Cash Box Top 100. It also reached the top 10 on the charts of Australia, Canada, France, Iceland, Ireland, Israel, the Netherlands, Panama, and the United Kingdom. Its accompanying music video, directed by Jake Scott and filmed in San Antonio, Texas, won an award for Best Clip of the Year in the category for Pop/AC at the 1994 Billboard Music Video Awards.",
+    "source": "https://en.wikipedia.org/wiki/Everybody_Hurts",
+    "musicbrainz_id": "a6b2a2d1-8e67-30fd-aab6-6f0e135d9708",
+    "status": "described"
+  },
+  "r.e.m.|wendell gee": {
+    "artist": "R.E.M.",
+    "title": "Wendell Gee",
+    "original_year": "1985",
+    "release_type": "Single",
+    "description": "\"Wendell Gee\" is a song by the American alternative rock band R.E.M. that was released as the third and final single from the group's third studio album Fables of the Reconstruction in 1985. It was released in Europe only, in two 7\" and two 12\" formats.",
+    "source": "https://en.wikipedia.org/wiki/Wendell_Gee",
+    "musicbrainz_id": "645bc3c1-6045-48b9-a6a8-70554cba52f6",
+    "status": "described"
+  },
+  "r.e.m.|box set: singleactiongreen": {
+    "artist": "R.E.M.",
+    "title": "Box Set: Singleactiongreen",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "chat pile|masks": {
+    "artist": "Chat Pile",
+    "title": "Masks",
+    "original_year": "2026",
+    "release_type": "Single",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "0092ab0d-3e33-40a5-b91d-b5064392b1a3",
+    "status": "matched"
+  },
+  "various|state of the union - dc benefit compilation": {
+    "artist": "Various",
+    "title": "State Of The Union - DC Benefit Compilation",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "gene loves jezebel|kiss of life": {
+    "artist": "Gene Loves Jezebel",
+    "title": "Kiss Of Life",
+    "original_year": "1990",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "fddd2dab-602a-3481-ba9d-dfd2235812a0",
+    "status": "matched"
+  },
+  "entombed|to ride, shoot straight and speak the truth": {
+    "artist": "Entombed",
+    "title": "To Ride, Shoot Straight And Speak The Truth",
+    "original_year": "2014",
+    "release_type": "EP",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "8e383479-b57b-4c28-b042-2b0d41a83249",
+    "status": "matched"
+  },
+  "stabbing|eon of obscenity": {
+    "artist": "Stabbing",
+    "title": "Eon Of Obscenity",
+    "original_year": "2026",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "5d3ad96e-d5d6-4be3-8b95-34f58fe859c7",
+    "status": "matched"
+  },
+  "alice in chains|alice in chains": {
+    "artist": "Alice In Chains",
+    "title": "Alice In Chains",
+    "original_year": "1989",
+    "release_type": "Album",
+    "description": "Alice in Chains is the third studio album by the American rock band Alice in Chains. It was released on vinyl LP on October 31, 1995, through Columbia Records, and in other formats on November 7. The album is the follow-up to Dirt (1992), the group's commercial breakthrough. Alice in Chains is the group's final album featuring the original lead vocalist Layne Staley, who died in 2002, and their first with bassist Mike Inez, who replaced Mike Starr in 1993.",
+    "source": "https://en.wikipedia.org/wiki/Alice_in_Chains_(album)",
+    "musicbrainz_id": "5918ad2b-91e7-4edd-b8e9-dfb57afa0f80",
+    "status": "described"
+  },
+  "r.e.m.|reveal": {
+    "artist": "R.E.M.",
+    "title": "Reveal",
+    "original_year": "2001",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "6f285675-2ae8-3a6c-883a-0e29f8a6d1c6",
+    "status": "matched"
+  },
+  "girls against boys|cruise yourself": {
+    "artist": "Girls Against Boys",
+    "title": "Cruise Yourself",
+    "original_year": "1994",
+    "release_type": "Album",
+    "description": "Cruise Yourself is the third studio album by the American post-hardcore band Girls Against Boys, released in October 1994 by the record label Touch and Go.",
+    "source": "https://en.wikipedia.org/wiki/Cruise_Yourself",
+    "musicbrainz_id": "9f4f247a-33de-3144-987b-78456ba51ac7",
+    "status": "described"
+  },
+  "megadeth|megadeth": {
+    "artist": "Megadeth",
+    "title": "Megadeth",
+    "original_year": "2026",
+    "release_type": "Album",
+    "description": "Megadeth is the seventeenth and final studio album by the American thrash metal band Megadeth. Produced by Dave Mustaine and Chris Rakestraw, the album was released on January 23, 2026. It is Megadeth's only album with guitarist Teemu Mäntysaari, and their first since 2009's Endgame to feature bassist James LoMenzo.",
+    "source": "https://en.wikipedia.org/wiki/Megadeth_(album)",
+    "musicbrainz_id": "cd6f4a73-a18f-405e-8067-0f3bcdf6cac2",
+    "status": "described"
+  },
+  "cryptic shift|visitations from enceladus": {
+    "artist": "Cryptic Shift",
+    "title": "Visitations From Enceladus",
+    "original_year": "2020",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "b460561a-438c-4366-b1af-38b37262a134",
+    "status": "matched"
+  },
+  "run-dmc|tougher than leather": {
+    "artist": "Run-DMC",
+    "title": "Tougher Than Leather",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "the afghan whigs|gentlemen": {
+    "artist": "The Afghan Whigs",
+    "title": "Gentlemen",
+    "original_year": "1993",
+    "release_type": "Album",
+    "description": "Gentlemen is the fourth studio album by American alternative rock band The Afghan Whigs. It was recorded primarily at Ardent Studios in Memphis, with the band's frontman Greg Dulli producing, and released on October 5, 1993, by Elektra Records.",
+    "source": "https://en.wikipedia.org/wiki/Gentlemen_(album)",
+    "musicbrainz_id": "3b27e8ac-c904-3b1e-a4a9-920c79664dfa",
+    "status": "described"
+  },
+  "dance hall crashers|honey, i'm homely!": {
+    "artist": "Dance Hall Crashers",
+    "title": "Honey, I'm Homely!",
+    "original_year": "1997",
+    "release_type": "Album",
+    "description": "Honey, I'm Homely! is the third studio album by the American ska punk band Dance Hall Crashers. Produced by the band and Stoker, the album was released on September 9, 1997 by MCA Records.",
+    "source": "https://en.wikipedia.org/wiki/Honey%2C_I'm_Homely!",
+    "musicbrainz_id": "5cfc2c40-6ca3-35df-8b88-4b091fd32894",
+    "status": "described"
+  },
+  "iced|don't mean shit": {
+    "artist": "ICED",
+    "title": "Don't Mean Shit",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "merked, malicious algorithm|split": {
+    "artist": "Merked, Malicious Algorithm",
+    "title": "Split",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "merked|murk mob": {
+    "artist": "Merked",
+    "title": "Murk Mob",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "sacred reich|we must kill hitler": {
+    "artist": "Sacred Reich",
+    "title": "We Must Kill Hitler",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "ugly kid joe|rad wings of destiny": {
+    "artist": "Ugly Kid Joe",
+    "title": "Rad Wings Of Destiny",
+    "original_year": "2022",
+    "release_type": "Album",
+    "description": "Rad Wings of Destiny is the fifth album by the American rock band Ugly Kid Joe, released on October 21, 2022.",
+    "source": "https://en.wikipedia.org/wiki/Rad_Wings_of_Destiny",
+    "musicbrainz_id": "a194bfee-8802-49c2-9d15-4cee9c3c3b43",
+    "status": "described"
   }
 }

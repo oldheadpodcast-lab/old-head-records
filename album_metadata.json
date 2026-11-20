@@ -1958,5 +1958,255 @@
     "source": "https://en.wikipedia.org/wiki/Rad_Wings_of_Destiny",
     "musicbrainz_id": "a194bfee-8802-49c2-9d15-4cee9c3c3b43",
     "status": "described"
+  },
+  "social unrest|before the fall": {
+    "artist": "Social Unrest",
+    "title": "Before The Fall",
+    "original_year": "1986",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "35e53344-3756-4c3c-884b-8dd5b3828965",
+    "status": "matched"
+  },
+  "various|iron eagle (original motion picture soundtrack)": {
+    "artist": "Various",
+    "title": "Iron Eagle (Original Motion Picture Soundtrack)",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "kingshifter|woes of the abysmal": {
+    "artist": "Kingshifter",
+    "title": "Woes Of The Abysmal",
+    "original_year": "2011",
+    "release_type": "EP",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "f6a12c65-e9bd-4aa8-b80d-433779891aed",
+    "status": "matched"
+  },
+  "nirvana|1991 the year grunge broke": {
+    "artist": "Nirvana",
+    "title": "1991 The Year Grunge Broke",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "devo|q: are we not men? a: we are devo!": {
+    "artist": "Devo",
+    "title": "Q: Are We Not Men? A: We Are Devo!",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "error"
+  },
+  "hüsker dü|zen arcade": {
+    "artist": "Hüsker Dü",
+    "title": "Zen Arcade",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "error"
+  },
+  "system of a down|mezmerize": {
+    "artist": "System Of A Down",
+    "title": "Mezmerize",
+    "original_year": "2005",
+    "release_type": "Album",
+    "description": "Mezmerize is the fourth studio album by the Armenian-American heavy metal band System of a Down, released on May 17, 2005, by American Recordings and Columbia Records. Upon its release, the album received acclaim from critics. The album sold over 450,000 copies within the first week, and immediately topped the Billboard 200.",
+    "source": "https://en.wikipedia.org/wiki/Mezmerize",
+    "musicbrainz_id": "8d18c070-adea-353f-a089-cbd2543342dd",
+    "status": "described"
+  },
+  "oingo boingo|skeletons in the closet: the best of oingo boingo": {
+    "artist": "Oingo Boingo",
+    "title": "Skeletons In The Closet: The Best Of Oingo Boingo",
+    "original_year": "1989",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "835f90ae-8724-3c7d-8464-89c2deb25db5",
+    "status": "matched"
+  },
+  "my chemical romance|three cheers for sweet revenge": {
+    "artist": "My Chemical Romance",
+    "title": "Three Cheers For Sweet Revenge",
+    "original_year": "2004",
+    "release_type": "Album",
+    "description": "Three Cheers for Sweet Revenge is the second studio album by the American rock band My Chemical Romance, released on June 8, 2004, by Reprise Records. The album was produced by Howard Benson, and was written and recorded from late 2003 to March 2004. Writing sessions were highly influenced by the mental health and personal lives of the band members, particularly the death of Gerard and Mikey Way's grandmother.",
+    "source": "https://en.wikipedia.org/wiki/Three_Cheers_for_Sweet_Revenge",
+    "musicbrainz_id": "1d563513-87dc-308f-8bac-418fab4054cf",
+    "status": "described"
+  },
+  "korn|untitled": {
+    "artist": "Korn",
+    "title": "Untitled",
+    "original_year": "2007",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "4ee42fb0-056a-38bf-8a89-e4cf8e4a57ed",
+    "status": "matched"
+  },
+  "cake|comfort eagle": {
+    "artist": "Cake",
+    "title": "Comfort Eagle",
+    "original_year": "2001",
+    "release_type": "Album",
+    "description": "Comfort Eagle is the fourth studio album by American alternative rock band Cake. It was released on July 24, 2001, on Columbia Records, their first with the company.",
+    "source": "https://en.wikipedia.org/wiki/Comfort_Eagle",
+    "musicbrainz_id": "cdb7197f-ed14-3238-a402-d0e554bcc0c8",
+    "status": "described"
+  },
+  "ghost|impera": {
+    "artist": "Ghost",
+    "title": "Impera",
+    "original_year": "2022",
+    "release_type": "Album",
+    "description": "Impera is the fifth studio album by the Swedish rock band Ghost. Released on 11 March 2022, it was produced by Klas Åhlund who also produced the band's 2015 album, Meliora. The release of Impera was preceded by three singles: the first, \"Hunter's Moon\", was released on 30 September 2021 in support of the 2021 slasher film Halloween Kills with a version being a part of the film's closing credits; the second single, \"Call Me Little Sunshine\", was released on 20 January 2022 and the third, \"Twenties\", was released on 2 March 2022.",
+    "source": "https://en.wikipedia.org/wiki/Impera",
+    "musicbrainz_id": "e828c3f0-b766-4c25-9c23-067095165a5d",
+    "status": "described"
+  },
+  "radiohead|hail to the thief": {
+    "artist": "Radiohead",
+    "title": "Hail To The Thief",
+    "original_year": "2003",
+    "release_type": "Album",
+    "description": "Hail to the Thief is the sixth studio album by the English rock band Radiohead. It was released on 9 June 2003 through Parlophone internationally, and through Capitol Records in the United States on 10 June. It was the last album released under Radiohead's record contract with EMI, the parent company of Parlophone and Capitol.",
+    "source": "https://en.wikipedia.org/wiki/Hail_to_the_Thief",
+    "musicbrainz_id": "5c14fd50-a2f1-3672-9537-b0dad91bea2f",
+    "status": "described"
+  },
+  "bob mould|blue hearts": {
+    "artist": "Bob Mould",
+    "title": "Blue Hearts",
+    "original_year": "2020",
+    "release_type": "Album",
+    "description": "Blue Hearts is the 14th solo album by the American alternative rock musician Bob Mould, released in 2020. Mould considered the tracks to be protest songs.",
+    "source": "https://en.wikipedia.org/wiki/Blue_Hearts_(album)",
+    "musicbrainz_id": "f9ee77bd-34f2-4703-82be-293fb838210a",
+    "status": "described"
+  },
+  "walking wounded|bend the knee / pray for death": {
+    "artist": "Walking Wounded",
+    "title": "Bend The Knee / Pray For Death",
+    "original_year": "2025",
+    "release_type": "Single",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "c45aa979-c622-414b-b2dc-2667e3d5c72a",
+    "status": "matched"
+  },
+  "cephalic carnage|exploiting dysfunction": {
+    "artist": "Cephalic Carnage",
+    "title": "Exploiting Dysfunction",
+    "original_year": "2000",
+    "release_type": "Album",
+    "description": "Exploiting Dysfunction is Cephalic Carnage's second full-length album. It was released on April 18, 2000, by Relapse Records.",
+    "source": "https://en.wikipedia.org/wiki/Exploiting_Dysfunction",
+    "musicbrainz_id": "8feb256f-1211-3b7c-b369-9e41ccfddd18",
+    "status": "described"
+  },
+  "r.e.m.|monster": {
+    "artist": "R.E.M.",
+    "title": "Monster",
+    "original_year": "1994",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "2a71baeb-0c95-3d3a-aef9-8d5fe17a8038",
+    "status": "matched"
+  },
+  "superheaven|superheaven": {
+    "artist": "Superheaven",
+    "title": "Superheaven",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "Superheaven is the third studio album by American alternative rock band Superheaven, released on April 18, 2025. The album marks the band's return after their previous hiatus and is their first album in 10 years, following 2015's Ours Is Chrome.",
+    "source": "https://en.wikipedia.org/wiki/Superheaven_(album)",
+    "musicbrainz_id": "7c3d8c69-59e2-49f4-9d12-e4833f92d545",
+    "status": "described"
+  },
+  "dangerous toys|demolition": {
+    "artist": "Dangerous Toys",
+    "title": "Demolition",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "4b8da1f5-089c-4484-96ff-d8ebf8675794",
+    "status": "matched"
+  },
+  "no use for a name|making friends": {
+    "artist": "No Use For A Name",
+    "title": "Making Friends",
+    "original_year": "1997",
+    "release_type": "Album",
+    "description": "Making Friends is the fourth studio album by punk rock band No Use for a Name, released in 1997. It also includes a hidden track cover of the Kiss song \"Beth\". At the end of \"Beth\" the band starts to play \"Soulmate\" but gets interrupted by Tony Sly.\n\"Fields of Athenry\" is an Irish folk ballad which has been covered by many other bands such as Dropkick Murphys & The Dubliners.",
+    "source": "https://en.wikipedia.org/wiki/Making_Friends_(album)",
+    "musicbrainz_id": "bc94cf93-c32f-3f53-85a8-68a1d0cd8446",
+    "status": "described"
+  },
+  "scorching tomb|ossuary": {
+    "artist": "Scorching Tomb",
+    "title": "Ossuary",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "6314bf23-04f2-434f-a44e-0553ef168e17",
+    "status": "matched"
+  },
+  "strung out|suburban teenage wasteland blues": {
+    "artist": "Strung Out",
+    "title": "Suburban Teenage Wasteland Blues",
+    "original_year": "1996",
+    "release_type": "Album",
+    "description": "Suburban Teenage Wasteland Blues is the second album by American punk rock band Strung Out, released by Fat Wreck Chords on April 23, 1996. The title is an amalgamation of Bob Dylan's song \"Subterranean Homesick Blues\" and a phrase from the song \"Baba O'Riley\" by The Who. The album received positive reviews from critics and fans alike.",
+    "source": "https://en.wikipedia.org/wiki/Suburban_Teenage_Wasteland_Blues",
+    "musicbrainz_id": "2dbb4a31-2452-3ce5-9595-c5f63ef248ef",
+    "status": "described"
+  },
+  "various|pump up the volume (music from the original motion picture soundtrack)": {
+    "artist": "Various",
+    "title": "Pump Up The Volume (Music From The Original Motion Picture Soundtrack)",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "various|stranger things: the wsqk collection": {
+    "artist": "Various",
+    "title": "Stranger Things: The WSQK Collection",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "error"
+  },
+  "boyz ii men|legacy (the greatest hits collection)": {
+    "artist": "Boyz II Men",
+    "title": "Legacy (The Greatest Hits Collection)",
+    "original_year": "2001",
+    "release_type": "Album",
+    "description": "Legacy: The Greatest Hits Collection is a 2001 greatest hits LP for R&B group Boyz II Men, released by Universal Records.",
+    "source": "https://en.wikipedia.org/wiki/Legacy%3A_The_Greatest_Hits_Collection",
+    "musicbrainz_id": "ec2a2fb4-fb8b-3c68-8420-1e77142e9520",
+    "status": "described"
   }
 }

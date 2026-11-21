@@ -1,8 +1,36 @@
 {
   "username": "Vinyl.Date.Night",
-  "last_synced": "2026-11-20T17:51:18.377890+00:00",
-  "count": 2575,
+  "last_synced": "2026-11-21T01:51:37.352575+00:00",
+  "count": 2577,
   "records": [
+    {
+      "id": "8373261",
+      "instance_id": "2206588105",
+      "artist": "All (2)",
+      "title": "Percolater",
+      "year": "",
+      "format": "Vinyl",
+      "label": "CRUZ Records",
+      "notes": "",
+      "folder": "1",
+      "cover_image": "https://i.discogs.com/51dMLRHI75VQFd-Rh8ntfmsF_1_Ty4bdstAoanpl_dc/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzNzMy/NjEtMTUwODc5NDc2/My00MDY5LmpwZWc.jpeg",
+      "thumb": "https://i.discogs.com/y0LEpfrJUJ3-J_uEDKAEdUm5kQ6Pned1YfJgRtLSin4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzNzMy/NjEtMTUwODc5NDc2/My00MDY5LmpwZWc.jpeg",
+      "master_id": 63727
+    },
+    {
+      "id": "26488670",
+      "instance_id": "2206586871",
+      "artist": "Bit Brigade",
+      "title": "BATMAN",
+      "year": "2023",
+      "format": "Vinyl",
+      "label": "Hello Sir Records",
+      "notes": "",
+      "folder": "1",
+      "cover_image": "https://i.discogs.com/9Q5fsVozDdpzUDrLPT653dh6r84p8aNRHy59RuT3-VM/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2NDg4/NjcwLTE2NzkzNDk2/OTQtMzk3NS5qcGVn.jpeg",
+      "thumb": "https://i.discogs.com/TudGrBpjaL_2TxugUYwLHOyZZoPP5ZLOnvjGkA7jLJc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2NDg4/NjcwLTE2NzkzNDk2/OTQtMzk3NS5qcGVn.jpeg",
+      "master_id": 3086559
+    },
     {
       "id": "3537510",
       "instance_id": "2206253788",

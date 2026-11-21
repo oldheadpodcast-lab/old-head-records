@@ -2002,22 +2002,22 @@
   "devo|q: are we not men? a: we are devo!": {
     "artist": "Devo",
     "title": "Q: Are We Not Men? A: We Are Devo!",
-    "original_year": "",
-    "release_type": "",
-    "description": "",
-    "source": "",
-    "musicbrainz_id": "",
-    "status": "error"
+    "original_year": "1978",
+    "release_type": "Album",
+    "description": "Q: Are We Not Men? A: We Are Devo! is the debut studio album by American new wave band Devo. It was released in August 1978 on Warner Bros. in North America and Virgin Records in Europe. Produced by Brian Eno, the album was recorded from October 1977 to February 1978, primarily in Cologne, West Germany.",
+    "source": "https://en.wikipedia.org/wiki/Q._Are_We_Not_Men%3F_A%3A_We_Are_Devo!",
+    "musicbrainz_id": "60a754f9-50e1-346a-97db-925a1e2ad7e0",
+    "status": "described"
   },
   "hüsker dü|zen arcade": {
     "artist": "Hüsker Dü",
     "title": "Zen Arcade",
-    "original_year": "",
-    "release_type": "",
-    "description": "",
-    "source": "",
-    "musicbrainz_id": "",
-    "status": "error"
+    "original_year": "1984",
+    "release_type": "Album",
+    "description": "Zen Arcade is the second studio album by American punk rock band Hüsker Dü, released in July 1984 on SST Records. Originally released as a double album on two vinyl LPs, Zen Arcade tells the story of a young boy who runs away from an unfulfilling home life, only to find the world outside is even worse. Zen Arcade and subsequent Hüsker Dü albums were instrumental in the creation of the alternative rock genre, and it is considered by some to be one of the greatest rock albums of all time.",
+    "source": "https://en.wikipedia.org/wiki/Zen_Arcade",
+    "musicbrainz_id": "ce6f4b2d-a51a-35ac-992f-3657e7c531d5",
+    "status": "described"
   },
   "system of a down|mezmerize": {
     "artist": "System Of A Down",
@@ -2197,7 +2197,7 @@
     "description": "",
     "source": "",
     "musicbrainz_id": "",
-    "status": "error"
+    "status": "not_found"
   },
   "boyz ii men|legacy (the greatest hits collection)": {
     "artist": "Boyz II Men",
@@ -2208,5 +2208,225 @@
     "source": "https://en.wikipedia.org/wiki/Legacy%3A_The_Greatest_Hits_Collection",
     "musicbrainz_id": "ec2a2fb4-fb8b-3c68-8420-1e77142e9520",
     "status": "described"
+  },
+  "all|percolater": {
+    "artist": "All",
+    "title": "Percolater",
+    "original_year": "1992",
+    "release_type": "Album",
+    "description": "Percolater is the fourth studio album by the American punk rock band All, released May 12, 1992 through Cruz Records. It was the band's first album recorded after their relocation from Los Angeles to Brookfield, Missouri, and their first studio release recorded outside of California. It was also their last album with singer Scott Reynolds, who left the band after the album's supporting tours. A single and music video were released for the song \"Dot\".",
+    "source": "https://en.wikipedia.org/wiki/Percolater_(album)",
+    "musicbrainz_id": "5c4affb2-2cbd-3724-a22e-b0e1cefb2c8b",
+    "status": "described"
+  },
+  "bit brigade|batman": {
+    "artist": "Bit Brigade",
+    "title": "BATMAN",
+    "original_year": "2022",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "e05a66ac-b406-4c38-9b4c-c6dee9dcee17",
+    "status": "matched"
+  },
+  "backstreet boys|millennium 2.0": {
+    "artist": "Backstreet Boys",
+    "title": "Millennium 2.0",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "selena|dreaming of you": {
+    "artist": "Selena",
+    "title": "Dreaming Of You",
+    "original_year": "1995",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "b00edfa4-ae7a-3580-a904-85682bf6198d",
+    "status": "matched"
+  },
+  "joni mitchell|rolling thunder revue": {
+    "artist": "Joni Mitchell",
+    "title": "Rolling Thunder Revue",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "voïvod|dimension hatröss": {
+    "artist": "Voïvod",
+    "title": "Dimension Hatröss",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "municipal waste|massive aggressive": {
+    "artist": "Municipal Waste",
+    "title": "Massive Aggressive",
+    "original_year": "2009",
+    "release_type": "Album",
+    "description": "Massive Aggressive is the fourth studio album by American thrash metal band Municipal Waste. It was released on August 25, 2009 through Earache Records. The album artwork was done by Andrei Bouzikov, bassist of Deadfall.",
+    "source": "https://en.wikipedia.org/wiki/Massive_Aggressive",
+    "musicbrainz_id": "b432b4c7-1fc5-48b6-869c-a5c76421abc9",
+    "status": "described"
+  },
+  "r.e.m.|up": {
+    "artist": "R.E.M.",
+    "title": "Up",
+    "original_year": "1998",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "d867582f-3e0e-3e64-8418-aadddd53fde5",
+    "status": "matched"
+  },
+  "ugly kid joe|menace to sobriety": {
+    "artist": "Ugly Kid Joe",
+    "title": "Menace To Sobriety",
+    "original_year": "1995",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "658c5e18-5e92-348d-91bb-a34f7cdd6ea3",
+    "status": "matched"
+  },
+  "voodoo glow skulls|who is, this is?": {
+    "artist": "Voodoo Glow Skulls",
+    "title": "Who Is, This Is?",
+    "original_year": "1993",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "00a31288-ab2c-39de-a231-427b2a7e84a8",
+    "status": "matched"
+  },
+  "downset.|downset.": {
+    "artist": "downset.",
+    "title": "downset.",
+    "original_year": "1994",
+    "release_type": "Album",
+    "description": "downset. is the debut studio album by American rapcore band downset. The band's major label debut, it was released on July 12, 1994, by Mercury Records.",
+    "source": "https://en.wikipedia.org/wiki/Downset._(album)",
+    "musicbrainz_id": "c63850b4-827c-3a5a-989e-47a1a3ab0ddd",
+    "status": "described"
+  },
+  "nofx|a to h": {
+    "artist": "NOFX",
+    "title": "A To H",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "7f0638e3-3ea6-44cf-9f09-d9506361e22a",
+    "status": "matched"
+  },
+  "guided by voices|isolation drills": {
+    "artist": "Guided By Voices",
+    "title": "Isolation Drills",
+    "original_year": "2001",
+    "release_type": "Album",
+    "description": "Isolation Drills is the 12th studio album by American indie rock band Guided by Voices. It was their second and final LP released under TVT Records and their second to feature a major rock producer in Rob Schnapf. The album was also their first to chart on the Billboard 200, peaking at number 168. The album notably features instrumental contributions from Elliott Smith and David Sulzer. Previous longtime band member Tobin Sprout also returned as a guest and contributed with playing piano. While Jim MacPherson plays drums on the album, his replacement Jon McCann is featured in the cover photos, as MacPherson had left the band immediately after the recording to focus on his home life.",
+    "source": "https://en.wikipedia.org/wiki/Isolation_Drills",
+    "musicbrainz_id": "34522edb-d889-3456-92cf-890ec38fd8de",
+    "status": "described"
+  },
+  "madonna|bedtime stories (the untold chapter)": {
+    "artist": "Madonna",
+    "title": "Bedtime Stories (The Untold Chapter)",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "error"
+  },
+  "madonna|veronica electronica": {
+    "artist": "Madonna",
+    "title": "Veronica Electronica",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "Veronica Electronica is the fourth remix album by American singer-songwriter Madonna, released on July 25, 2025, through Warner Records. The album title comes from an alter ego, which Madonna created during the Ray of Light era in 1998.",
+    "source": "https://en.wikipedia.org/wiki/Veronica_Electronica",
+    "musicbrainz_id": "c1641838-9cbc-4a82-abb7-83170dce759d",
+    "status": "described"
+  },
+  "metz|automat": {
+    "artist": "Metz",
+    "title": "Automat",
+    "original_year": "2019",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "d5359c67-137c-4d56-9249-fb16082a144d",
+    "status": "matched"
+  },
+  "the mighty mighty bosstones|devils night out": {
+    "artist": "The Mighty Mighty Bosstones",
+    "title": "Devils Night Out",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "drug church|tawny": {
+    "artist": "Drug Church",
+    "title": "Tawny",
+    "original_year": "2021",
+    "release_type": "EP",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "dfb56fa3-6fe8-48fd-bf88-899ea93314ce",
+    "status": "matched"
+  },
+  "brutal truth|end time": {
+    "artist": "Brutal Truth",
+    "title": "End Time",
+    "original_year": "2011",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "affc5f56-d014-4435-bf92-5dbd16e9bb99",
+    "status": "matched"
+  },
+  "metallica|live at the hammersmith odeon (london september 21, 1986)": {
+    "artist": "Metallica",
+    "title": "Live At The Hammersmith Odeon (London September 21, 1986)",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "metz|metz": {
+    "artist": "Metz",
+    "title": "Metz",
+    "original_year": "2012",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "aa735a6c-946c-4ad5-b753-8209550a145e",
+    "status": "matched"
+  },
+  "chat pile|live at roadburn 2023": {
+    "artist": "Chat Pile",
+    "title": "Live At Roadburn 2023",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "error"
   }
 }

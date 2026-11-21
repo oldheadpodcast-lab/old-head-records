@@ -2342,12 +2342,12 @@
   "madonna|bedtime stories (the untold chapter)": {
     "artist": "Madonna",
     "title": "Bedtime Stories (The Untold Chapter)",
-    "original_year": "",
-    "release_type": "",
-    "description": "",
-    "source": "",
-    "musicbrainz_id": "",
-    "status": "error"
+    "original_year": "2025",
+    "release_type": "EP",
+    "description": "Bedtime Stories: The Untold Chapter is an EP by American singer-songwriter Madonna, released on November 28, 2025, through Warner Records. The release commemorates the 30th anniversary of her sixth studio album, Bedtime Stories (1994). The EP \"trace[s] the evolution of Bedtime Stories' lush, R&B-influenced sound\".",
+    "source": "https://en.wikipedia.org/wiki/Bedtime_Stories%3A_The_Untold_Chapter",
+    "musicbrainz_id": "adff3218-9b31-4112-b2e4-fc65ab0ddd07",
+    "status": "described"
   },
   "madonna|veronica electronica": {
     "artist": "Madonna",
@@ -2422,11 +2422,241 @@
   "chat pile|live at roadburn 2023": {
     "artist": "Chat Pile",
     "title": "Live At Roadburn 2023",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "928d4401-1d4a-41f6-b989-14015922aac4",
+    "status": "matched"
+  },
+  "brutal truth|evolution through revolution": {
+    "artist": "Brutal Truth",
+    "title": "Evolution Through Revolution",
+    "original_year": "2009",
+    "release_type": "Album",
+    "description": "Evolution Through Revolution is the fifth studio album by grindcore band Brutal Truth. This was the band's first album since 1997, recorded after an eight-year hiatus. Evolution Through Revolution was released on April 14, 2009. It sold around 1000 copies in its first week, and debuted at No. 65 on the Top New Artist Albums (Heatseekers) chart.",
+    "source": "https://en.wikipedia.org/wiki/Evolution_Through_Revolution",
+    "musicbrainz_id": "21d9ebb4-2a47-48c7-b8ee-e7be26140211",
+    "status": "described"
+  },
+  "metallica|load": {
+    "artist": "Metallica",
+    "title": "Load",
+    "original_year": "1996",
+    "release_type": "Album",
+    "description": "Load is the sixth studio album by American heavy metal band Metallica, released on June 4, 1996, through Elektra Records in the United States and Vertigo Records internationally. It was recorded between May 1995 and April 1996 primarily in Sausalito, California, with additional sessions in New York City. Bob Rock returned as producer, having previously produced their fifth studio album, Metallica, in 1991. Compared to previous albums, the recording sessions were more relaxed and productive, resulting in almost 30 songs being recorded. While a double album was considered, the band decided to split the material into two albums; half appeared on Load, and the other half was released as Reload the following year.",
+    "source": "https://en.wikipedia.org/wiki/Load_(album)",
+    "musicbrainz_id": "e389b7df-862d-3d91-a612-acca150f6e71",
+    "status": "described"
+  },
+  "metz|ii": {
+    "artist": "Metz",
+    "title": "II",
+    "original_year": "2015",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "012b0b15-f0a1-4676-9571-227961f03cfb",
+    "status": "matched"
+  },
+  "metz|strange peace": {
+    "artist": "Metz",
+    "title": "Strange Peace",
+    "original_year": "2017",
+    "release_type": "Album",
+    "description": "Strange Peace is the third studio album by Canadian noise rock three-piece band Metz. It was released on September 22, 2017, through Sub Pop. The live-to-tape recording sessions took place at Electrical Audio in Chicago with Steve Albini, at the Woodshed in Toronto and at Basketball 4 Life with Graham Walsh, and at the Nursery with member Alex Edkins. The album was produced by the band.",
+    "source": "https://en.wikipedia.org/wiki/Strange_Peace",
+    "musicbrainz_id": "2a8a6e2e-9bf2-481b-b253-4cc0c8f7953f",
+    "status": "described"
+  },
+  "chat pile, hayden pedigo|in the earth again": {
+    "artist": "Chat Pile, Hayden Pedigo",
+    "title": "In The Earth Again",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "soulfly|chama": {
+    "artist": "Soulfly",
+    "title": "Chama",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "Chama is the thirteenth studio album by the American heavy metal band Soulfly, released on October 24, 2025, via Nuclear Blast Records. Vocalist and rhythm guitarist, Max Cavalera, described the album as a \"fast, heavy, spiritual, and raw\" revival of the band's \"tribal groove metal sound\". It is the band's shortest studio album to date, running at just thirty-two and a half minutes.",
+    "source": "https://en.wikipedia.org/wiki/Chama_(album)",
+    "musicbrainz_id": "41073989-c431-4dd6-bf8c-b0b585fbcda9",
+    "status": "described"
+  },
+  "drug church|hygiene": {
+    "artist": "Drug Church",
+    "title": "Hygiene",
     "original_year": "",
     "release_type": "",
     "description": "",
     "source": "",
     "musicbrainz_id": "",
     "status": "error"
+  },
+  "drug church|prude": {
+    "artist": "Drug Church",
+    "title": "Prude",
+    "original_year": "2024",
+    "release_type": "Album",
+    "description": "Prude is the fifth studio album by American post-hardcore band Drug Church. The album was released on October 4, 2024, through Pure Noise Records.",
+    "source": "https://en.wikipedia.org/wiki/Prude_(album)",
+    "musicbrainz_id": "5e3277f6-1e99-4333-9c4f-88c20cb43ff7",
+    "status": "described"
+  },
+  "drug church|cheer": {
+    "artist": "Drug Church",
+    "title": "Cheer",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "error"
+  },
+  "nuclear assault|the plague": {
+    "artist": "Nuclear Assault",
+    "title": "The Plague",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "error"
+  },
+  "brutal truth|need to control": {
+    "artist": "Brutal Truth",
+    "title": "Need To Control",
+    "original_year": "1994",
+    "release_type": "Album",
+    "description": "Need to Control is the second studio album by American grindcore band Brutal Truth, released on October 25, 1994 by Earache Records.",
+    "source": "https://en.wikipedia.org/wiki/Need_to_Control",
+    "musicbrainz_id": "3dec4669-e24d-35ff-873b-3827e759070b",
+    "status": "described"
+  },
+  "tears for fears|songs for a nervous planet": {
+    "artist": "Tears For Fears",
+    "title": "Songs For A Nervous Planet",
+    "original_year": "2024",
+    "release_type": "Album",
+    "description": "Songs for a Nervous Planet is a live album by the English rock/pop band Tears for Fears. Released in October 2024, the album features live recording of the band's concert at the FirstBank Amphitheater in Franklin, Tennessee on 11 July 2023, one of the dates on their Tipping Point World Tour. In addition to the 18 live tracks, the album includes four new studio tracks.",
+    "source": "https://en.wikipedia.org/wiki/Songs_for_a_Nervous_Planet",
+    "musicbrainz_id": "1dc3eb08-15c1-47c6-b89a-8dcca2563c9e",
+    "status": "described"
+  },
+  "chat pile|tenkiller motion picture soundtrack": {
+    "artist": "Chat Pile",
+    "title": "Tenkiller Motion Picture Soundtrack",
+    "original_year": "2022",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "17244376-e1da-4205-9e2b-a8aa5932b6c8",
+    "status": "matched"
+  },
+  "soulfly|savages": {
+    "artist": "Soulfly",
+    "title": "Savages",
+    "original_year": "2013",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "a99c3cc5-5d2c-4135-84b8-2e7dcdfbb4c2",
+    "status": "matched"
+  },
+  "soulfly|archangel": {
+    "artist": "Soulfly",
+    "title": "Archangel",
+    "original_year": "2015",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "14e3f683-d717-4a37-9527-a557cdf11aa3",
+    "status": "matched"
+  },
+  "adam ant|friend or foe": {
+    "artist": "Adam Ant",
+    "title": "Friend Or Foe",
+    "original_year": "1982",
+    "release_type": "Album",
+    "description": "Friend or Foe is the debut solo album by English singer and musician Adam Ant, released in October 1982 by Epic Records in the United States and CBS Records elsewhere. The album peaked at number 5 in the UK, Adam Ant's highest charting solo album in his homeland and number 16 in the US, the highest-charting album in America of Ant's entire career",
+    "source": "https://en.wikipedia.org/wiki/Friend_or_Foe_(album)",
+    "musicbrainz_id": "54cb81de-946f-3a5b-9688-272172466340",
+    "status": "described"
+  },
+  "various|starburst": {
+    "artist": "Various",
+    "title": "Starburst",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "various|limo": {
+    "artist": "Various",
+    "title": "Limo",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "rod stewart|greatest hits": {
+    "artist": "Rod Stewart",
+    "title": "Greatest Hits",
+    "original_year": "1979",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "9438ae11-854e-3186-9ba8-828ce045d883",
+    "status": "matched"
+  },
+  "neil diamond|the jazz singer (original songs from the motion picture)": {
+    "artist": "Neil Diamond",
+    "title": "The Jazz Singer (Original Songs From The Motion Picture)",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "fats domino|the million dollar magic of fats domino": {
+    "artist": "Fats Domino",
+    "title": "The Million Dollar Magic Of Fats Domino",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "dakota|runaway": {
+    "artist": "Dakota",
+    "title": "Runaway",
+    "original_year": "1984",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "3ee0bc6b-960e-43b9-b52a-c0ffd2e7377b",
+    "status": "matched"
+  },
+  "fear of god|within the veil": {
+    "artist": "Fear Of God",
+    "title": "Within The Veil",
+    "original_year": "1991",
+    "release_type": "Album",
+    "description": "Within the Veil is the debut studio album by American heavy metal band Fear of God, released on January 29, 1991, through Warner Bros. Records.",
+    "source": "https://en.wikipedia.org/wiki/Within_the_Veil",
+    "musicbrainz_id": "cbdf0464-c808-379f-a6ed-f72b0de3d1a7",
+    "status": "described"
   }
 }

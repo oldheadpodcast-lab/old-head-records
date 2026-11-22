@@ -2492,12 +2492,12 @@
   "drug church|hygiene": {
     "artist": "Drug Church",
     "title": "Hygiene",
-    "original_year": "",
-    "release_type": "",
-    "description": "",
-    "source": "",
-    "musicbrainz_id": "",
-    "status": "error"
+    "original_year": "2022",
+    "release_type": "Album",
+    "description": "Hygiene is the fourth studio album by American post-hardcore band Drug Church. The album was released on March 11, 2022, through Pure Noise Records.",
+    "source": "https://en.wikipedia.org/wiki/Hygiene_(album)",
+    "musicbrainz_id": "c4f1ab96-7ec1-4dc7-a7a5-471a044811c3",
+    "status": "described"
   },
   "drug church|prude": {
     "artist": "Drug Church",
@@ -2512,22 +2512,22 @@
   "drug church|cheer": {
     "artist": "Drug Church",
     "title": "Cheer",
-    "original_year": "",
-    "release_type": "",
+    "original_year": "2018",
+    "release_type": "Album",
     "description": "",
     "source": "",
-    "musicbrainz_id": "",
-    "status": "error"
+    "musicbrainz_id": "931036b3-495b-4533-bdf1-42358272a85f",
+    "status": "matched"
   },
   "nuclear assault|the plague": {
     "artist": "Nuclear Assault",
     "title": "The Plague",
-    "original_year": "",
-    "release_type": "",
+    "original_year": "1987",
+    "release_type": "EP",
     "description": "",
     "source": "",
-    "musicbrainz_id": "",
-    "status": "error"
+    "musicbrainz_id": "f063c69b-1d39-3a9e-8f1a-3091c4a006c4",
+    "status": "matched"
   },
   "brutal truth|need to control": {
     "artist": "Brutal Truth",
@@ -2658,5 +2658,225 @@
     "source": "https://en.wikipedia.org/wiki/Within_the_Veil",
     "musicbrainz_id": "cbdf0464-c808-379f-a6ed-f72b0de3d1a7",
     "status": "described"
+  },
+  "the flaming lips, stardeath and white dwarfs, henry rollins, peaches|the dark side of the moon": {
+    "artist": "The Flaming Lips, Stardeath And White Dwarfs, Henry Rollins, Peaches",
+    "title": "The Dark Side Of The Moon",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "kerosene 454|at zero": {
+    "artist": "Kerosene 454",
+    "title": "At Zero",
+    "original_year": "1998",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "a4408a6c-59ea-380b-ba43-9b6311d9d1c0",
+    "status": "matched"
+  },
+  "melvins|freak puke": {
+    "artist": "Melvins",
+    "title": "Freak Puke",
+    "original_year": "2012",
+    "release_type": "Album",
+    "description": "Freak Puke is the eighteenth album by the Melvins, under the name Melvins Lite, released on June 5, 2012, through Ipecac Recordings. It is the first to feature one of the Melvins' alternate lineups with Trevor Dunn on standup bass.",
+    "source": "https://en.wikipedia.org/wiki/Freak_Puke",
+    "musicbrainz_id": "d473a0eb-ff5e-4e81-90a9-07b197dfd220",
+    "status": "described"
+  },
+  "ignitor|horns and hammers": {
+    "artist": "Ignitor",
+    "title": "Horns And Hammers",
+    "original_year": "2024",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "9e74385c-9fe3-4821-bec1-ceaaea850ade",
+    "status": "matched"
+  },
+  "tribal gaze|inveighing brilliance": {
+    "artist": "Tribal Gaze",
+    "title": "Inveighing Brilliance",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "3250dc5d-7512-4a47-8613-fa68b0f12c9a",
+    "status": "matched"
+  },
+  "r.e.m.|(should we talk about the weather)": {
+    "artist": "R.E.M.",
+    "title": "(Should We Talk About The Weather)",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "r.e.m.|chronic town": {
+    "artist": "R.E.M.",
+    "title": "Chronic Town",
+    "original_year": "1982",
+    "release_type": "EP",
+    "description": "Chronic Town is the debut extended play (EP) by the American alternative rock band R.E.M. It was released on August 24, 1982, on I.R.S. Records. The five-track EP was recorded at Drive-In Studio in Winston-Salem, North Carolina, in October 1981, eighteen months after the formation of the band. Its co-producer, Mitch Easter, produced the band's \"Radio Free Europe\" single earlier in 1981.",
+    "source": "https://en.wikipedia.org/wiki/Chronic_Town",
+    "musicbrainz_id": "19c331a6-c93e-3ef4-82cf-24adf4f4b14b",
+    "status": "described"
+  },
+  "r.e.m.|radio free europe 2025": {
+    "artist": "R.E.M.",
+    "title": "Radio Free Europe 2025",
+    "original_year": "2025",
+    "release_type": "EP",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "465aecaa-0922-47e8-95b3-a282a775f024",
+    "status": "matched"
+  },
+  "primus|the desaturating seven": {
+    "artist": "Primus",
+    "title": "The Desaturating Seven",
+    "original_year": "2017",
+    "release_type": "Album",
+    "description": "The Desaturating Seven is the ninth studio album by American rock group Primus, released on September 29, 2017. It is the band's first album of original material since 2011's Green Naugahyde, and is the only LP featuring original material written with drummer Tim Alexander since 1995's Tales from the Punchbowl. It was also his final album with the band.",
+    "source": "https://en.wikipedia.org/wiki/The_Desaturating_Seven",
+    "musicbrainz_id": "44109b19-30e8-4901-8fb3-b6926d54a14c",
+    "status": "described"
+  },
+  "nirvana|california uber alles (live at the hollywood palladium 1990 fm broadcast)": {
+    "artist": "Nirvana",
+    "title": "California Uber Alles (Live At The Hollywood Palladium 1990 FM Broadcast)",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "r.e.m.|document": {
+    "artist": "R.E.M.",
+    "title": "Document",
+    "original_year": "1987",
+    "release_type": "Album",
+    "description": "Document is the fifth studio album by American rock band R.E.M., released on August 31, 1987, by I.R.S. Records. It was their first album to be co-produced by the band and Scott Litt. Continuing in the vein of their previous album Lifes Rich Pageant, Document features more audible lyrics and a harder rock sound in comparison to the band's earlier releases. The album became R.E.M.'s greatest success at the time, giving the band their first Top 10 hit and album, peaking at number 10 on the Billboard 200.",
+    "source": "https://en.wikipedia.org/wiki/Document_(album)",
+    "musicbrainz_id": "137385b2-b4cc-385e-9d59-781e7674f5bc",
+    "status": "described"
+  },
+  "r.e.m.|dead letter office": {
+    "artist": "R.E.M.",
+    "title": "Dead Letter Office",
+    "original_year": "1987",
+    "release_type": "Album",
+    "description": "Dead Letter Office is a rarities and B-sides collection by R.E.M., released in April 1987. The album is essentially a collection of many additional recordings R.E.M. made from before Murmur to Lifes Rich Pageant that were outtakes or released as B-sides to their singles internationally. Many of the tracks are favorite cover versions indicating the band's disparate influences and musical tastes, including three Velvet Underground covers, and songs by Aerosmith, Roger Miller, and fellow Athenians Pylon (\"Crazy\").",
+    "source": "https://en.wikipedia.org/wiki/Dead_Letter_Office_(album)",
+    "musicbrainz_id": "e4a46108-cd64-3a3e-a237-a12a63286326",
+    "status": "described"
+  },
+  "r.e.m.|fables of the reconstruction / reconstruction of the fables": {
+    "artist": "R.E.M.",
+    "title": "Fables Of The Reconstruction / Reconstruction Of The Fables",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "cinemechanica|cinemechanica": {
+    "artist": "Cinemechanica",
+    "title": "Cinemechanica",
+    "original_year": "2016",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "7e6463e4-b998-4fb1-93ae-ea2a57193777",
+    "status": "matched"
+  },
+  "void|forbidden morals": {
+    "artist": "Void",
+    "title": "Forbidden Morals",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "97aa7018-a8fd-4ef6-a695-ed8ec0025d8f",
+    "status": "matched"
+  },
+  "l.a. guns|man in the moon": {
+    "artist": "L.A. Guns",
+    "title": "Man In The Moon",
+    "original_year": "2001",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "ba4250ca-e911-3631-a707-93cbc51019f8",
+    "status": "matched"
+  },
+  "nirvana|madrid 1992 (the legendary spanish broadcast)": {
+    "artist": "Nirvana",
+    "title": "Madrid 1992 (The Legendary Spanish Broadcast)",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "shiner|believeyoume": {
+    "artist": "Shiner",
+    "title": "Believeyoume",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "67e49502-ca17-41c9-9f12-1c0e64a95cf2",
+    "status": "matched"
+  },
+  "nirvana|live at the palaghiaccio, rome, italy": {
+    "artist": "Nirvana",
+    "title": "Live At The Palaghiaccio, Rome, Italy",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "leo birenberg, zach robinson|cobra kai: volume ii": {
+    "artist": "Leo Birenberg, Zach Robinson",
+    "title": "Cobra Kai: Volume II",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "descendents|milo goes to college": {
+    "artist": "Descendents",
+    "title": "Milo Goes To College",
+    "original_year": "1982",
+    "release_type": "Album",
+    "description": "Milo Goes to College is the debut studio album by the American punk rock band Descendents, released on September 4, 1982, through New Alliance Records. Its title refers to singer Milo Aukerman's decision to leave the band to attend college, and its cover illustration introduced a caricature of him that would go on to become the band's mascot.",
+    "source": "https://en.wikipedia.org/wiki/Milo_Goes_to_College",
+    "musicbrainz_id": "6f180553-2c6a-3529-a380-636f1232313d",
+    "status": "described"
+  },
+  "dead heat|process of elimination": {
+    "artist": "Dead Heat",
+    "title": "Process Of Elimination",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "5b79df1a-590c-493d-bb66-204c096e37e0",
+    "status": "matched"
   }
 }

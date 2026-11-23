@@ -1,8 +1,22 @@
 {
   "username": "Vinyl.Date.Night",
-  "last_synced": "2026-11-22T17:11:43.485287+00:00",
+  "last_synced": "2026-11-23T21:28:39.872391+00:00",
   "count": 2577,
   "records": [
+    {
+      "id": "39125913",
+      "instance_id": "2207672419",
+      "artist": "R.E.M.",
+      "title": "The Black Sessions Revealed",
+      "year": "2026",
+      "format": "Vinyl",
+      "label": "Craft Recordings, Craft Recordings",
+      "notes": "",
+      "folder": "1",
+      "cover_image": "https://i.discogs.com/7l2RZmKmVbyVfEB2iG_SRmHds0NcCD8YWq5COdwP2sk/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5MTI1/OTEzLTE3OTU0NTEz/MTktMjIzNi5qcGVn.jpeg",
+      "thumb": "https://i.discogs.com/DjF9Kmd-WNgvnTcpbZaMrdH_3AjbD_Gazsrchjdz9Bc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5MTI1/OTEzLTE3OTU0NTEz/MTktMjIzNi5qcGVn.jpeg",
+      "master_id": 4414881
+    },
     {
       "id": "8373261",
       "instance_id": "2206588105",
@@ -3686,20 +3700,6 @@
       "master_id": 103472
     },
     {
-      "id": "4750046",
-      "instance_id": "2074970015",
-      "artist": "Neil Diamond",
-      "title": "The Jazz Singer (Original Songs From The Motion Picture)",
-      "year": "1980",
-      "format": "Vinyl",
-      "label": "Capitol Records",
-      "notes": "",
-      "folder": "1",
-      "cover_image": "https://i.discogs.com/p9CeRPlxQ_pK_JqhRl8kS4iRQ1xpW2PoDMLfs6jXtPU/rs:fit/g:sm/q:90/h:554/w:560/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ3NTAw/NDYtMTM3NDM2Mzcz/Ni00NTU0LmpwZWc.jpeg",
-      "thumb": "https://i.discogs.com/tB_WmZdDlP9MUrorq_2TyJTxH1Sk0E6OatDe1P6NsyY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ3NTAw/NDYtMTM3NDM2Mzcz/Ni00NTU0LmpwZWc.jpeg",
-      "master_id": 104379
-    },
-    {
       "id": "14964250",
       "instance_id": "2074964695",
       "artist": "Fats Domino",
@@ -6313,8 +6313,8 @@
       "label": "Vagrant, BMG",
       "notes": "",
       "folder": "1",
-      "cover_image": "https://i.discogs.com/qXre_2bJ10-V9Kb8gL5uJF8BUjk9otezycvJZrjMa4g/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5MTE0/NjkzLTE2MjM1MTEz/NDYtODY4OC5qcGVn.jpeg",
-      "thumb": "https://i.discogs.com/hK8rcIn_ZR_Zr6YowtxuOQzbx5rH_uwYIHGsDG2yags/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5MTE0/NjkzLTE2MjM1MTEz/NDYtODY4OC5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/AEibjSj9pbcLwsXcJ7tZzvWWxh6uM7ugzHRJgMfMsuI/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5MTE0/NjkzLTE2MjM1MTEz/NDUtMjcxNy5qcGVn.jpeg",
+      "thumb": "https://i.discogs.com/kmWSzHaESAtXTECYr47J_woIY9ai-sh2hqfOnpijQsA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5MTE0/NjkzLTE2MjM1MTEz/NDUtMjcxNy5qcGVn.jpeg",
       "master_id": 84329
     },
     {
@@ -29184,7 +29184,7 @@
       "instance_id": "361118145",
       "artist": "Poison (3)",
       "title": "Look What The Cat Dragged In",
-      "year": "1986",
+      "year": "",
       "format": "Vinyl",
       "label": "Enigma (4), Capitol Records",
       "notes": "",

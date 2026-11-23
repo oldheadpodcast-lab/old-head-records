@@ -2878,5 +2878,255 @@
     "source": "",
     "musicbrainz_id": "5b79df1a-590c-493d-bb66-204c096e37e0",
     "status": "matched"
+  },
+  "r.e.m.|the black sessions revealed": {
+    "artist": "R.E.M.",
+    "title": "The Black Sessions Revealed",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "r.e.m.|new adventures in hi-fi": {
+    "artist": "R.E.M.",
+    "title": "New Adventures In Hi-Fi",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "error"
+  },
+  "testament|para bellum": {
+    "artist": "Testament",
+    "title": "Para Bellum",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "Para Bellum is the fourteenth studio album by the American thrash metal band Testament, released on October 10, 2025, through Nuclear Blast. It is the band's first studio album with drummer Chris Dovas. The name of the album is Latin for prepare for war. It is part of a Latin adage, Si vis pacem, para bellum.",
+    "source": "https://en.wikipedia.org/wiki/Para_Bellum_(album)",
+    "musicbrainz_id": "7fee828a-ceaa-46e2-b2fe-db86540d8eb0",
+    "status": "described"
+  },
+  "last retch|abject cruelty": {
+    "artist": "Last Retch",
+    "title": "Abject Cruelty",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "d01d5db0-2805-4ae0-9f47-76d8aeaceee0",
+    "status": "matched"
+  },
+  "mother love bone|apple": {
+    "artist": "Mother Love Bone",
+    "title": "Apple",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "error"
+  },
+  "adam and the ants|prince charming": {
+    "artist": "Adam And The Ants",
+    "title": "Prince Charming",
+    "original_year": "1981",
+    "release_type": "Album",
+    "description": "Prince Charming is the third and final album by Adam and the Ants, released on 6 November 1981. This album features bass player Gary Tibbs in place of Kevin Mooney, the bassist on Kings of the Wild Frontier. The album included the band's two number one UK hit singles \"Stand and Deliver\" and \"Prince Charming\" as well as \"Ant Rap\".",
+    "source": "https://en.wikipedia.org/wiki/Prince_Charming_(album)",
+    "musicbrainz_id": "00c35365-b95e-3979-8cd1-1e53f6b1335a",
+    "status": "described"
+  },
+  "system of a down|toxicity": {
+    "artist": "System Of A Down",
+    "title": "Toxicity",
+    "original_year": "2001",
+    "release_type": "Album",
+    "description": "Toxicity is the second studio album by the American heavy metal band System of a Down, released on September 4, 2001, by American Recordings and Columbia Records. Expanding on their 1998 eponymous debut album, Toxicity incorporates more melody, harmonies, and singing than the band's first album. Categorized primarily as alternative metal and nu metal, the album features elements of multiple genres, including folk, progressive rock, jazz, and Armenian and Greek music, including prominent use of instruments like the sitar, banjo, keyboards, and piano. It contains a wide array of political and non-political themes, such as mass incarceration, the CIA, the environment, police brutality, drug addiction, scientific reductionism, and groupies.",
+    "source": "https://en.wikipedia.org/wiki/Toxicity_(album)",
+    "musicbrainz_id": "f50fbcb4-bfcd-3784-b4c9-44f4793e66b2",
+    "status": "described"
+  },
+  "crypta|shades of sorrow": {
+    "artist": "Crypta",
+    "title": "Shades Of Sorrow",
+    "original_year": "2023",
+    "release_type": "Album",
+    "description": "Shades of Sorrow is the second studio album by Brazilian death metal band Crypta. It was recorded throughout February 2023 at the Family Mob Studio in São Paulo, Brazil. It was later mixed at 33 Studios in Stockholm, Sweden, mastered at Fascination Street Studios in Örebro, Sweden, and released in August 2023 through Napalm. It is the only studio album to feature guitarist Jéssica di Falchi, who left on March 10, 2025. The songs \"Lord of Ruins\", \"Trial of Traitors\" and \"The Other Side of Anger\" were also released as singles.",
+    "source": "https://en.wikipedia.org/wiki/Shades_of_Sorrow",
+    "musicbrainz_id": "9191be73-53a5-4d3c-a25c-146c95198206",
+    "status": "described"
+  },
+  "the hives|veni vidi vicious": {
+    "artist": "The Hives",
+    "title": "Veni Vidi Vicious",
+    "original_year": "2000",
+    "release_type": "Album",
+    "description": "Veni Vidi Vicious is the second studio album by Swedish rock band the Hives. The album was released on 10 April 2000 through Burning Heart and Epitaph. It was later re-released on 30 April 2002 through Sire and Gearhead. The Japanese release included several extra tracks and other bonus features. The album's title is a play on words which refers to the sentence written by Julius Caesar after conquering Asia Minor in 47 B.C.: \"Veni, vidi, vici.\" and a reference to the surname of punk band Sex Pistols' bassist Sid Vicious. The album received universal acclaim from music critics, earning an average critic score of 84/100 on Metacritic.",
+    "source": "https://en.wikipedia.org/wiki/Veni_Vidi_Vicious",
+    "musicbrainz_id": "61a34a5e-37ea-3f7b-a462-e645b96108df",
+    "status": "described"
+  },
+  "radiohead|in rainbows": {
+    "artist": "Radiohead",
+    "title": "In Rainbows",
+    "original_year": "2007",
+    "release_type": "Album",
+    "description": "In Rainbows is the seventh studio album by the English rock band Radiohead. It was self-released on 10 October 2007 as a download, followed by a retail release internationally through XL Recordings on 3 December 2007 and in North America through TBD Records on 1 January 2008. It was Radiohead's first release after their recording contract with EMI ended with their album Hail to the Thief (2003).",
+    "source": "https://en.wikipedia.org/wiki/In_Rainbows",
+    "musicbrainz_id": "6e335887-60ba-38f0-95af-fae7774336bf",
+    "status": "described"
+  },
+  "r.e.m.|lifes rich pageant": {
+    "artist": "R.E.M.",
+    "title": "Lifes Rich Pageant",
+    "original_year": "1986",
+    "release_type": "Album",
+    "description": "Lifes Rich Pageant is the fourth studio album by the American alternative rock band R.E.M., released on July 28, 1986, by I.R.S. Records. R.E.M. chose Don Gehman to produce the album, which was recorded at John Mellencamp's Belmont Mall Studio in Belmont, Indiana. This was the only album the band recorded with Gehman, who moved them from the more obscure and dense sound of their earlier albums to an accessible, hard rock-influenced quality. The album was well-received critically.",
+    "source": "https://en.wikipedia.org/wiki/Lifes_Rich_Pageant",
+    "musicbrainz_id": "8b6b2628-7bd4-3fed-9d65-cf4e5dc45939",
+    "status": "described"
+  },
+  "r.e.m.|murmur": {
+    "artist": "R.E.M.",
+    "title": "Murmur",
+    "original_year": "1983",
+    "release_type": "Album",
+    "description": "Murmur is the debut studio album by the American alternative rock band R.E.M., released on April 12, 1983, by I.R.S. Records. The album was recorded in the winter of 1983 at Reflection Sound Studios in Charlotte, North Carolina, with musicians Don Dixon and Mitch Easter serving as producers. Murmur received critical acclaim upon release for its unconventional sound, defined by lead singer Michael Stipe's cryptic lyrics, guitarist Peter Buck's jangly playing, and Mike Mills' melodic basslines. In 2003, the album was ranked number 197 in Rolling Stone magazine's list of the \"500 Greatest Albums of All Time\". It retained the position in the 2012 list and was raised to number 165 in the 2020 revision.",
+    "source": "https://en.wikipedia.org/wiki/Murmur_(album)",
+    "musicbrainz_id": "de790d3d-a35c-364c-a8fb-adfb73084a45",
+    "status": "described"
+  },
+  "revocation|new gods, new masters": {
+    "artist": "Revocation",
+    "title": "New Gods, New Masters",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "New Gods, New Masters is the ninth studio album by the American technical death metal band Revocation. It was released on September 26, 2025, via Metal Blade in vinyl and digital formats.\nNew Gods, New Masters is band's first album to feature guitarist Harry Lannon and bassist Alex Weber.",
+    "source": "https://en.wikipedia.org/wiki/New_Gods%2C_New_Masters",
+    "musicbrainz_id": "3b1732a0-5718-4710-8eb7-d9963de72726",
+    "status": "described"
+  },
+  "justin timberlake|my love": {
+    "artist": "Justin Timberlake",
+    "title": "My Love",
+    "original_year": "2006",
+    "release_type": "Single",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "af5c3310-a3fc-3593-9f1b-1615fe33a93b",
+    "status": "matched"
+  },
+  "3rd bass|pop goes the weasel": {
+    "artist": "3rd Bass",
+    "title": "Pop Goes The Weasel",
+    "original_year": "1991",
+    "release_type": "Single",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "9d6c5634-ee9d-3717-b923-16f24ae35fa0",
+    "status": "matched"
+  },
+  "run the jewels|run the jewels": {
+    "artist": "Run The Jewels",
+    "title": "Run The Jewels",
+    "original_year": "2013",
+    "release_type": "Album",
+    "description": "Run the Jewels is the debut studio album by American hip-hop duo Run the Jewels, which consists of Killer Mike and El-P. The album was released on June 26, 2013, through Fool's Gold Records.",
+    "source": "https://en.wikipedia.org/wiki/Run_the_Jewels_(album)",
+    "musicbrainz_id": "cd690264-6a08-4af7-8a9c-6aef60962d5b",
+    "status": "described"
+  },
+  "r.e.m.|reckoning": {
+    "artist": "R.E.M.",
+    "title": "Reckoning",
+    "original_year": "1984",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "eec55734-1387-3aa3-af3d-ff0ae8083806",
+    "status": "matched"
+  },
+  "88 fingers louie|back on the streets": {
+    "artist": "88 Fingers Louie",
+    "title": "Back On The Streets",
+    "original_year": "1998",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "5a04fd20-a7c3-3fe8-889f-e8a668e54c4e",
+    "status": "matched"
+  },
+  "adam and the ants|kings of the wild frontier": {
+    "artist": "Adam And The Ants",
+    "title": "Kings Of The Wild Frontier",
+    "original_year": "1980",
+    "release_type": "Album",
+    "description": "Kings of the Wild Frontier is the second studio album by the English new wave band Adam and the Ants. It was released on 7 November 1980 by CBS Records in the UK and Epic Records internationally. The album was the best-selling album in the UK in 1981 and won Best British Album at the 1982 Brit Awards.",
+    "source": "https://en.wikipedia.org/wiki/Kings_of_the_Wild_Frontier",
+    "musicbrainz_id": "8698397e-887c-3f78-9d95-6c6499a1daa8",
+    "status": "described"
+  },
+  "cheap trick|all shook up": {
+    "artist": "Cheap Trick",
+    "title": "All Shook Up",
+    "original_year": "1980",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "94d1c71a-918f-3109-89aa-f994cbadc73e",
+    "status": "matched"
+  },
+  "rare earth|one world": {
+    "artist": "Rare Earth",
+    "title": "One World",
+    "original_year": "1971",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "dd95d354-452b-37d4-8239-5efe9c914025",
+    "status": "matched"
+  },
+  "death|spiritual healing": {
+    "artist": "Death",
+    "title": "Spiritual Healing",
+    "original_year": "1990",
+    "release_type": "Album",
+    "description": "Spiritual Healing is the third studio album by American death metal band Death, released on February 16, 1990, by Combat Records. It is the band's only album to feature both guitarist James Murphy and bassist Terry Butler and the last to feature drummer Bill Andrews. The album marked a shift in style and content for the band, lyrically focusing on social evils and musically being more technical, as opposed to the gore-centered, straightforward death metal of their previous two albums. Due to this shift, the album received polarizing reception upon release.",
+    "source": "https://en.wikipedia.org/wiki/Spiritual_Healing_(album)",
+    "musicbrainz_id": "ecc036f3-d7c6-3594-a19f-e6ca76c15f29",
+    "status": "described"
+  },
+  "death|leprosy": {
+    "artist": "Death",
+    "title": "Leprosy",
+    "original_year": "1988",
+    "release_type": "Album",
+    "description": "Leprosy is the second studio album by American death metal band Death, released on August 12, 1988, by Combat Records. The album is notable in its different tone and quality from the band's debut album Scream Bloody Gore (1987), and is the first example of producer and engineer Scott Burns' work heard on many of the death metal and grindcore albums of that era.",
+    "source": "https://en.wikipedia.org/wiki/Leprosy_(album)",
+    "musicbrainz_id": "e4f11dc7-ed0c-4fb2-bdf7-b1a6240bd167",
+    "status": "described"
+  },
+  "ministry|κεφαληξθ": {
+    "artist": "Ministry",
+    "title": "ΚΕΦΑΛΗΞΘ",
+    "original_year": "1992",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "15cfaf82-5a4b-3ee1-bcce-75561055d27a",
+    "status": "matched"
+  },
+  "the b-52's|the b-52's": {
+    "artist": "The B-52's",
+    "title": "The B-52's",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
   }
 }

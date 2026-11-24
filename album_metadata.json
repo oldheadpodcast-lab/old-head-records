@@ -2892,12 +2892,12 @@
   "r.e.m.|new adventures in hi-fi": {
     "artist": "R.E.M.",
     "title": "New Adventures In Hi-Fi",
-    "original_year": "",
-    "release_type": "",
-    "description": "",
-    "source": "",
-    "musicbrainz_id": "",
-    "status": "error"
+    "original_year": "1996",
+    "release_type": "Album",
+    "description": "New Adventures in Hi-Fi is the tenth studio album by the American alternative rock band R.E.M. It was their fifth major-label release for Warner Bros. Records, released on September 9, 1996, in Europe and Australia, and the following day in the United States. New Adventures in Hi-Fi was the band's final album recorded with founding drummer Bill Berry, original manager Jefferson Holt, and longtime producer Scott Litt.",
+    "source": "https://en.wikipedia.org/wiki/New_Adventures_in_Hi-Fi",
+    "musicbrainz_id": "6d4f73cb-9c02-33c5-ba06-c927a9b963ad",
+    "status": "described"
   },
   "testament|para bellum": {
     "artist": "Testament",
@@ -2922,12 +2922,12 @@
   "mother love bone|apple": {
     "artist": "Mother Love Bone",
     "title": "Apple",
-    "original_year": "",
-    "release_type": "",
+    "original_year": "1990",
+    "release_type": "Album",
     "description": "",
     "source": "",
-    "musicbrainz_id": "",
-    "status": "error"
+    "musicbrainz_id": "0df8ee07-7d17-333c-8338-2ea24aaeac88",
+    "status": "matched"
   },
   "adam and the ants|prince charming": {
     "artist": "Adam And The Ants",
@@ -3128,5 +3128,235 @@
     "source": "",
     "musicbrainz_id": "",
     "status": "not_found"
+  },
+  "end it|wrong side of heaven": {
+    "artist": "End It",
+    "title": "Wrong Side of Heaven",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "48d42de7-0d28-4de7-ac1e-be0fec3ad0e1",
+    "status": "matched"
+  },
+  "the futureheads|the futureheads": {
+    "artist": "The Futureheads",
+    "title": "The Futureheads",
+    "original_year": "2004",
+    "release_type": "Album",
+    "description": "The Futureheads is the debut studio album by British rock band the Futureheads. It was released on 12 July 2004 and spawned the singles \"First Day\", \"Decent Days and Nights\", \"Meantime\", and \"Hounds of Love\". The album received critical praise and was re-released as a special edition in 2005 featuring a DVD and coming with a slightly re-designed cover in pink rather than the standard LP's grey.",
+    "source": "https://en.wikipedia.org/wiki/The_Futureheads_(album)",
+    "musicbrainz_id": "b300f38d-667a-30e4-8fb8-fd3f419e949e",
+    "status": "described"
+  },
+  "paralysis|spiral of suffering": {
+    "artist": "Paralysis",
+    "title": "Spiral Of Suffering",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "0ed27f23-95e0-4b8a-b3f7-05312cad1ea6",
+    "status": "matched"
+  },
+  "wanted|cutting edge": {
+    "artist": "Wanted",
+    "title": "Cutting Edge",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "340fe18d-1219-4d9a-a79a-bedc76c232b6",
+    "status": "matched"
+  },
+  "ready for death|pay with your face": {
+    "artist": "Ready For Death",
+    "title": "Pay With Your Face",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "31914e48-b98d-4c96-82b1-ce9f85d981f8",
+    "status": "matched"
+  },
+  "ozzy osbourne|scream": {
+    "artist": "Ozzy Osbourne",
+    "title": "Scream",
+    "original_year": "2010",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "33f28d26-25fa-4296-85e1-f6072933f8f6",
+    "status": "matched"
+  },
+  "fishbone|stockholm syndrome": {
+    "artist": "Fishbone",
+    "title": "Stockholm Syndrome",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "fdc9ba30-9a4b-45c5-8fd5-9973f3277666",
+    "status": "matched"
+  },
+  "ready for death|ready for death": {
+    "artist": "Ready For Death",
+    "title": "Ready For Death",
+    "original_year": "2022",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "874e2308-fbed-4bb7-b1a1-82d934882194",
+    "status": "matched"
+  },
+  "soulfly|ritual": {
+    "artist": "Soulfly",
+    "title": "Ritual",
+    "original_year": "2018",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "08ece4f0-d046-42c4-a488-36a4de4c624b",
+    "status": "matched"
+  },
+  "tracy chapman|tracy chapman": {
+    "artist": "Tracy Chapman",
+    "title": "Tracy Chapman",
+    "original_year": "1988",
+    "release_type": "Album",
+    "description": "Tracy Chapman is the debut album by the American singer-songwriter Tracy Chapman, released on April 5, 1988, by Elektra Records. The album was recorded at the Powertrax studio in Hollywood, California. In 1987, Chapman was discovered by fellow Tufts University student Brian Koppelman. He offered to show her work to his father, who owned a successful publishing company; however, she did not consider the offer to be serious. After multiple performances, however, Koppelman found a demo tape of her singing \"Talkin' 'bout a Revolution\", which he promoted to radio stations, and she was eventually signed to Elektra.",
+    "source": "https://en.wikipedia.org/wiki/Tracy_Chapman_(album)",
+    "musicbrainz_id": "a738bdf1-f610-30aa-9ae7-9a4f90d6f2d7",
+    "status": "described"
+  },
+  "shudder to think|pony express record": {
+    "artist": "Shudder To Think",
+    "title": "Pony Express Record",
+    "original_year": "1994",
+    "release_type": "Album",
+    "description": "Pony Express Record is the fifth studio album by American post-hardcore band Shudder to Think, released in 1994 by Epic Records. It was the first album of the band to feature guitarist Nathan Larson and drummer Adam Wade, after the departure of founding members Chris Matthews and Mike Russell. The album saw the band attempting to craft a unique sound. According to Wade, \"high up on our agenda it was like, 'No matter what, we cannot sound like anybody else.' We didn’t want to be Fugazi or Soundgarden—though those influences were there.\" Larson recalls of the album: \"We definitely made our strangest record to date. We really did want to have a pop hit, but we made a really weird record. Get Your Goat is brighter and poppier. Pony Express is velvety and dark\".",
+    "source": "https://en.wikipedia.org/wiki/Pony_Express_Record",
+    "musicbrainz_id": "0d6f4ad1-0a76-3dba-a52e-e713ab79d059",
+    "status": "described"
+  },
+  "selena|entre a mi mundo": {
+    "artist": "Selena",
+    "title": "Entre A Mi Mundo",
+    "original_year": "1992",
+    "release_type": "Album",
+    "description": "Entre a Mi Mundo is the third studio album by American singer Selena, released on May 6, 1992, by EMI Latin. The label endeavored to bolster Selena's popularity within the Latin music market in the United States with this release. Selena's brother, A. B. Quintanilla kept his role as the singer's producer and, in collaboration with Selena y Los Dinos members Pete Astudillo and Ricky Vela, composed tracks for the album. The ensuing recording encompassed an eclectic array of songs, attributable to the members' diverse backgrounds, which facilitated the modernization of the many genres they explored. Entre a Mi Mundo is a Tejano cumbia album that encapsulated Selena's quintessential sound, characterized by engaging tunes harmonized with her distinctive, plaintive vocals and a relaxed, danceable cumbia beat. The album incorporates musical inspirations from power pop, R&B, disco, rock, funk, and synthesized Tejano music.",
+    "source": "https://en.wikipedia.org/wiki/Entre_a_Mi_Mundo",
+    "musicbrainz_id": "d8c8ad8a-a942-3328-a60b-89033bb3988a",
+    "status": "described"
+  },
+  "r.e.m.|automatic for the people": {
+    "artist": "R.E.M.",
+    "title": "Automatic For The People",
+    "original_year": "1992",
+    "release_type": "Album",
+    "description": "Automatic for the People is the eighth studio album by the American alternative rock band R.E.M., released on October 5, 1992 in the United Kingdom and Europe, and on the following day in the United States, by Warner Bros. Records. R.E.M. began production on the album while their previous album, Out of Time (1991), was still ascending charts and achieving global success. Several tracks include strings arranged by John Paul Jones and conducted by George Hanson.",
+    "source": "https://en.wikipedia.org/wiki/Automatic_for_the_People",
+    "musicbrainz_id": "c86c6af9-d10e-3079-b34b-30b682a797eb",
+    "status": "described"
+  },
+  "r.e.m.|out of time": {
+    "artist": "R.E.M.",
+    "title": "Out Of Time",
+    "original_year": "1991",
+    "release_type": "Album",
+    "description": "Out of Time is the seventh studio album by American alternative rock band R.E.M., released on March 12, 1991, by Warner Bros. Records. The record topped the album sales charts in both the United States and the United Kingdom, spending 109 weeks on U.S. album charts, with two separate spells at the top, and spending 183 weeks on the British charts, including one week at the top. The album has sold more than four and a half million copies in the United States and more than 18 million copies worldwide and was certified 4× Platinum by the RIAA. Out of Time won three Grammy Awards in 1992: one as Best Alternative Music Album, and two for its first single, \"Losing My Religion\".",
+    "source": "https://en.wikipedia.org/wiki/Out_of_Time_(album)",
+    "musicbrainz_id": "400a5fdd-e616-3598-a9bf-cd8275cb53d0",
+    "status": "described"
+  },
+  "madonna|ray of light": {
+    "artist": "Madonna",
+    "title": "Ray Of Light",
+    "original_year": "1998",
+    "release_type": "Album",
+    "description": "Ray of Light is the seventh studio album by American singer and songwriter Madonna. It was released on February 22, 1998, by Maverick Records. A major stylistic and aesthetic departure from her previous works, Ray of Light reflected Madonna's embrace of Kabbalah, study of Hinduism and Buddhism, and daily practice of Ashtanga yoga.",
+    "source": "https://en.wikipedia.org/wiki/Ray_of_Light",
+    "musicbrainz_id": "cb93e87f-5d21-3447-a6e8-22d44f9b0d7a",
+    "status": "described"
+  },
+  "judas priest|invincible shield": {
+    "artist": "Judas Priest",
+    "title": "Invincible Shield",
+    "original_year": "2024",
+    "release_type": "Album",
+    "description": "Invincible Shield is the nineteenth studio album by English heavy metal band Judas Priest, released on 6 March 2024 by Sony in Japan, and globally two days later through Columbia and Epic Records. It was produced by the band's touring guitarist Andy Sneap, who also produced 2018's Firepower, while the album's last two tracks were co-produced by Tom Allom. It is Judas Priest's final album to feature longtime bassist Ian Hill, who retired in October 2026.",
+    "source": "https://en.wikipedia.org/wiki/Invincible_Shield",
+    "musicbrainz_id": "21ec2311-2d78-4b60-9e4d-bbc696c1c2fa",
+    "status": "described"
+  },
+  "various|license to drive - original motion picture soundtrack": {
+    "artist": "Various",
+    "title": "License To Drive - Original Motion Picture Soundtrack",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "leo birenberg, zach robinson|cobra kai original score": {
+    "artist": "Leo Birenberg, Zach Robinson",
+    "title": "Cobra Kai Original Score",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "spiritualized|pure phase": {
+    "artist": "Spiritualized",
+    "title": "Pure Phase",
+    "original_year": "1995",
+    "release_type": "Album",
+    "description": "Pure Phase is the second studio album by Spiritualized, released on 28 March 1995. The album was recorded in the Moles Studio in Bath, and features contributions from The Balanescu Quartet. Initial CD copies were sold in a glow-in-the-dark, encapsulated CD case.",
+    "source": "https://en.wikipedia.org/wiki/Pure_Phase",
+    "musicbrainz_id": "9b1640de-4eb7-3071-b6a3-1c6f76c1a1b4",
+    "status": "described"
+  },
+  "warrant|ultraphobic": {
+    "artist": "Warrant",
+    "title": "Ultraphobic",
+    "original_year": "1995",
+    "release_type": "Album",
+    "description": "Ultraphobic is the fourth studio album by American glam metal band Warrant. Released on March 7, 1995, on CMC International, after the apparent breakup of the band, the record was regarded as the band's \"comeback\" album. It is the first album to feature former Kingdom Come and Wild Horses members Rick Steier and James Kottak who came in to replace original band members Joey Allen and Steven Sweet.",
+    "source": "https://en.wikipedia.org/wiki/Ultraphobic",
+    "musicbrainz_id": "a10a2129-88e8-33c8-bd71-a7c5d1ec52d0",
+    "status": "described"
+  },
+  "pearl jam|no code": {
+    "artist": "Pearl Jam",
+    "title": "No Code",
+    "original_year": "1996",
+    "release_type": "Album",
+    "description": "No Code is the fourth studio album by American rock band Pearl Jam, released on August 27, 1996, through Epic Records. Following a troubled tour for its previous album, Vitalogy (1994), in which Pearl Jam engaged in a much-publicized boycott of Ticketmaster, the band went into the studio to record its follow-up. The music on the record was more diverse than what the band had recorded on previous releases, incorporating elements of garage rock and worldbeat.",
+    "source": "https://en.wikipedia.org/wiki/No_Code",
+    "musicbrainz_id": "ccdebc6b-dc24-3578-aac3-78c5b8d35738",
+    "status": "described"
+  },
+  "kiss|alive: the millennium concert": {
+    "artist": "Kiss",
+    "title": "Alive: The Millennium Concert",
+    "original_year": "2006",
+    "release_type": "Album",
+    "description": "Alive! The Millennium Concert is the sixth live album by the American hard rock band Kiss. It was released on November 21, 2006, as part of the Kiss Alive! 1975–2000 box set.",
+    "source": "https://en.wikipedia.org/wiki/Alive!_The_Millennium_Concert",
+    "musicbrainz_id": "8e2ad73a-7a16-4661-87da-096b254a2527",
+    "status": "described"
+  },
+  "metallica|72 seasons": {
+    "artist": "Metallica",
+    "title": "72 Seasons",
+    "original_year": "2023",
+    "release_type": "Album",
+    "description": "72 Seasons is the eleventh studio album by American heavy metal band Metallica, released on April 14, 2023, by their own record label Blackened Recordings. 72 Seasons was produced by Greg Fidelman, who produced the band's previous studio album, Hardwired... to Self-Destruct (2016), and is the band's second studio album to be released through Blackened.",
+    "source": "https://en.wikipedia.org/wiki/72_Seasons",
+    "musicbrainz_id": "a0b7b436-94db-4df6-8c5f-bc0e5932a90e",
+    "status": "described"
   }
 }

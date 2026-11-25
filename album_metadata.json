@@ -3358,5 +3358,255 @@
     "source": "https://en.wikipedia.org/wiki/72_Seasons",
     "musicbrainz_id": "a0b7b436-94db-4df6-8c5f-bc0e5932a90e",
     "status": "described"
+  },
+  "leeway|desperate measures": {
+    "artist": "Leeway",
+    "title": "Desperate Measures",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "error"
+  },
+  "go ahead and die|go ahead and die": {
+    "artist": "Go Ahead And Die",
+    "title": "Go Ahead And Die",
+    "original_year": "2021",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "f5eb9839-a5b9-4d31-891e-54e42fcf1fbe",
+    "status": "matched"
+  },
+  "broken teeth|4 on the floor": {
+    "artist": "Broken Teeth",
+    "title": "4 On The Floor",
+    "original_year": "2017",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "ebb74a58-3c01-4452-b65e-6931851f75a4",
+    "status": "matched"
+  },
+  "chat pile|this dungeon earth / remove your skin please": {
+    "artist": "Chat Pile",
+    "title": "This Dungeon Earth / Remove Your Skin Please",
+    "original_year": "2022",
+    "release_type": "EP",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "189b0232-9406-4ff1-94de-17881b2c97c5",
+    "status": "matched"
+  },
+  "couch slut|live at roadburn 2024 - the couch slut brunch hour": {
+    "artist": "Couch Slut",
+    "title": "Live At Roadburn 2024 - The Couch Slut Brunch Hour",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "couch slut|my life as a woman": {
+    "artist": "Couch Slut",
+    "title": "My Life As A Woman",
+    "original_year": "2014",
+    "release_type": "EP",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "17005484-4b49-4ffe-80ce-31cdd62e655e",
+    "status": "matched"
+  },
+  "cephalic carnage|lucid interval": {
+    "artist": "Cephalic Carnage",
+    "title": "Lucid Interval",
+    "original_year": "2002",
+    "release_type": "Album",
+    "description": "Lucid Interval is the third full-length album released by Cephalic Carnage. It was released in 2002 via Relapse Records. The album was reissued by Relapse Records with a bonus track on September 13, 2011.",
+    "source": "https://en.wikipedia.org/wiki/Lucid_Interval",
+    "musicbrainz_id": "c2a88dc8-59e1-3660-b77e-7125ee25fada",
+    "status": "described"
+  },
+  "watchtower|energetic disassembly": {
+    "artist": "Watchtower",
+    "title": "Energetic Disassembly",
+    "original_year": "1985",
+    "release_type": "Album",
+    "description": "Energetic Disassembly is the debut album by American progressive metal band Watchtower, released in 1985. It is the band's only album to feature vocalist Jason McMaster and guitarist Billy White, who were replaced by Alan Tecchio and Ron Jarzombek respectively for their next album Control and Resistance.",
+    "source": "https://en.wikipedia.org/wiki/Energetic_Disassembly",
+    "musicbrainz_id": "5b7eca32-9c6c-37d4-81ac-d07ef41270bd",
+    "status": "described"
+  },
+  "go ahead and die|unhealthy mechanisms": {
+    "artist": "Go Ahead And Die",
+    "title": "Unhealthy Mechanisms",
+    "original_year": "2023",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "a5ed8db8-1c3f-4910-bdc1-6c8adff4a0b2",
+    "status": "matched"
+  },
+  "r.e.m.|green": {
+    "artist": "R.E.M.",
+    "title": "Green",
+    "original_year": "1988",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "16a9cef3-b470-3ae1-bf10-cc04232d3e21",
+    "status": "matched"
+  },
+  "nuclear tomb|terror labyrinthian": {
+    "artist": "Nuclear Tomb",
+    "title": "Terror Labyrinthian",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "error"
+  },
+  "void|horrors of reality": {
+    "artist": "Void",
+    "title": "Horrors Of Reality",
+    "original_year": "2023",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "88c93d67-cbc2-4d66-ab23-9245b7e4c901",
+    "status": "matched"
+  },
+  "glass tiger|the thin red line": {
+    "artist": "Glass Tiger",
+    "title": "The Thin Red Line",
+    "original_year": "1986",
+    "release_type": "Album",
+    "description": "The Thin Red Line is the debut album by Canadian band Glass Tiger. It was released by Manhattan Records in Canada on February 17, 1986 .",
+    "source": "https://en.wikipedia.org/wiki/The_Thin_Red_Line_(album)",
+    "musicbrainz_id": "1ef36dd6-acfc-342e-b460-283ee7d813c7",
+    "status": "described"
+  },
+  "emasculator|the disfigured and the divine": {
+    "artist": "Emasculator",
+    "title": "The Disfigured And The Divine",
+    "original_year": "2024",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "bf3e3541-cd78-4c03-b7aa-918867d03091",
+    "status": "matched"
+  },
+  "bullet lavolta|the gift": {
+    "artist": "Bullet Lavolta",
+    "title": "The Gift",
+    "original_year": "1989",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "e5dd24d6-50df-3fab-8c01-7d9870517e0b",
+    "status": "matched"
+  },
+  "couch slut|take a chance on rock 'n' roll": {
+    "artist": "Couch Slut",
+    "title": "Take A Chance On Rock 'n' Roll",
+    "original_year": "2020",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "d97e36c8-088c-4c99-94ae-50f425a313f2",
+    "status": "matched"
+  },
+  "metz|atlas vending": {
+    "artist": "Metz",
+    "title": "Atlas Vending",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "error"
+  },
+  "inhuman nature|greater than death": {
+    "artist": "Inhuman Nature",
+    "title": "Greater Than Death",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "Greater Than Death is the second studio album by London-based thrash metal group Inhuman Nature. It was released on 25 April 2025, via Church Road in cassette, vinyl, CD and digital formats.",
+    "source": "https://en.wikipedia.org/wiki/Greater_Than_Death",
+    "musicbrainz_id": "9e6e9d98-c651-476d-9b0f-67fb8ddf4f19",
+    "status": "described"
+  },
+  "metz|up on gravity hill": {
+    "artist": "Metz",
+    "title": "Up On Gravity Hill",
+    "original_year": "2024",
+    "release_type": "Album",
+    "description": "Up on Gravity Hill is the fifth studio album by Canadian band Metz. It was released on April 12, 2024, through Sub Pop. Produced by the band, it features vocal contributions from Amber Webber on the final track. It is the last album the band released before going on an indefinite hiatus.",
+    "source": "https://en.wikipedia.org/wiki/Up_on_Gravity_Hill",
+    "musicbrainz_id": "904b319a-5553-4e6c-9531-98944b071676",
+    "status": "described"
+  },
+  "propagandhi|at peace": {
+    "artist": "Propagandhi",
+    "title": "At Peace",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "c8b5d616-c280-4ec1-ad56-569de1d46fe9",
+    "status": "matched"
+  },
+  "heaven's gate|tales from a blistering paradise": {
+    "artist": "Heaven's Gate",
+    "title": "Tales from a Blistering Paradise",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "e6fedb0c-7779-4144-a7f7-efb5f14ebb47",
+    "status": "matched"
+  },
+  "ghost|skeletá": {
+    "artist": "Ghost",
+    "title": "Skeletá",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "Skeletá is the sixth studio album by the Swedish rock band Ghost. It was released on 25 April 2025 through Loma Vista Recordings, was preceded by the singles \"Satanized\", \"Lachryma\" and \"Peacefield\", and is notable for being the band's first album to top the US Billboard 200. The album was produced by the band's leader Tobias Forge under the alias \"Gene Walker\".",
+    "source": "https://en.wikipedia.org/wiki/Skelet%C3%A1",
+    "musicbrainz_id": "84108766-e00f-49c3-80d7-b0b8c27b4e54",
+    "status": "described"
+  },
+  "face first|face first": {
+    "artist": "Face First",
+    "title": "Face First",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "couch slut|you could do it tonight": {
+    "artist": "Couch Slut",
+    "title": "You Could Do It Tonight",
+    "original_year": "2024",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "29e72078-d278-4ede-b676-6f26d3193335",
+    "status": "matched"
+  },
+  "flotsam and jetsam|high": {
+    "artist": "Flotsam And Jetsam",
+    "title": "High",
+    "original_year": "1997",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "22c888fa-f808-32eb-817d-066850c73001",
+    "status": "matched"
   }
 }

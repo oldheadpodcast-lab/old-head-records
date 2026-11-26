@@ -3362,12 +3362,12 @@
   "leeway|desperate measures": {
     "artist": "Leeway",
     "title": "Desperate Measures",
-    "original_year": "",
-    "release_type": "",
+    "original_year": "1991",
+    "release_type": "Album",
     "description": "",
     "source": "",
-    "musicbrainz_id": "",
-    "status": "error"
+    "musicbrainz_id": "4923512a-b2cf-3550-8853-a22c097bc157",
+    "status": "matched"
   },
   "go ahead and die|go ahead and die": {
     "artist": "Go Ahead And Die",
@@ -3462,12 +3462,12 @@
   "nuclear tomb|terror labyrinthian": {
     "artist": "Nuclear Tomb",
     "title": "Terror Labyrinthian",
-    "original_year": "",
-    "release_type": "",
+    "original_year": "2024",
+    "release_type": "Album",
     "description": "",
     "source": "",
-    "musicbrainz_id": "",
-    "status": "error"
+    "musicbrainz_id": "c23647eb-69b9-4d6a-a494-cdcb2254f249",
+    "status": "matched"
   },
   "void|horrors of reality": {
     "artist": "Void",
@@ -3608,5 +3608,225 @@
     "source": "",
     "musicbrainz_id": "22c888fa-f808-32eb-817d-066850c73001",
     "status": "matched"
+  },
+  "jawbox|savory / sound on sound": {
+    "artist": "Jawbox",
+    "title": "Savory / Sound On Sound",
+    "original_year": "1994",
+    "release_type": "Single",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "18c12b79-7361-4a3e-acf1-fed9ab22ce2b",
+    "status": "matched"
+  },
+  "the smashing pumpkins|siamese dream": {
+    "artist": "The Smashing Pumpkins",
+    "title": "Siamese Dream",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "error"
+  },
+  "melvins|thunderball": {
+    "artist": "Melvins",
+    "title": "Thunderball",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "90a9c7eb-12d3-48d5-9026-b640a89dcd82",
+    "status": "matched"
+  },
+  "brandtson|letterbox": {
+    "artist": "Brandtson",
+    "title": "Letterbox",
+    "original_year": "1997",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "89e2a184-94c1-3769-8473-3646da1fd853",
+    "status": "matched"
+  },
+  "rush|test for echo": {
+    "artist": "Rush",
+    "title": "Test For Echo",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "error"
+  },
+  "rush|counterparts": {
+    "artist": "Rush",
+    "title": "Counterparts",
+    "original_year": "1993",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "8a203722-a642-381d-80b1-dc927a32238c",
+    "status": "matched"
+  },
+  "kix|hot wire": {
+    "artist": "Kix",
+    "title": "Hot Wire",
+    "original_year": "1991",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "90f02c13-b6dd-39e2-a4ca-e360d8ebeb21",
+    "status": "matched"
+  },
+  "kiss|off the soundboard - hemisfair arena, san antonio, tx - 12/3/1985": {
+    "artist": "Kiss",
+    "title": "Off The Soundboard - Hemisfair Arena, San Antonio, TX - 12/3/1985",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "jason bieler and the baron von bielski orchestra|the escapologist": {
+    "artist": "Jason Bieler And The Baron Von Bielski Orchestra",
+    "title": "The Escapologist",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "jawbreaker, jawbox|with or without u-2 / air waves dream": {
+    "artist": "Jawbreaker, Jawbox",
+    "title": "With Or Without U-2 / Air Waves Dream",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "l.a. guns|leopard skin": {
+    "artist": "L.A. Guns",
+    "title": "Leopard Skin",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "d5bca874-3def-4578-824c-6a744e01f11f",
+    "status": "matched"
+  },
+  "wool|budspawn": {
+    "artist": "Wool",
+    "title": "Budspawn",
+    "original_year": "1992",
+    "release_type": "EP",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "350713ba-cf09-3d71-aee7-ad1390a06d5e",
+    "status": "matched"
+  },
+  "wool|box set": {
+    "artist": "Wool",
+    "title": "Box Set",
+    "original_year": "1994",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "a78c5c63-a5ac-3807-bc8f-bb890a068d9b",
+    "status": "matched"
+  },
+  "gaytheist|the mustache stays": {
+    "artist": "Gaytheist",
+    "title": "The Mustache Stays",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "7647d4c7-f29f-4b38-812c-c73c7ed98d12",
+    "status": "matched"
+  },
+  "sepultura|morbid visions / bestial devastation": {
+    "artist": "Sepultura",
+    "title": "Morbid Visions / Bestial Devastation",
+    "original_year": "1991",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "a82a6e65-ba17-3e2d-8ae0-0326a78dbefe",
+    "status": "matched"
+  },
+  "greenwitch|forced out of existence": {
+    "artist": "Greenwitch",
+    "title": "Forced Out Of Existence",
+    "original_year": "2024",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "6aa6cd03-a2e2-4bbb-b15c-0a1e6cfa58b7",
+    "status": "matched"
+  },
+  "pop unknown|the august division": {
+    "artist": "Pop Unknown",
+    "title": "The August Division",
+    "original_year": "2002",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "dd83bbec-f8f3-3905-9f41-36344ce2987d",
+    "status": "matched"
+  },
+  "chat pile|god's country": {
+    "artist": "Chat Pile",
+    "title": "God's Country",
+    "original_year": "2022",
+    "release_type": "Album",
+    "description": "God's Country is the debut studio album by American rock band Chat Pile, released on July 29, 2022, through the Flenser. It received universal critical acclaim, including the \"Best New Music\" honor from Pitchfork, and earned honors on several publications' year-end lists.",
+    "source": "https://en.wikipedia.org/wiki/God's_Country_(album)",
+    "musicbrainz_id": "dc5482e8-24e5-4f23-b982-3070060f22ae",
+    "status": "described"
+  },
+  "chat pile|cool world": {
+    "artist": "Chat Pile",
+    "title": "Cool World",
+    "original_year": "2024",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "9d4c2553-042b-40d4-9c33-fd25820e3a40",
+    "status": "matched"
+  },
+  "big chief|platinum jive (greatest hits 1969-1999)": {
+    "artist": "Big Chief",
+    "title": "Platinum Jive (Greatest Hits 1969-1999)",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "big chief|drive it off": {
+    "artist": "Big Chief",
+    "title": "Drive It Off",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "error"
+  },
+  "orange 9mm|pretend i´m human": {
+    "artist": "Orange 9mm",
+    "title": "Pretend I´m Human",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
   }
 }

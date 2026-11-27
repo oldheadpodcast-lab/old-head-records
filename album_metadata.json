@@ -3522,12 +3522,12 @@
   "metz|atlas vending": {
     "artist": "Metz",
     "title": "Atlas Vending",
-    "original_year": "",
-    "release_type": "",
-    "description": "",
-    "source": "",
-    "musicbrainz_id": "",
-    "status": "error"
+    "original_year": "2020",
+    "release_type": "Album",
+    "description": "Atlas Vending is the fourth studio album by Canadian punk rock band Metz. It was released on October 9, 2020, via Sub Pop. The album was produced by Ben Greenberg and METZ.",
+    "source": "https://en.wikipedia.org/wiki/Atlas_Vending",
+    "musicbrainz_id": "79759a16-b275-4314-854c-8b5bbdbfe91e",
+    "status": "described"
   },
   "inhuman nature|greater than death": {
     "artist": "Inhuman Nature",
@@ -3627,7 +3627,7 @@
     "description": "",
     "source": "",
     "musicbrainz_id": "",
-    "status": "error"
+    "status": "not_found"
   },
   "melvins|thunderball": {
     "artist": "Melvins",
@@ -3652,12 +3652,12 @@
   "rush|test for echo": {
     "artist": "Rush",
     "title": "Test For Echo",
-    "original_year": "",
-    "release_type": "",
-    "description": "",
-    "source": "",
-    "musicbrainz_id": "",
-    "status": "error"
+    "original_year": "1996",
+    "release_type": "Album",
+    "description": "Test for Echo is the sixteenth studio album by the Canadian rock band Rush, released on September 10, 1996, by Anthem Records. It was the final Rush album to be co-produced by Peter Collins. The band supported the album with a world tour in 1996 and 1997, after which they went on a five-year hiatus following the deaths of drummer Neil Peart's daughter and wife.",
+    "source": "https://en.wikipedia.org/wiki/Test_for_Echo",
+    "musicbrainz_id": "99fdce4e-b6be-309e-8dbf-531df564a95f",
+    "status": "described"
   },
   "rush|counterparts": {
     "artist": "Rush",
@@ -3812,12 +3812,12 @@
   "big chief|drive it off": {
     "artist": "Big Chief",
     "title": "Drive It Off",
-    "original_year": "",
-    "release_type": "",
+    "original_year": "1991",
+    "release_type": "Album",
     "description": "",
     "source": "",
-    "musicbrainz_id": "",
-    "status": "error"
+    "musicbrainz_id": "8a0832c7-b195-34de-8fcc-2a9c19460b8c",
+    "status": "matched"
   },
   "orange 9mm|pretend i´m human": {
     "artist": "Orange 9mm",
@@ -3828,5 +3828,215 @@
     "source": "",
     "musicbrainz_id": "",
     "status": "not_found"
+  },
+  "voodoo glow skulls|firme": {
+    "artist": "Voodoo Glow Skulls",
+    "title": "Firme",
+    "original_year": "1995",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "61db1d32-e397-380b-80bc-a2a424d12b6b",
+    "status": "matched"
+  },
+  "dance hall crashers|lockjaw": {
+    "artist": "Dance Hall Crashers",
+    "title": "Lockjaw",
+    "original_year": "1995",
+    "release_type": "Album",
+    "description": "Lockjaw is the second studio album by American rock band Dance Hall Crashers. Produced by the band, Stoker, and Rob Cavallo, the album was released on August 29, 1995, in the United States by (510) Records, an imprint of MCA Records.",
+    "source": "https://en.wikipedia.org/wiki/Lockjaw_(album)",
+    "musicbrainz_id": "5844cc0b-3d23-3afe-9ac0-aa3fcf5a611f",
+    "status": "described"
+  },
+  "blink-182|blink-182": {
+    "artist": "Blink-182",
+    "title": "Blink-182",
+    "original_year": "2003",
+    "release_type": "Album",
+    "description": "Blink-182 is the fifth studio album by American rock band Blink-182, released on November 18, 2003, by Geffen Records. Following the blockbuster success of their last two albums, Enema of the State and Take Off Your Pants and Jacket, the trio went on hiatus and participated in various side projects including Box Car Racer and Transplants. When they regrouped, they decided to approach their next album by placing more attention on song structure and expand musical arrangements. Their longest album, it marks a shift toward a darker, more expansive and complex sound; its interconnected songs and cinematic structure blur the lines between pop-punk and post-hardcore.",
+    "source": "https://en.wikipedia.org/wiki/Blink-182_(album)",
+    "musicbrainz_id": "04e0cb66-e8ee-38b9-863d-b4f21dee887d",
+    "status": "described"
+  },
+  "genesis|selling england by the pound": {
+    "artist": "Genesis",
+    "title": "Selling England By The Pound",
+    "original_year": "1973",
+    "release_type": "Album",
+    "description": "Selling England by the Pound is the fifth studio album by the English progressive rock band Genesis, released on 5 October 1973, by Charisma Records. The album was a commercial success in the United Kingdom, reaching No. 3 on the UK Albums Chart, but less so in the United States, peaking at No. 70 on the Billboard 200. A single from the album, \"I Know What I Like \", was released in February 1974 and became the band's first top 30 hit on the UK singles chart.",
+    "source": "https://en.wikipedia.org/wiki/Selling_England_by_the_Pound",
+    "musicbrainz_id": "1fadec3d-7451-32e8-9194-ad7e5312cb9b",
+    "status": "described"
+  },
+  "bob mould|here we go crazy": {
+    "artist": "Bob Mould",
+    "title": "Here We Go Crazy",
+    "original_year": "2025",
+    "release_type": "Album",
+    "description": "Here We Go Crazy is the fifteenth studio album by American alternative rock musician Bob Mould. It was released on March 7, 2025, via Granary Music and BMG Rights Management in LP, CD and digital formats, and features the sole single, \"Here We Go Crazy\". It appeared on the Scottish Albums Chart at 20, the UK Independent Albums Chart at 5, and the UK Rock & Metal Albums Chart at 4.",
+    "source": "https://en.wikipedia.org/wiki/Here_We_Go_Crazy",
+    "musicbrainz_id": "d2fffae5-4e22-4466-bcb8-0e5fd0363a31",
+    "status": "described"
+  },
+  "primus|green naugahyde": {
+    "artist": "Primus",
+    "title": "Green Naugahyde",
+    "original_year": "2011",
+    "release_type": "Album",
+    "description": "Green Naugahyde is the seventh studio album by rock group Primus, released by ATO Records and Prawn Song on September 12, 2011, in Europe, and on September 13, 2011, in the United States. It is the band's first album since 1999's Antipop, and features their first new material since 2003's Animals Should Not Try to Act Like People EP. It is the only Primus album to feature Jay Lane on drums, as he left the band in September 2013.",
+    "source": "https://en.wikipedia.org/wiki/Green_Naugahyde",
+    "musicbrainz_id": "17d426ab-f395-4988-96d9-203962c6bf45",
+    "status": "described"
+  },
+  "suicidal tendencies|freedumb": {
+    "artist": "Suicidal Tendencies",
+    "title": "Freedumb",
+    "original_year": "1999",
+    "release_type": "Album",
+    "description": "Freedumb is the ninth studio album by American crossover band Suicidal Tendencies. It was released in 1999 on Suicidal Records.",
+    "source": "https://en.wikipedia.org/wiki/Freedumb",
+    "musicbrainz_id": "da14e908-9a43-3155-8196-50440a9b7ba2",
+    "status": "described"
+  },
+  "the blood brothers|march on electric children": {
+    "artist": "The Blood Brothers",
+    "title": "March On Electric Children",
+    "original_year": "2002",
+    "release_type": "Album",
+    "description": "March on Electric Children is the second studio album by the American post-hardcore band The Blood Brothers, released in February 2002. Produced by Matt Bayles, the album was recorded in one week on a $3000 budget and has been described by singer Jordan Blilie as \"crazier\" and \"more complex\" than the band's previous effort, This Adultery Is Ripe.",
+    "source": "https://en.wikipedia.org/wiki/March_on_Electric_Children",
+    "musicbrainz_id": "28cd25c8-0bc8-34f7-b086-bd4f9524d758",
+    "status": "described"
+  },
+  "the red light sting|we're the red light sting and our love is soaking in it!": {
+    "artist": "The Red Light Sting",
+    "title": "We're The Red Light Sting And Our Love Is Soaking In It!",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "error"
+  },
+  "defiance|beyond recognition": {
+    "artist": "Defiance",
+    "title": "Beyond Recognition",
+    "original_year": "1992",
+    "release_type": "Album",
+    "description": "Beyond Recognition is the third full-length album by American thrash metal band Defiance, released in 1992 on Roadrunner Records. It was a bit of a departure from the band's previous work. It can be best described as \"progressive thrash metal\", featuring more complex song structures, odd time signatures, numerous key and tempo changes, technical riffs and drumming, and even clean sections that often evoked jazz fusion. This newer, more distinctive style earned the band their biggest critical success to date, and many fans hail it as their finest work.",
+    "source": "https://en.wikipedia.org/wiki/Beyond_Recognition",
+    "musicbrainz_id": "8f1a0d4a-cf05-313c-9d00-f3c83da5c276",
+    "status": "described"
+  },
+  "big chief|face": {
+    "artist": "Big Chief",
+    "title": "Face",
+    "original_year": "1991",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "55610c00-9413-3005-9b63-e6875dbf1a0d",
+    "status": "matched"
+  },
+  "big chief|mack avenue skullgame - original soundtrack": {
+    "artist": "Big Chief",
+    "title": "Mack Avenue Skullgame - Original Soundtrack",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "genesis|foxtrot": {
+    "artist": "Genesis",
+    "title": "Foxtrot",
+    "original_year": "1972",
+    "release_type": "Album",
+    "description": "Foxtrot is the fourth studio album by the English progressive rock band Genesis, released on 15 September 1972 by Charisma Records. It features their longest recorded song, the 23-minute track \"Supper's Ready\".",
+    "source": "https://en.wikipedia.org/wiki/Foxtrot_(album)",
+    "musicbrainz_id": "81d890d2-e71a-3e96-b3f1-4ddb3b6feb81",
+    "status": "described"
+  },
+  "rooney|rooney": {
+    "artist": "Rooney",
+    "title": "Rooney",
+    "original_year": "2003",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "752719e9-8317-3c5f-b35e-b22224370e28",
+    "status": "matched"
+  },
+  "sum 41|does this look infected?": {
+    "artist": "Sum 41",
+    "title": "Does This Look Infected?",
+    "original_year": "2002",
+    "release_type": "Album",
+    "description": "Does This Look Infected? is the second studio album by Canadian rock band Sum 41. It was released on November 25, 2002.",
+    "source": "https://en.wikipedia.org/wiki/Does_This_Look_Infected%3F",
+    "musicbrainz_id": "3ebc1782-e140-3a1a-971e-17826ddf462d",
+    "status": "described"
+  },
+  "genesis|the lamb lies down on broadway": {
+    "artist": "Genesis",
+    "title": "The Lamb Lies Down On Broadway",
+    "original_year": "1974",
+    "release_type": "Album",
+    "description": "The Lamb Lies Down on Broadway is the sixth studio album by the English progressive rock band Genesis, released as a double album on 22 November 1974 by Charisma Records. It is the group's final studio recording to feature founding lead vocalist Peter Gabriel, who departed following the conclusion of the album's promotional tour. Conceived as a rock opera, the album follows Rael, a rebellious youth living in New York City, who is drawn into a subterranean underworld. His journey serves as a psychological allegory of self-discovery, wherein he encounters bizarre, symbolic characters and challenges before achieving a spiritual awakening.",
+    "source": "https://en.wikipedia.org/wiki/The_Lamb_Lies_Down_on_Broadway",
+    "musicbrainz_id": "f2e5d462-6ec1-3cf8-8ea8-06eab8fe51f5",
+    "status": "described"
+  },
+  "the smashing pumpkins|gish": {
+    "artist": "The Smashing Pumpkins",
+    "title": "Gish",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "green day|kerplunk!": {
+    "artist": "Green Day",
+    "title": "Kerplunk!",
+    "original_year": "1991",
+    "release_type": "Album",
+    "description": "Kerplunk is the second studio album by the American rock band Green Day. It was released on December 17, 1991 in the United Kingdom and formally released in the United States on January 17, 1992, by Lookout! Records. It is the band's first album to feature drummer Tré Cool, replacing original drummer John Kiffmeyer, who left the band to attend college following a US tour promoting their debut studio album 39/Smooth (1990). In May 1991, they decamped to Art of Ears Studios in San Francisco, California, to record their next album with Andy Ernst, who co-produced the sessions with band. Six songs were recorded until the proceedings stopped in order for Green Day to resume touring, returning to the studio in September 1991 to finish the work.",
+    "source": "https://en.wikipedia.org/wiki/Kerplunk_(album)",
+    "musicbrainz_id": "a0603694-2422-3a40-b946-d0bcea5e8254",
+    "status": "described"
+  },
+  "infectious grooves|the plague that makes your booty move... it's the infectious grooves": {
+    "artist": "Infectious Grooves",
+    "title": "The Plague That Makes Your Booty Move... It's The Infectious Grooves",
+    "original_year": "1991",
+    "release_type": "Album",
+    "description": "The Plague That Makes Your Booty Move... It's the Infectious Grooves is the debut album by Infectious Grooves, released in 1991. The song \"Therapy\" featured vocals from Ozzy Osbourne. The album introduces the character Sarsippius.",
+    "source": "https://en.wikipedia.org/wiki/The_Plague_That_Makes_Your_Booty_Move..._It's_the_Infectious_Grooves",
+    "musicbrainz_id": "1d83fef3-db89-3cb5-b6c9-904827cee743",
+    "status": "described"
+  },
+  "blink-182|take off your pants and jacket": {
+    "artist": "Blink-182",
+    "title": "Take Off Your Pants And Jacket",
+    "original_year": "2001",
+    "release_type": "Album",
+    "description": "Take Off Your Pants and Jacket is the fourth studio album by American rock band Blink-182, released on June 12, 2001, by MCA Records. Nearly a decade deep in their career, Blink-182 had reached mainstream, multiplatinum heights with their previous album, Enema of the State (1999). The band continued its partnership with producer Jerry Finn to record the majority of the album in their hometown of San Diego. Its title is a double entendre.",
+    "source": "https://en.wikipedia.org/wiki/Take_Off_Your_Pants_and_Jacket",
+    "musicbrainz_id": "e9acecde-4ae1-3430-baf7-eae53cb9d75f",
+    "status": "described"
+  },
+  "orange 9mm|tragic": {
+    "artist": "Orange 9mm",
+    "title": "Tragic",
+    "original_year": "1996",
+    "release_type": "Album",
+    "description": "Tragic is the second studio album by the American rock band Orange 9mm. Produced by Dave Sardy of Barkmarket, it was released on July 23, 1996, through Atlantic Records. Guitarist Chris Traynor recorded most of the bass parts, replacing David Gentile, who was replaced by Taylor McLam near the end of the recording sessions. Traynor departed not long after the album's release, ending up joining Helmet.",
+    "source": "https://en.wikipedia.org/wiki/Tragic_(album)",
+    "musicbrainz_id": "4ebc53cb-298e-3b05-ad3c-120f423b38dd",
+    "status": "described"
   }
 }

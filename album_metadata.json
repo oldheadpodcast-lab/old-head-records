@@ -3917,7 +3917,7 @@
     "description": "",
     "source": "",
     "musicbrainz_id": "",
-    "status": "error"
+    "status": "not_found"
   },
   "defiance|beyond recognition": {
     "artist": "Defiance",
@@ -4037,6 +4037,246 @@
     "description": "Tragic is the second studio album by the American rock band Orange 9mm. Produced by Dave Sardy of Barkmarket, it was released on July 23, 1996, through Atlantic Records. Guitarist Chris Traynor recorded most of the bass parts, replacing David Gentile, who was replaced by Taylor McLam near the end of the recording sessions. Traynor departed not long after the album's release, ending up joining Helmet.",
     "source": "https://en.wikipedia.org/wiki/Tragic_(album)",
     "musicbrainz_id": "4ebc53cb-298e-3b05-ad3c-120f423b38dd",
+    "status": "described"
+  },
+  "idlewild|the remote part": {
+    "artist": "Idlewild",
+    "title": "The Remote Part",
+    "original_year": "2002",
+    "release_type": "Album",
+    "description": "The Remote Part is the third studio album by Scottish rock band Idlewild, released on 15 July 2002 by Parlophone. As they were becoming increasingly aware of their label's interest in them and their demos, the band's musical direction was being steered by guitarist Rod Jones. For the first half of 2001, the band recorded songs with producers Stephen Street and Lenny Kaye. Due to the uneven nature of the songs done between tours, they spent some time reworking 20 tracks in the Scottish Highlands. They recorded at Rockfield Studios in Wales, RAK Studios in London, and Sawmills Studios in Cornwall with producer Dave Eringa. Described as an alternative rock and indie rock record, it lacked the punk rock elements of their previous work.",
+    "source": "https://en.wikipedia.org/wiki/The_Remote_Part",
+    "musicbrainz_id": "54b616be-086c-3930-b46d-bd86a969c9f6",
+    "status": "described"
+  },
+  "sum 41|all killer no filler": {
+    "artist": "Sum 41",
+    "title": "All Killer No Filler",
+    "original_year": "2001",
+    "release_type": "Album",
+    "description": "All Killer No Filler is the debut studio album by Canadian rock band Sum 41, released on May 8, 2001. It was certified platinum in the United States, Canada, and in the UK.",
+    "source": "https://en.wikipedia.org/wiki/All_Killer_No_Filler",
+    "musicbrainz_id": "dd2c168f-41a6-37f5-a727-6e188bf22c6e",
+    "status": "described"
+  },
+  "sum 41|half hour of power": {
+    "artist": "Sum 41",
+    "title": "Half Hour Of Power",
+    "original_year": "2000",
+    "release_type": "EP",
+    "description": "Half Hour of Power is the debut extended play by Canadian rock band Sum 41. It was released on June 27, 2000, on Aquarius Records (Canada), and Big Rig Records, a subsidiary of Island Records.",
+    "source": "https://en.wikipedia.org/wiki/Half_Hour_of_Power",
+    "musicbrainz_id": "32842166-8238-343c-931d-a37d656c77ec",
+    "status": "described"
+  },
+  "nirvana|live and loud": {
+    "artist": "Nirvana",
+    "title": "Live And Loud",
+    "original_year": "2013",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "c171986d-83d9-4659-9644-ce9dc2b30836",
+    "status": "matched"
+  },
+  "nirvana|live at reading": {
+    "artist": "Nirvana",
+    "title": "Live At Reading",
+    "original_year": "2009",
+    "release_type": "Album",
+    "description": "Live at Reading is a live CD/DVD by American rock band Nirvana, released on November 2, 2009. It features the band's headlining performance at the Reading Festival in Reading, England, on August 30, 1992. Bootlegged for years, the new issues present the performance for the first time mastered and color corrected.",
+    "source": "https://en.wikipedia.org/wiki/Live_at_Reading",
+    "musicbrainz_id": "48f5d526-0fa6-4ca6-ac59-9b2cf9ef464f",
+    "status": "described"
+  },
+  "nirvana|live at the paramount": {
+    "artist": "Nirvana",
+    "title": "Live At The Paramount",
+    "original_year": "2011",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "e0372c5a-1750-46ec-8f1b-4b76df1fe8e7",
+    "status": "matched"
+  },
+  "sepultura|schizophrenia": {
+    "artist": "Sepultura",
+    "title": "Schizophrenia",
+    "original_year": "1987",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "3531f7dd-5748-3f09-9549-47ae6f53b97c",
+    "status": "matched"
+  },
+  "kiss|mtv unplugged": {
+    "artist": "Kiss",
+    "title": "MTV Unplugged",
+    "original_year": "1996",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "828e931c-a160-3143-a02f-5578d2fd5219",
+    "status": "matched"
+  },
+  "orange 9mm|driver not included": {
+    "artist": "Orange 9mm",
+    "title": "Driver Not Included",
+    "original_year": "1995",
+    "release_type": "Album",
+    "description": "Driver Not Included is the debut studio album by American rock band Orange 9mm. It was released on February 14, 1995, through EastWest Records. Considered as a landmark release in 1990's New York hardcore scene, the album incorporates influences from funk and heavy metal. The band supported the album by touring with Ned's Atomic Dustbin.",
+    "source": "https://en.wikipedia.org/wiki/Driver_Not_Included",
+    "musicbrainz_id": "7f52ee13-6b7c-3aac-ad39-09740b21bf98",
+    "status": "described"
+  },
+  "various|the karate kid (original motion picture soundtrack)": {
+    "artist": "Various",
+    "title": "The Karate Kid (Original Motion Picture Soundtrack)",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "jesse welles|hells welles": {
+    "artist": "Jesse Welles",
+    "title": "Hells Welles",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "error"
+  },
+  "joni mitchell|chalk mark in a rain storm": {
+    "artist": "Joni Mitchell",
+    "title": "Chalk Mark In A Rain Storm",
+    "original_year": "1988",
+    "release_type": "Album",
+    "description": "Chalk Mark in a Rain Storm is the thirteenth studio album by Canadian singer-songwriter Joni Mitchell, released on March 23, 1988, by Geffen Records. Her third release on the label, the album features duets with a number of artists such as Peter Gabriel on \"My Secret Place\", Willie Nelson on \"Cool Water\", Don Henley on \"Snakes and Ladders\", and Billy Idol and Tom Petty on the track \"Dancin' Clown\". Henley also performs backing vocals on \"Lakota\", and Wendy and Lisa perform backing vocals on \"The Tea Leaf Prophecy \".",
+    "source": "https://en.wikipedia.org/wiki/Chalk_Mark_in_a_Rain_Storm",
+    "musicbrainz_id": "df5414f0-7a20-34fd-bd41-8cd862b9dfe2",
+    "status": "described"
+  },
+  "various|weird science - music from the motion picture soundtrack": {
+    "artist": "Various",
+    "title": "Weird Science - Music From The Motion Picture Soundtrack",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "not_found"
+  },
+  "enuff z'nuff|dissonance": {
+    "artist": "Enuff Z'nuff",
+    "title": "Dissonance",
+    "original_year": "2008",
+    "release_type": "Album",
+    "description": "Dissonance is the 12th studio album from the band Enuff Z'Nuff. The album reunites singers/songwriters Donnie Vie and Chip Z'Nuff after Vie's hiatus from the band of several years. Original sessions for the album started in 2006, prompted by the band's possible inclusion in a pilot episode for the VH-1 show \"Bands on the Run.\" Songs from these initial sessions, bootlegged as Lost In Vegas by fans, would be later reworked for the official release of Dissonance. Several songs on the CD feature past Ozzy Osbourne/Badlands guitarist Jake E. Lee.",
+    "source": "https://en.wikipedia.org/wiki/Dissonance_(album)",
+    "musicbrainz_id": "4bae2430-631d-49d6-9f5c-170c5d77b8ea",
+    "status": "described"
+  },
+  "enuff z'nuff|?": {
+    "artist": "Enuff Z'nuff",
+    "title": "?",
+    "original_year": "2004",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "feccef91-ab9a-3c6d-9ec0-7c0fec334f36",
+    "status": "matched"
+  },
+  "enuff z'nuff|welcome to blue island": {
+    "artist": "Enuff Z'nuff",
+    "title": "Welcome To Blue Island",
+    "original_year": "2002",
+    "release_type": "Album",
+    "description": "Welcome to Blue Island was the final recording of new studio material by Enuff Z'nuff before lead singer Donnie Vie left the group in 2002. As a result, Vie did not tour to support the album. However, the band continued playing shows at this time with lead guitarist Monaco taking over vocal duties. As was common for the band, Welcome To Blue Island was released first in Japan, where it charted at No. 90.",
+    "source": "https://en.wikipedia.org/wiki/Welcome_to_Blue_Island",
+    "musicbrainz_id": "594cb03a-84be-39ad-9840-7c61992bb734",
+    "status": "described"
+  },
+  "enuff z'nuff|10": {
+    "artist": "Enuff Z'nuff",
+    "title": "10",
+    "original_year": "2000",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "ad9de002-97f4-381b-adbf-e96a79fc7602",
+    "status": "matched"
+  },
+  "enuff z'nuff|paraphernalia": {
+    "artist": "Enuff Z'nuff",
+    "title": "Paraphernalia",
+    "original_year": "",
+    "release_type": "",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "",
+    "status": "error"
+  },
+  "enuff z'nuff|seven": {
+    "artist": "Enuff Z'nuff",
+    "title": "Seven",
+    "original_year": "1997",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "572249af-e39a-3757-b0a9-436cc87c9aa1",
+    "status": "matched"
+  },
+  "enuff z'nuff|peach fuzz": {
+    "artist": "Enuff Z'nuff",
+    "title": "Peach Fuzz",
+    "original_year": "1996",
+    "release_type": "Album",
+    "description": "Peach Fuzz is the sixth studio album from the American rock band Enuff Z'Nuff. Like the band's 1994 release 1985, this album is viewed more as an archival release than a new album since it features mostly previously recorded material. For example, the tracks \"Let It Go\" and \"Kitty\", recorded in 1990–1991, were initially b-sides to the UK edition of the Strength single \"Mother's Eyes,\" while the song \"Happy Holiday\" was first intended for the 1992 film Home Alone 2. Many of the remaining tracks on Peach Fuzz were recorded during the making of the 1993 album Animals with Human Intelligence, but were likely excluded from that release due to their poppier sounding nature.",
+    "source": "https://en.wikipedia.org/wiki/Peach_Fuzz_(album)",
+    "musicbrainz_id": "2c9b243b-9846-324f-ad61-f486147044a0",
+    "status": "described"
+  },
+  "enuff z'nuff|1985": {
+    "artist": "Enuff Z'nuff",
+    "title": "1985",
+    "original_year": "1994",
+    "release_type": "Album",
+    "description": "1985 is the fourth studio album by the American rock band Enuff Z'Nuff, which features material recorded in the band's earliest days. The songs were taken from a demo at the time called Hollywood Squares, originally recorded in 1985. Musically, the songs were noticeably more pop rock in direction as opposed to the hard rock recordings they had been known for.",
+    "source": "https://en.wikipedia.org/wiki/1985_(album)",
+    "musicbrainz_id": "1504e8b5-54e1-3c26-88bb-959108ddfd1f",
+    "status": "described"
+  },
+  "samiam|clumsy": {
+    "artist": "Samiam",
+    "title": "Clumsy",
+    "original_year": "1994",
+    "release_type": "Album",
+    "description": "",
+    "source": "",
+    "musicbrainz_id": "daa34412-71f0-328a-8c2a-cadb44ad88f3",
+    "status": "matched"
+  },
+  "oasis|be here now": {
+    "artist": "Oasis",
+    "title": "Be Here Now",
+    "original_year": "1997",
+    "release_type": "Album",
+    "description": "Be Here Now is the third studio album by the English rock band Oasis, released on 21 August 1997 by Creation Records. The album was recorded at multiple recording studios in London, including Abbey Road Studios, as well as Ridge Farm Studio in Surrey. Although most tracks retain the anthemic quality of previous releases, the songs on Be Here Now are longer and contain many guitar overdubs. Noel Gallagher said this was done to make the album sound as \"colossal\" as possible. The album cover features a shot of the band members at Stocks House in Hertfordshire. It is the last Oasis studio album to feature founding members guitarist Paul \"Bonehead\" Arthurs and bassist Paul \"Guigsy\" McGuigan as the two left in 1999, and the first to entirely feature Alan \"Whitey\" White on drums, having joined the band two years prior.",
+    "source": "https://en.wikipedia.org/wiki/Be_Here_Now_(album)",
+    "musicbrainz_id": "aea3ea51-121e-30a6-adc2-c63e659603ac",
+    "status": "described"
+  },
+  "genesis|trespass": {
+    "artist": "Genesis",
+    "title": "Trespass",
+    "original_year": "1970",
+    "release_type": "Album",
+    "description": "Trespass is the second studio album by the English rock band Genesis. It was released on 23 October 1970 by Charisma Records, and is their last album with original guitarist Anthony Phillips and their only album with drummer John Mayhew.",
+    "source": "https://en.wikipedia.org/wiki/Trespass_(album)",
+    "musicbrainz_id": "aa86c6bb-d1c7-3a03-bcb4-3c6f0a469328",
     "status": "described"
   }
 }
